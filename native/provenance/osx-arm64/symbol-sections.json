@@ -1,0 +1,7052 @@
+{
+  "AcceptDragDropPayload": {
+    "address": 446308,
+    "executable": true,
+    "sectionRemaining": 328060,
+    "writable": false
+  },
+  "ActivateItemByID_internal": {
+    "address": 446312,
+    "executable": true,
+    "sectionRemaining": 328056,
+    "writable": false
+  },
+  "AddContextHook_internal": {
+    "address": 446316,
+    "executable": true,
+    "sectionRemaining": 328052,
+    "writable": false
+  },
+  "AddDrawListToDrawDataEx_internal": {
+    "address": 446320,
+    "executable": true,
+    "sectionRemaining": 328048,
+    "writable": false
+  },
+  "AddSettingsHandler_internal": {
+    "address": 446324,
+    "executable": true,
+    "sectionRemaining": 328044,
+    "writable": false
+  },
+  "AlignTextToFramePadding": {
+    "address": 446328,
+    "executable": true,
+    "sectionRemaining": 328040,
+    "writable": false
+  },
+  "ArrowButton": {
+    "address": 446332,
+    "executable": true,
+    "sectionRemaining": 328036,
+    "writable": false
+  },
+  "ArrowButtonEx_internal": {
+    "address": 446352,
+    "executable": true,
+    "sectionRemaining": 328016,
+    "writable": false
+  },
+  "Begin": {
+    "address": 446372,
+    "executable": true,
+    "sectionRemaining": 327996,
+    "writable": false
+  },
+  "BeginBoxSelect_internal": {
+    "address": 446412,
+    "executable": true,
+    "sectionRemaining": 327956,
+    "writable": false
+  },
+  "BeginChildEx_internal": {
+    "address": 446432,
+    "executable": true,
+    "sectionRemaining": 327936,
+    "writable": false
+  },
+  "BeginChild_0": {
+    "address": 446452,
+    "executable": true,
+    "sectionRemaining": 327916,
+    "writable": false
+  },
+  "BeginChild_1": {
+    "address": 446472,
+    "executable": true,
+    "sectionRemaining": 327896,
+    "writable": false
+  },
+  "BeginColumns_internal": {
+    "address": 446492,
+    "executable": true,
+    "sectionRemaining": 327876,
+    "writable": false
+  },
+  "BeginCombo": {
+    "address": 446496,
+    "executable": true,
+    "sectionRemaining": 327872,
+    "writable": false
+  },
+  "BeginComboPopup_internal": {
+    "address": 446516,
+    "executable": true,
+    "sectionRemaining": 327852,
+    "writable": false
+  },
+  "BeginComboPreview_internal": {
+    "address": 446536,
+    "executable": true,
+    "sectionRemaining": 327832,
+    "writable": false
+  },
+  "BeginDisabled": {
+    "address": 446556,
+    "executable": true,
+    "sectionRemaining": 327812,
+    "writable": false
+  },
+  "BeginDisabledOverrideReenable_internal": {
+    "address": 446568,
+    "executable": true,
+    "sectionRemaining": 327800,
+    "writable": false
+  },
+  "BeginDockableDragDropSource_internal": {
+    "address": 446572,
+    "executable": true,
+    "sectionRemaining": 327796,
+    "writable": false
+  },
+  "BeginDockableDragDropTarget_internal": {
+    "address": 446576,
+    "executable": true,
+    "sectionRemaining": 327792,
+    "writable": false
+  },
+  "BeginDocked_internal": {
+    "address": 446580,
+    "executable": true,
+    "sectionRemaining": 327788,
+    "writable": false
+  },
+  "BeginDragDropSource": {
+    "address": 446604,
+    "executable": true,
+    "sectionRemaining": 327764,
+    "writable": false
+  },
+  "BeginDragDropTarget": {
+    "address": 446624,
+    "executable": true,
+    "sectionRemaining": 327744,
+    "writable": false
+  },
+  "BeginDragDropTargetCustom_internal": {
+    "address": 446644,
+    "executable": true,
+    "sectionRemaining": 327724,
+    "writable": false
+  },
+  "BeginErrorTooltip_internal": {
+    "address": 446664,
+    "executable": true,
+    "sectionRemaining": 327704,
+    "writable": false
+  },
+  "BeginGroup": {
+    "address": 446684,
+    "executable": true,
+    "sectionRemaining": 327684,
+    "writable": false
+  },
+  "BeginItemTooltip": {
+    "address": 446688,
+    "executable": true,
+    "sectionRemaining": 327680,
+    "writable": false
+  },
+  "BeginListBox": {
+    "address": 446708,
+    "executable": true,
+    "sectionRemaining": 327660,
+    "writable": false
+  },
+  "BeginMainMenuBar": {
+    "address": 446728,
+    "executable": true,
+    "sectionRemaining": 327640,
+    "writable": false
+  },
+  "BeginMenu": {
+    "address": 446748,
+    "executable": true,
+    "sectionRemaining": 327620,
+    "writable": false
+  },
+  "BeginMenuBar": {
+    "address": 446776,
+    "executable": true,
+    "sectionRemaining": 327592,
+    "writable": false
+  },
+  "BeginMenuEx_internal": {
+    "address": 446796,
+    "executable": true,
+    "sectionRemaining": 327572,
+    "writable": false
+  },
+  "BeginMultiSelect": {
+    "address": 446824,
+    "executable": true,
+    "sectionRemaining": 327544,
+    "writable": false
+  },
+  "BeginPopup": {
+    "address": 446828,
+    "executable": true,
+    "sectionRemaining": 327540,
+    "writable": false
+  },
+  "BeginPopupContextItem": {
+    "address": 446848,
+    "executable": true,
+    "sectionRemaining": 327520,
+    "writable": false
+  },
+  "BeginPopupContextVoid": {
+    "address": 446868,
+    "executable": true,
+    "sectionRemaining": 327500,
+    "writable": false
+  },
+  "BeginPopupContextWindow": {
+    "address": 446888,
+    "executable": true,
+    "sectionRemaining": 327480,
+    "writable": false
+  },
+  "BeginPopupEx_internal": {
+    "address": 446908,
+    "executable": true,
+    "sectionRemaining": 327460,
+    "writable": false
+  },
+  "BeginPopupMenuEx_internal": {
+    "address": 446928,
+    "executable": true,
+    "sectionRemaining": 327440,
+    "writable": false
+  },
+  "BeginPopupModal": {
+    "address": 446948,
+    "executable": true,
+    "sectionRemaining": 327420,
+    "writable": false
+  },
+  "BeginTabBar": {
+    "address": 446988,
+    "executable": true,
+    "sectionRemaining": 327380,
+    "writable": false
+  },
+  "BeginTabBarEx_internal": {
+    "address": 447008,
+    "executable": true,
+    "sectionRemaining": 327360,
+    "writable": false
+  },
+  "BeginTabItem": {
+    "address": 447028,
+    "executable": true,
+    "sectionRemaining": 327340,
+    "writable": false
+  },
+  "BeginTable": {
+    "address": 447068,
+    "executable": true,
+    "sectionRemaining": 327300,
+    "writable": false
+  },
+  "BeginTableEx_internal": {
+    "address": 447088,
+    "executable": true,
+    "sectionRemaining": 327280,
+    "writable": false
+  },
+  "BeginTooltip": {
+    "address": 447108,
+    "executable": true,
+    "sectionRemaining": 327260,
+    "writable": false
+  },
+  "BeginTooltipEx_internal": {
+    "address": 447128,
+    "executable": true,
+    "sectionRemaining": 327240,
+    "writable": false
+  },
+  "BeginTooltipHidden_internal": {
+    "address": 447148,
+    "executable": true,
+    "sectionRemaining": 327220,
+    "writable": false
+  },
+  "BeginViewportSideBar_internal": {
+    "address": 447168,
+    "executable": true,
+    "sectionRemaining": 327200,
+    "writable": false
+  },
+  "BringWindowToDisplayBack_internal": {
+    "address": 447188,
+    "executable": true,
+    "sectionRemaining": 327180,
+    "writable": false
+  },
+  "BringWindowToDisplayBehind_internal": {
+    "address": 447192,
+    "executable": true,
+    "sectionRemaining": 327176,
+    "writable": false
+  },
+  "BringWindowToDisplayFront_internal": {
+    "address": 447196,
+    "executable": true,
+    "sectionRemaining": 327172,
+    "writable": false
+  },
+  "BringWindowToFocusFront_internal": {
+    "address": 447200,
+    "executable": true,
+    "sectionRemaining": 327168,
+    "writable": false
+  },
+  "Bullet": {
+    "address": 447204,
+    "executable": true,
+    "sectionRemaining": 327164,
+    "writable": false
+  },
+  "BulletText": {
+    "address": 460064,
+    "executable": true,
+    "sectionRemaining": 314304,
+    "writable": false
+  },
+  "Button": {
+    "address": 447208,
+    "executable": true,
+    "sectionRemaining": 327160,
+    "writable": false
+  },
+  "ButtonBehavior_internal": {
+    "address": 447228,
+    "executable": true,
+    "sectionRemaining": 327140,
+    "writable": false
+  },
+  "ButtonEx_internal": {
+    "address": 447248,
+    "executable": true,
+    "sectionRemaining": 327120,
+    "writable": false
+  },
+  "CalcItemSize_internal": {
+    "address": 447268,
+    "executable": true,
+    "sectionRemaining": 327100,
+    "writable": false
+  },
+  "CalcItemWidth": {
+    "address": 447272,
+    "executable": true,
+    "sectionRemaining": 327096,
+    "writable": false
+  },
+  "CalcRoundingFlagsForRectInRect_internal": {
+    "address": 447276,
+    "executable": true,
+    "sectionRemaining": 327092,
+    "writable": false
+  },
+  "CalcTextSize": {
+    "address": 447280,
+    "executable": true,
+    "sectionRemaining": 327088,
+    "writable": false
+  },
+  "CalcTypematicRepeatAmount_internal": {
+    "address": 447292,
+    "executable": true,
+    "sectionRemaining": 327076,
+    "writable": false
+  },
+  "CalcWindowNextAutoFitSize_internal": {
+    "address": 447296,
+    "executable": true,
+    "sectionRemaining": 327072,
+    "writable": false
+  },
+  "CalcWrapWidthForPos_internal": {
+    "address": 447300,
+    "executable": true,
+    "sectionRemaining": 327068,
+    "writable": false
+  },
+  "CallContextHooks_internal": {
+    "address": 447304,
+    "executable": true,
+    "sectionRemaining": 327064,
+    "writable": false
+  },
+  "Checkbox": {
+    "address": 447308,
+    "executable": true,
+    "sectionRemaining": 327060,
+    "writable": false
+  },
+  "CheckboxFlags_0": {
+    "address": 447348,
+    "executable": true,
+    "sectionRemaining": 327020,
+    "writable": false
+  },
+  "CheckboxFlags_1": {
+    "address": 447368,
+    "executable": true,
+    "sectionRemaining": 327000,
+    "writable": false
+  },
+  "CheckboxFlags_internal_0": {
+    "address": 447388,
+    "executable": true,
+    "sectionRemaining": 326980,
+    "writable": false
+  },
+  "CheckboxFlags_internal_1": {
+    "address": 447408,
+    "executable": true,
+    "sectionRemaining": 326960,
+    "writable": false
+  },
+  "ClearActiveID_internal": {
+    "address": 447428,
+    "executable": true,
+    "sectionRemaining": 326940,
+    "writable": false
+  },
+  "ClearDragDrop_internal": {
+    "address": 447432,
+    "executable": true,
+    "sectionRemaining": 326936,
+    "writable": false
+  },
+  "ClearIniSettings_internal": {
+    "address": 447436,
+    "executable": true,
+    "sectionRemaining": 326932,
+    "writable": false
+  },
+  "ClearWindowSettings_internal": {
+    "address": 447440,
+    "executable": true,
+    "sectionRemaining": 326928,
+    "writable": false
+  },
+  "CloseButton_internal": {
+    "address": 447444,
+    "executable": true,
+    "sectionRemaining": 326924,
+    "writable": false
+  },
+  "CloseCurrentPopup": {
+    "address": 447464,
+    "executable": true,
+    "sectionRemaining": 326904,
+    "writable": false
+  },
+  "ClosePopupToLevel_internal": {
+    "address": 447468,
+    "executable": true,
+    "sectionRemaining": 326900,
+    "writable": false
+  },
+  "ClosePopupsExceptModals_internal": {
+    "address": 447480,
+    "executable": true,
+    "sectionRemaining": 326888,
+    "writable": false
+  },
+  "ClosePopupsOverWindow_internal": {
+    "address": 447484,
+    "executable": true,
+    "sectionRemaining": 326884,
+    "writable": false
+  },
+  "CollapseButton_internal": {
+    "address": 447496,
+    "executable": true,
+    "sectionRemaining": 326872,
+    "writable": false
+  },
+  "CollapsingHeader_0": {
+    "address": 447516,
+    "executable": true,
+    "sectionRemaining": 326852,
+    "writable": false
+  },
+  "CollapsingHeader_1": {
+    "address": 447536,
+    "executable": true,
+    "sectionRemaining": 326832,
+    "writable": false
+  },
+  "ColorButton": {
+    "address": 447576,
+    "executable": true,
+    "sectionRemaining": 326792,
+    "writable": false
+  },
+  "ColorConvertFloat4ToU32": {
+    "address": 447596,
+    "executable": true,
+    "sectionRemaining": 326772,
+    "writable": false
+  },
+  "ColorConvertHSVtoRGB": {
+    "address": 447600,
+    "executable": true,
+    "sectionRemaining": 326768,
+    "writable": false
+  },
+  "ColorConvertRGBtoHSV": {
+    "address": 447604,
+    "executable": true,
+    "sectionRemaining": 326764,
+    "writable": false
+  },
+  "ColorConvertU32ToFloat4": {
+    "address": 447608,
+    "executable": true,
+    "sectionRemaining": 326760,
+    "writable": false
+  },
+  "ColorEdit3": {
+    "address": 447612,
+    "executable": true,
+    "sectionRemaining": 326756,
+    "writable": false
+  },
+  "ColorEdit4": {
+    "address": 447632,
+    "executable": true,
+    "sectionRemaining": 326736,
+    "writable": false
+  },
+  "ColorEditOptionsPopup_internal": {
+    "address": 447652,
+    "executable": true,
+    "sectionRemaining": 326716,
+    "writable": false
+  },
+  "ColorPicker3": {
+    "address": 447656,
+    "executable": true,
+    "sectionRemaining": 326712,
+    "writable": false
+  },
+  "ColorPicker4": {
+    "address": 447676,
+    "executable": true,
+    "sectionRemaining": 326692,
+    "writable": false
+  },
+  "ColorPickerOptionsPopup_internal": {
+    "address": 447696,
+    "executable": true,
+    "sectionRemaining": 326672,
+    "writable": false
+  },
+  "ColorTooltip_internal": {
+    "address": 447700,
+    "executable": true,
+    "sectionRemaining": 326668,
+    "writable": false
+  },
+  "Columns": {
+    "address": 447704,
+    "executable": true,
+    "sectionRemaining": 326664,
+    "writable": false
+  },
+  "Combo_0": {
+    "address": 447716,
+    "executable": true,
+    "sectionRemaining": 326652,
+    "writable": false
+  },
+  "Combo_1": {
+    "address": 447736,
+    "executable": true,
+    "sectionRemaining": 326632,
+    "writable": false
+  },
+  "Combo_2": {
+    "address": 447756,
+    "executable": true,
+    "sectionRemaining": 326612,
+    "writable": false
+  },
+  "ConvertSingleModFlagToKey_internal": {
+    "address": 447776,
+    "executable": true,
+    "sectionRemaining": 326592,
+    "writable": false
+  },
+  "CreateContext": {
+    "address": 447820,
+    "executable": true,
+    "sectionRemaining": 326548,
+    "writable": false
+  },
+  "CreateNewWindowSettings_internal": {
+    "address": 447824,
+    "executable": true,
+    "sectionRemaining": 326544,
+    "writable": false
+  },
+  "DataTypeApplyFromText_internal": {
+    "address": 447828,
+    "executable": true,
+    "sectionRemaining": 326540,
+    "writable": false
+  },
+  "DataTypeApplyOp_internal": {
+    "address": 447848,
+    "executable": true,
+    "sectionRemaining": 326520,
+    "writable": false
+  },
+  "DataTypeClamp_internal": {
+    "address": 447852,
+    "executable": true,
+    "sectionRemaining": 326516,
+    "writable": false
+  },
+  "DataTypeCompare_internal": {
+    "address": 447872,
+    "executable": true,
+    "sectionRemaining": 326496,
+    "writable": false
+  },
+  "DataTypeFormatString_internal": {
+    "address": 447876,
+    "executable": true,
+    "sectionRemaining": 326492,
+    "writable": false
+  },
+  "DataTypeGetInfo_internal": {
+    "address": 447880,
+    "executable": true,
+    "sectionRemaining": 326488,
+    "writable": false
+  },
+  "DataTypeIsZero_internal": {
+    "address": 447884,
+    "executable": true,
+    "sectionRemaining": 326484,
+    "writable": false
+  },
+  "DebugAllocHook_internal": {
+    "address": 447904,
+    "executable": true,
+    "sectionRemaining": 326464,
+    "writable": false
+  },
+  "DebugBreakButtonTooltip_internal": {
+    "address": 447908,
+    "executable": true,
+    "sectionRemaining": 326460,
+    "writable": false
+  },
+  "DebugBreakButton_internal": {
+    "address": 447920,
+    "executable": true,
+    "sectionRemaining": 326448,
+    "writable": false
+  },
+  "DebugBreakClearData_internal": {
+    "address": 447940,
+    "executable": true,
+    "sectionRemaining": 326428,
+    "writable": false
+  },
+  "DebugCheckVersionAndDataLayout": {
+    "address": 447944,
+    "executable": true,
+    "sectionRemaining": 326424,
+    "writable": false
+  },
+  "DebugDrawCursorPos_internal": {
+    "address": 447964,
+    "executable": true,
+    "sectionRemaining": 326404,
+    "writable": false
+  },
+  "DebugDrawItemRect_internal": {
+    "address": 447968,
+    "executable": true,
+    "sectionRemaining": 326400,
+    "writable": false
+  },
+  "DebugDrawLineExtents_internal": {
+    "address": 447972,
+    "executable": true,
+    "sectionRemaining": 326396,
+    "writable": false
+  },
+  "DebugFlashStyleColor": {
+    "address": 447976,
+    "executable": true,
+    "sectionRemaining": 326392,
+    "writable": false
+  },
+  "DebugHookIdInfo_internal": {
+    "address": 447980,
+    "executable": true,
+    "sectionRemaining": 326388,
+    "writable": false
+  },
+  "DebugLocateItemOnHover_internal": {
+    "address": 447984,
+    "executable": true,
+    "sectionRemaining": 326384,
+    "writable": false
+  },
+  "DebugLocateItemResolveWithLastItem_internal": {
+    "address": 447988,
+    "executable": true,
+    "sectionRemaining": 326380,
+    "writable": false
+  },
+  "DebugLocateItem_internal": {
+    "address": 447992,
+    "executable": true,
+    "sectionRemaining": 326376,
+    "writable": false
+  },
+  "DebugLog": {
+    "address": 460068,
+    "executable": true,
+    "sectionRemaining": 314300,
+    "writable": false
+  },
+  "DebugNodeColumns_internal": {
+    "address": 447996,
+    "executable": true,
+    "sectionRemaining": 326372,
+    "writable": false
+  },
+  "DebugNodeDockNode_internal": {
+    "address": 448000,
+    "executable": true,
+    "sectionRemaining": 326368,
+    "writable": false
+  },
+  "DebugNodeDrawCmdShowMeshAndBoundingBox_internal": {
+    "address": 448004,
+    "executable": true,
+    "sectionRemaining": 326364,
+    "writable": false
+  },
+  "DebugNodeDrawList_internal": {
+    "address": 448024,
+    "executable": true,
+    "sectionRemaining": 326344,
+    "writable": false
+  },
+  "DebugNodeFontGlyph_internal": {
+    "address": 448028,
+    "executable": true,
+    "sectionRemaining": 326340,
+    "writable": false
+  },
+  "DebugNodeFontGlyphesForSrcMask_internal": {
+    "address": 448032,
+    "executable": true,
+    "sectionRemaining": 326336,
+    "writable": false
+  },
+  "DebugNodeFont_internal": {
+    "address": 448036,
+    "executable": true,
+    "sectionRemaining": 326332,
+    "writable": false
+  },
+  "DebugNodeInputTextState_internal": {
+    "address": 448040,
+    "executable": true,
+    "sectionRemaining": 326328,
+    "writable": false
+  },
+  "DebugNodeMultiSelectState_internal": {
+    "address": 448044,
+    "executable": true,
+    "sectionRemaining": 326324,
+    "writable": false
+  },
+  "DebugNodePlatformMonitor_internal": {
+    "address": 448048,
+    "executable": true,
+    "sectionRemaining": 326320,
+    "writable": false
+  },
+  "DebugNodeStorage_internal": {
+    "address": 448052,
+    "executable": true,
+    "sectionRemaining": 326316,
+    "writable": false
+  },
+  "DebugNodeTabBar_internal": {
+    "address": 448056,
+    "executable": true,
+    "sectionRemaining": 326312,
+    "writable": false
+  },
+  "DebugNodeTableSettings_internal": {
+    "address": 448060,
+    "executable": true,
+    "sectionRemaining": 326308,
+    "writable": false
+  },
+  "DebugNodeTable_internal": {
+    "address": 448064,
+    "executable": true,
+    "sectionRemaining": 326304,
+    "writable": false
+  },
+  "DebugNodeTexture_internal": {
+    "address": 448068,
+    "executable": true,
+    "sectionRemaining": 326300,
+    "writable": false
+  },
+  "DebugNodeTypingSelectState_internal": {
+    "address": 448072,
+    "executable": true,
+    "sectionRemaining": 326296,
+    "writable": false
+  },
+  "DebugNodeViewport_internal": {
+    "address": 448076,
+    "executable": true,
+    "sectionRemaining": 326292,
+    "writable": false
+  },
+  "DebugNodeWindowSettings_internal": {
+    "address": 448080,
+    "executable": true,
+    "sectionRemaining": 326288,
+    "writable": false
+  },
+  "DebugNodeWindow_internal": {
+    "address": 448084,
+    "executable": true,
+    "sectionRemaining": 326284,
+    "writable": false
+  },
+  "DebugNodeWindowsListByBeginStackParent_internal": {
+    "address": 448088,
+    "executable": true,
+    "sectionRemaining": 326280,
+    "writable": false
+  },
+  "DebugNodeWindowsList_internal": {
+    "address": 448092,
+    "executable": true,
+    "sectionRemaining": 326276,
+    "writable": false
+  },
+  "DebugRenderKeyboardPreview_internal": {
+    "address": 448096,
+    "executable": true,
+    "sectionRemaining": 326272,
+    "writable": false
+  },
+  "DebugRenderViewportThumbnail_internal": {
+    "address": 448100,
+    "executable": true,
+    "sectionRemaining": 326268,
+    "writable": false
+  },
+  "DebugStartItemPicker": {
+    "address": 448104,
+    "executable": true,
+    "sectionRemaining": 326264,
+    "writable": false
+  },
+  "DebugTextEncoding": {
+    "address": 448108,
+    "executable": true,
+    "sectionRemaining": 326260,
+    "writable": false
+  },
+  "DebugTextUnformattedWithLocateItem_internal": {
+    "address": 448112,
+    "executable": true,
+    "sectionRemaining": 326256,
+    "writable": false
+  },
+  "DestroyContext": {
+    "address": 448116,
+    "executable": true,
+    "sectionRemaining": 326252,
+    "writable": false
+  },
+  "DestroyPlatformWindow_internal": {
+    "address": 448120,
+    "executable": true,
+    "sectionRemaining": 326248,
+    "writable": false
+  },
+  "DestroyPlatformWindows": {
+    "address": 448124,
+    "executable": true,
+    "sectionRemaining": 326244,
+    "writable": false
+  },
+  "DockBuilderAddNode_internal": {
+    "address": 448128,
+    "executable": true,
+    "sectionRemaining": 326240,
+    "writable": false
+  },
+  "DockBuilderCopyDockSpace_internal": {
+    "address": 448132,
+    "executable": true,
+    "sectionRemaining": 326236,
+    "writable": false
+  },
+  "DockBuilderCopyNode_internal": {
+    "address": 448136,
+    "executable": true,
+    "sectionRemaining": 326232,
+    "writable": false
+  },
+  "DockBuilderCopyWindowSettings_internal": {
+    "address": 448140,
+    "executable": true,
+    "sectionRemaining": 326228,
+    "writable": false
+  },
+  "DockBuilderDockWindow_internal": {
+    "address": 448144,
+    "executable": true,
+    "sectionRemaining": 326224,
+    "writable": false
+  },
+  "DockBuilderFinish_internal": {
+    "address": 448148,
+    "executable": true,
+    "sectionRemaining": 326220,
+    "writable": false
+  },
+  "DockBuilderGetCentralNode_internal": {
+    "address": 448152,
+    "executable": true,
+    "sectionRemaining": 326216,
+    "writable": false
+  },
+  "DockBuilderGetNode_internal": {
+    "address": 448192,
+    "executable": true,
+    "sectionRemaining": 326176,
+    "writable": false
+  },
+  "DockBuilderRemoveNodeChildNodes_internal": {
+    "address": 448196,
+    "executable": true,
+    "sectionRemaining": 326172,
+    "writable": false
+  },
+  "DockBuilderRemoveNodeDockedWindows_internal": {
+    "address": 448200,
+    "executable": true,
+    "sectionRemaining": 326168,
+    "writable": false
+  },
+  "DockBuilderRemoveNode_internal": {
+    "address": 448212,
+    "executable": true,
+    "sectionRemaining": 326156,
+    "writable": false
+  },
+  "DockBuilderSetNodePos_internal": {
+    "address": 448216,
+    "executable": true,
+    "sectionRemaining": 326152,
+    "writable": false
+  },
+  "DockBuilderSetNodeSize_internal": {
+    "address": 448220,
+    "executable": true,
+    "sectionRemaining": 326148,
+    "writable": false
+  },
+  "DockBuilderSplitNode_internal": {
+    "address": 448224,
+    "executable": true,
+    "sectionRemaining": 326144,
+    "writable": false
+  },
+  "DockContextCalcDropPosForDocking_internal": {
+    "address": 448228,
+    "executable": true,
+    "sectionRemaining": 326140,
+    "writable": false
+  },
+  "DockContextClearNodes_internal": {
+    "address": 448256,
+    "executable": true,
+    "sectionRemaining": 326112,
+    "writable": false
+  },
+  "DockContextEndFrame_internal": {
+    "address": 448268,
+    "executable": true,
+    "sectionRemaining": 326100,
+    "writable": false
+  },
+  "DockContextFindNodeByID_internal": {
+    "address": 448272,
+    "executable": true,
+    "sectionRemaining": 326096,
+    "writable": false
+  },
+  "DockContextGenNodeID_internal": {
+    "address": 448276,
+    "executable": true,
+    "sectionRemaining": 326092,
+    "writable": false
+  },
+  "DockContextInitialize_internal": {
+    "address": 448280,
+    "executable": true,
+    "sectionRemaining": 326088,
+    "writable": false
+  },
+  "DockContextNewFrameUpdateDocking_internal": {
+    "address": 448284,
+    "executable": true,
+    "sectionRemaining": 326084,
+    "writable": false
+  },
+  "DockContextNewFrameUpdateUndocking_internal": {
+    "address": 448288,
+    "executable": true,
+    "sectionRemaining": 326080,
+    "writable": false
+  },
+  "DockContextProcessUndockNode_internal": {
+    "address": 448292,
+    "executable": true,
+    "sectionRemaining": 326076,
+    "writable": false
+  },
+  "DockContextProcessUndockWindow_internal": {
+    "address": 448296,
+    "executable": true,
+    "sectionRemaining": 326072,
+    "writable": false
+  },
+  "DockContextQueueDock_internal": {
+    "address": 448308,
+    "executable": true,
+    "sectionRemaining": 326060,
+    "writable": false
+  },
+  "DockContextQueueUndockNode_internal": {
+    "address": 448320,
+    "executable": true,
+    "sectionRemaining": 326048,
+    "writable": false
+  },
+  "DockContextQueueUndockWindow_internal": {
+    "address": 448324,
+    "executable": true,
+    "sectionRemaining": 326044,
+    "writable": false
+  },
+  "DockContextRebuildNodes_internal": {
+    "address": 448328,
+    "executable": true,
+    "sectionRemaining": 326040,
+    "writable": false
+  },
+  "DockContextShutdown_internal": {
+    "address": 448332,
+    "executable": true,
+    "sectionRemaining": 326036,
+    "writable": false
+  },
+  "DockNodeBeginAmendTabBar_internal": {
+    "address": 448336,
+    "executable": true,
+    "sectionRemaining": 326032,
+    "writable": false
+  },
+  "DockNodeEndAmendTabBar_internal": {
+    "address": 448356,
+    "executable": true,
+    "sectionRemaining": 326012,
+    "writable": false
+  },
+  "DockNodeGetDepth_internal": {
+    "address": 448360,
+    "executable": true,
+    "sectionRemaining": 326008,
+    "writable": false
+  },
+  "DockNodeGetRootNode_internal": {
+    "address": 448384,
+    "executable": true,
+    "sectionRemaining": 325984,
+    "writable": false
+  },
+  "DockNodeGetWindowMenuButtonId_internal": {
+    "address": 448404,
+    "executable": true,
+    "sectionRemaining": 325964,
+    "writable": false
+  },
+  "DockNodeIsInHierarchyOf_internal": {
+    "address": 448424,
+    "executable": true,
+    "sectionRemaining": 325944,
+    "writable": false
+  },
+  "DockNodeWindowMenuHandler_Default_internal": {
+    "address": 448476,
+    "executable": true,
+    "sectionRemaining": 325892,
+    "writable": false
+  },
+  "DockSpace": {
+    "address": 448480,
+    "executable": true,
+    "sectionRemaining": 325888,
+    "writable": false
+  },
+  "DockSpaceOverViewport": {
+    "address": 448484,
+    "executable": true,
+    "sectionRemaining": 325884,
+    "writable": false
+  },
+  "DragBehavior_internal": {
+    "address": 448488,
+    "executable": true,
+    "sectionRemaining": 325880,
+    "writable": false
+  },
+  "DragFloat": {
+    "address": 448508,
+    "executable": true,
+    "sectionRemaining": 325860,
+    "writable": false
+  },
+  "DragFloat2": {
+    "address": 448528,
+    "executable": true,
+    "sectionRemaining": 325840,
+    "writable": false
+  },
+  "DragFloat3": {
+    "address": 448548,
+    "executable": true,
+    "sectionRemaining": 325820,
+    "writable": false
+  },
+  "DragFloat4": {
+    "address": 448568,
+    "executable": true,
+    "sectionRemaining": 325800,
+    "writable": false
+  },
+  "DragFloatRange2": {
+    "address": 448588,
+    "executable": true,
+    "sectionRemaining": 325780,
+    "writable": false
+  },
+  "DragInt": {
+    "address": 448608,
+    "executable": true,
+    "sectionRemaining": 325760,
+    "writable": false
+  },
+  "DragInt2": {
+    "address": 448628,
+    "executable": true,
+    "sectionRemaining": 325740,
+    "writable": false
+  },
+  "DragInt3": {
+    "address": 448648,
+    "executable": true,
+    "sectionRemaining": 325720,
+    "writable": false
+  },
+  "DragInt4": {
+    "address": 448668,
+    "executable": true,
+    "sectionRemaining": 325700,
+    "writable": false
+  },
+  "DragIntRange2": {
+    "address": 448688,
+    "executable": true,
+    "sectionRemaining": 325680,
+    "writable": false
+  },
+  "DragScalar": {
+    "address": 448708,
+    "executable": true,
+    "sectionRemaining": 325660,
+    "writable": false
+  },
+  "DragScalarN": {
+    "address": 448728,
+    "executable": true,
+    "sectionRemaining": 325640,
+    "writable": false
+  },
+  "Dummy": {
+    "address": 448748,
+    "executable": true,
+    "sectionRemaining": 325620,
+    "writable": false
+  },
+  "End": {
+    "address": 448752,
+    "executable": true,
+    "sectionRemaining": 325616,
+    "writable": false
+  },
+  "EndBoxSelect_internal": {
+    "address": 448756,
+    "executable": true,
+    "sectionRemaining": 325612,
+    "writable": false
+  },
+  "EndChild": {
+    "address": 448760,
+    "executable": true,
+    "sectionRemaining": 325608,
+    "writable": false
+  },
+  "EndColumns_internal": {
+    "address": 448764,
+    "executable": true,
+    "sectionRemaining": 325604,
+    "writable": false
+  },
+  "EndCombo": {
+    "address": 448768,
+    "executable": true,
+    "sectionRemaining": 325600,
+    "writable": false
+  },
+  "EndComboPreview_internal": {
+    "address": 448772,
+    "executable": true,
+    "sectionRemaining": 325596,
+    "writable": false
+  },
+  "EndDisabled": {
+    "address": 448776,
+    "executable": true,
+    "sectionRemaining": 325592,
+    "writable": false
+  },
+  "EndDisabledOverrideReenable_internal": {
+    "address": 448780,
+    "executable": true,
+    "sectionRemaining": 325588,
+    "writable": false
+  },
+  "EndDragDropSource": {
+    "address": 448784,
+    "executable": true,
+    "sectionRemaining": 325584,
+    "writable": false
+  },
+  "EndDragDropTarget": {
+    "address": 448788,
+    "executable": true,
+    "sectionRemaining": 325580,
+    "writable": false
+  },
+  "EndErrorTooltip_internal": {
+    "address": 448792,
+    "executable": true,
+    "sectionRemaining": 325576,
+    "writable": false
+  },
+  "EndFrame": {
+    "address": 448796,
+    "executable": true,
+    "sectionRemaining": 325572,
+    "writable": false
+  },
+  "EndGroup": {
+    "address": 448800,
+    "executable": true,
+    "sectionRemaining": 325568,
+    "writable": false
+  },
+  "EndListBox": {
+    "address": 448804,
+    "executable": true,
+    "sectionRemaining": 325564,
+    "writable": false
+  },
+  "EndMainMenuBar": {
+    "address": 448808,
+    "executable": true,
+    "sectionRemaining": 325560,
+    "writable": false
+  },
+  "EndMenu": {
+    "address": 448812,
+    "executable": true,
+    "sectionRemaining": 325556,
+    "writable": false
+  },
+  "EndMenuBar": {
+    "address": 448816,
+    "executable": true,
+    "sectionRemaining": 325552,
+    "writable": false
+  },
+  "EndMultiSelect": {
+    "address": 448820,
+    "executable": true,
+    "sectionRemaining": 325548,
+    "writable": false
+  },
+  "EndPopup": {
+    "address": 448824,
+    "executable": true,
+    "sectionRemaining": 325544,
+    "writable": false
+  },
+  "EndTabBar": {
+    "address": 448828,
+    "executable": true,
+    "sectionRemaining": 325540,
+    "writable": false
+  },
+  "EndTabItem": {
+    "address": 448832,
+    "executable": true,
+    "sectionRemaining": 325536,
+    "writable": false
+  },
+  "EndTable": {
+    "address": 448836,
+    "executable": true,
+    "sectionRemaining": 325532,
+    "writable": false
+  },
+  "EndTooltip": {
+    "address": 448840,
+    "executable": true,
+    "sectionRemaining": 325528,
+    "writable": false
+  },
+  "ErrorCheckEndFrameFinalizeErrorTooltip_internal": {
+    "address": 448844,
+    "executable": true,
+    "sectionRemaining": 325524,
+    "writable": false
+  },
+  "ErrorCheckUsingSetCursorPosToExtendParentBoundaries_internal": {
+    "address": 448848,
+    "executable": true,
+    "sectionRemaining": 325520,
+    "writable": false
+  },
+  "ErrorLog_internal": {
+    "address": 448852,
+    "executable": true,
+    "sectionRemaining": 325516,
+    "writable": false
+  },
+  "ErrorRecoveryStoreState_internal": {
+    "address": 448872,
+    "executable": true,
+    "sectionRemaining": 325496,
+    "writable": false
+  },
+  "ErrorRecoveryTryToRecoverState_internal": {
+    "address": 448876,
+    "executable": true,
+    "sectionRemaining": 325492,
+    "writable": false
+  },
+  "ErrorRecoveryTryToRecoverWindowState_internal": {
+    "address": 448880,
+    "executable": true,
+    "sectionRemaining": 325488,
+    "writable": false
+  },
+  "FindBestWindowPosForPopupEx_internal": {
+    "address": 448884,
+    "executable": true,
+    "sectionRemaining": 325484,
+    "writable": false
+  },
+  "FindBestWindowPosForPopup_internal": {
+    "address": 448888,
+    "executable": true,
+    "sectionRemaining": 325480,
+    "writable": false
+  },
+  "FindBlockingModal_internal": {
+    "address": 448892,
+    "executable": true,
+    "sectionRemaining": 325476,
+    "writable": false
+  },
+  "FindBottomMostVisibleWindowWithinBeginStack_internal": {
+    "address": 448896,
+    "executable": true,
+    "sectionRemaining": 325472,
+    "writable": false
+  },
+  "FindHoveredViewportFromPlatformWindowStack_internal": {
+    "address": 448900,
+    "executable": true,
+    "sectionRemaining": 325468,
+    "writable": false
+  },
+  "FindHoveredWindowEx_internal": {
+    "address": 448904,
+    "executable": true,
+    "sectionRemaining": 325464,
+    "writable": false
+  },
+  "FindOrCreateColumns_internal": {
+    "address": 448916,
+    "executable": true,
+    "sectionRemaining": 325452,
+    "writable": false
+  },
+  "FindRenderedTextEnd_internal": {
+    "address": 448920,
+    "executable": true,
+    "sectionRemaining": 325448,
+    "writable": false
+  },
+  "FindSettingsHandler_internal": {
+    "address": 448924,
+    "executable": true,
+    "sectionRemaining": 325444,
+    "writable": false
+  },
+  "FindViewportByID": {
+    "address": 448928,
+    "executable": true,
+    "sectionRemaining": 325440,
+    "writable": false
+  },
+  "FindViewportByPlatformHandle": {
+    "address": 448932,
+    "executable": true,
+    "sectionRemaining": 325436,
+    "writable": false
+  },
+  "FindWindowByID_internal": {
+    "address": 448936,
+    "executable": true,
+    "sectionRemaining": 325432,
+    "writable": false
+  },
+  "FindWindowByName_internal": {
+    "address": 448940,
+    "executable": true,
+    "sectionRemaining": 325428,
+    "writable": false
+  },
+  "FindWindowDisplayIndex_internal": {
+    "address": 448944,
+    "executable": true,
+    "sectionRemaining": 325424,
+    "writable": false
+  },
+  "FindWindowSettingsByID_internal": {
+    "address": 448948,
+    "executable": true,
+    "sectionRemaining": 325420,
+    "writable": false
+  },
+  "FindWindowSettingsByWindow_internal": {
+    "address": 448952,
+    "executable": true,
+    "sectionRemaining": 325416,
+    "writable": false
+  },
+  "FixupKeyChord_internal": {
+    "address": 448956,
+    "executable": true,
+    "sectionRemaining": 325412,
+    "writable": false
+  },
+  "FocusItem_internal": {
+    "address": 448960,
+    "executable": true,
+    "sectionRemaining": 325408,
+    "writable": false
+  },
+  "FocusTopMostWindowUnderOne_internal": {
+    "address": 448964,
+    "executable": true,
+    "sectionRemaining": 325404,
+    "writable": false
+  },
+  "FocusWindow_internal": {
+    "address": 448968,
+    "executable": true,
+    "sectionRemaining": 325400,
+    "writable": false
+  },
+  "GcAwakeTransientWindowBuffers_internal": {
+    "address": 448972,
+    "executable": true,
+    "sectionRemaining": 325396,
+    "writable": false
+  },
+  "GcCompactTransientMiscBuffers_internal": {
+    "address": 448976,
+    "executable": true,
+    "sectionRemaining": 325392,
+    "writable": false
+  },
+  "GcCompactTransientWindowBuffers_internal": {
+    "address": 448980,
+    "executable": true,
+    "sectionRemaining": 325388,
+    "writable": false
+  },
+  "GetActiveID_internal": {
+    "address": 448984,
+    "executable": true,
+    "sectionRemaining": 325384,
+    "writable": false
+  },
+  "GetAllocatorFunctions": {
+    "address": 449004,
+    "executable": true,
+    "sectionRemaining": 325364,
+    "writable": false
+  },
+  "GetBackgroundDrawList": {
+    "address": 449100,
+    "executable": true,
+    "sectionRemaining": 325268,
+    "writable": false
+  },
+  "GetBoxSelectState_internal": {
+    "address": 449104,
+    "executable": true,
+    "sectionRemaining": 325264,
+    "writable": false
+  },
+  "GetClipboardText": {
+    "address": 449168,
+    "executable": true,
+    "sectionRemaining": 325200,
+    "writable": false
+  },
+  "GetColorU32_0": {
+    "address": 449172,
+    "executable": true,
+    "sectionRemaining": 325196,
+    "writable": false
+  },
+  "GetColorU32_1": {
+    "address": 449176,
+    "executable": true,
+    "sectionRemaining": 325192,
+    "writable": false
+  },
+  "GetColorU32_2": {
+    "address": 449180,
+    "executable": true,
+    "sectionRemaining": 325188,
+    "writable": false
+  },
+  "GetColumnIndex": {
+    "address": 449184,
+    "executable": true,
+    "sectionRemaining": 325184,
+    "writable": false
+  },
+  "GetColumnNormFromOffset_internal": {
+    "address": 449188,
+    "executable": true,
+    "sectionRemaining": 325180,
+    "writable": false
+  },
+  "GetColumnOffset": {
+    "address": 449192,
+    "executable": true,
+    "sectionRemaining": 325176,
+    "writable": false
+  },
+  "GetColumnOffsetFromNorm_internal": {
+    "address": 449196,
+    "executable": true,
+    "sectionRemaining": 325172,
+    "writable": false
+  },
+  "GetColumnWidth": {
+    "address": 449200,
+    "executable": true,
+    "sectionRemaining": 325168,
+    "writable": false
+  },
+  "GetColumnsCount": {
+    "address": 449204,
+    "executable": true,
+    "sectionRemaining": 325164,
+    "writable": false
+  },
+  "GetColumnsID_internal": {
+    "address": 449208,
+    "executable": true,
+    "sectionRemaining": 325160,
+    "writable": false
+  },
+  "GetContentRegionAvail": {
+    "address": 449212,
+    "executable": true,
+    "sectionRemaining": 325156,
+    "writable": false
+  },
+  "GetCurrentContext": {
+    "address": 449216,
+    "executable": true,
+    "sectionRemaining": 325152,
+    "writable": false
+  },
+  "GetCurrentFocusScope_internal": {
+    "address": 449220,
+    "executable": true,
+    "sectionRemaining": 325148,
+    "writable": false
+  },
+  "GetCurrentTabBar_internal": {
+    "address": 449240,
+    "executable": true,
+    "sectionRemaining": 325128,
+    "writable": false
+  },
+  "GetCurrentTable_internal": {
+    "address": 449260,
+    "executable": true,
+    "sectionRemaining": 325108,
+    "writable": false
+  },
+  "GetCurrentWindowRead_internal": {
+    "address": 449280,
+    "executable": true,
+    "sectionRemaining": 325088,
+    "writable": false
+  },
+  "GetCurrentWindow_internal": {
+    "address": 449300,
+    "executable": true,
+    "sectionRemaining": 325068,
+    "writable": false
+  },
+  "GetCursorPos": {
+    "address": 449332,
+    "executable": true,
+    "sectionRemaining": 325036,
+    "writable": false
+  },
+  "GetCursorPosX": {
+    "address": 449336,
+    "executable": true,
+    "sectionRemaining": 325032,
+    "writable": false
+  },
+  "GetCursorPosY": {
+    "address": 449340,
+    "executable": true,
+    "sectionRemaining": 325028,
+    "writable": false
+  },
+  "GetCursorScreenPos": {
+    "address": 449344,
+    "executable": true,
+    "sectionRemaining": 325024,
+    "writable": false
+  },
+  "GetCursorStartPos": {
+    "address": 449348,
+    "executable": true,
+    "sectionRemaining": 325020,
+    "writable": false
+  },
+  "GetDefaultFont_internal": {
+    "address": 449352,
+    "executable": true,
+    "sectionRemaining": 325016,
+    "writable": false
+  },
+  "GetDragDropPayload": {
+    "address": 449356,
+    "executable": true,
+    "sectionRemaining": 325012,
+    "writable": false
+  },
+  "GetDrawData": {
+    "address": 449360,
+    "executable": true,
+    "sectionRemaining": 325008,
+    "writable": false
+  },
+  "GetDrawListSharedData": {
+    "address": 449364,
+    "executable": true,
+    "sectionRemaining": 325004,
+    "writable": false
+  },
+  "GetFocusID_internal": {
+    "address": 449368,
+    "executable": true,
+    "sectionRemaining": 325000,
+    "writable": false
+  },
+  "GetFont": {
+    "address": 449388,
+    "executable": true,
+    "sectionRemaining": 324980,
+    "writable": false
+  },
+  "GetFontBaked": {
+    "address": 449392,
+    "executable": true,
+    "sectionRemaining": 324976,
+    "writable": false
+  },
+  "GetFontRasterizerDensity_internal": {
+    "address": 449396,
+    "executable": true,
+    "sectionRemaining": 324972,
+    "writable": false
+  },
+  "GetFontSize": {
+    "address": 449416,
+    "executable": true,
+    "sectionRemaining": 324952,
+    "writable": false
+  },
+  "GetFontTexUvWhitePixel": {
+    "address": 449420,
+    "executable": true,
+    "sectionRemaining": 324948,
+    "writable": false
+  },
+  "GetForegroundDrawList": {
+    "address": 449424,
+    "executable": true,
+    "sectionRemaining": 324944,
+    "writable": false
+  },
+  "GetForegroundDrawList_internal": {
+    "address": 449428,
+    "executable": true,
+    "sectionRemaining": 324940,
+    "writable": false
+  },
+  "GetFrameCount": {
+    "address": 449436,
+    "executable": true,
+    "sectionRemaining": 324932,
+    "writable": false
+  },
+  "GetFrameHeight": {
+    "address": 449440,
+    "executable": true,
+    "sectionRemaining": 324928,
+    "writable": false
+  },
+  "GetFrameHeightWithSpacing": {
+    "address": 449444,
+    "executable": true,
+    "sectionRemaining": 324924,
+    "writable": false
+  },
+  "GetHoveredID_internal": {
+    "address": 449448,
+    "executable": true,
+    "sectionRemaining": 324920,
+    "writable": false
+  },
+  "GetIDWithSeed_internal_0": {
+    "address": 449452,
+    "executable": true,
+    "sectionRemaining": 324916,
+    "writable": false
+  },
+  "GetIDWithSeed_internal_1": {
+    "address": 449456,
+    "executable": true,
+    "sectionRemaining": 324912,
+    "writable": false
+  },
+  "GetID_0": {
+    "address": 449460,
+    "executable": true,
+    "sectionRemaining": 324908,
+    "writable": false
+  },
+  "GetID_1": {
+    "address": 449464,
+    "executable": true,
+    "sectionRemaining": 324904,
+    "writable": false
+  },
+  "GetID_2": {
+    "address": 449468,
+    "executable": true,
+    "sectionRemaining": 324900,
+    "writable": false
+  },
+  "GetID_3": {
+    "address": 449472,
+    "executable": true,
+    "sectionRemaining": 324896,
+    "writable": false
+  },
+  "GetIO": {
+    "address": 449476,
+    "executable": true,
+    "sectionRemaining": 324892,
+    "writable": false
+  },
+  "GetIO_internal": {
+    "address": 449480,
+    "executable": true,
+    "sectionRemaining": 324888,
+    "writable": false
+  },
+  "GetInputTextState_internal": {
+    "address": 449484,
+    "executable": true,
+    "sectionRemaining": 324884,
+    "writable": false
+  },
+  "GetItemFlags_internal": {
+    "address": 449532,
+    "executable": true,
+    "sectionRemaining": 324836,
+    "writable": false
+  },
+  "GetItemID": {
+    "address": 449552,
+    "executable": true,
+    "sectionRemaining": 324816,
+    "writable": false
+  },
+  "GetItemRectMax": {
+    "address": 449556,
+    "executable": true,
+    "sectionRemaining": 324812,
+    "writable": false
+  },
+  "GetItemRectMin": {
+    "address": 449560,
+    "executable": true,
+    "sectionRemaining": 324808,
+    "writable": false
+  },
+  "GetItemRectSize": {
+    "address": 449564,
+    "executable": true,
+    "sectionRemaining": 324804,
+    "writable": false
+  },
+  "GetItemStatusFlags_internal": {
+    "address": 449568,
+    "executable": true,
+    "sectionRemaining": 324800,
+    "writable": false
+  },
+  "GetKeyChordName_internal": {
+    "address": 449588,
+    "executable": true,
+    "sectionRemaining": 324780,
+    "writable": false
+  },
+  "GetKeyData_internal_0": {
+    "address": 449592,
+    "executable": true,
+    "sectionRemaining": 324776,
+    "writable": false
+  },
+  "GetKeyData_internal_1": {
+    "address": 449596,
+    "executable": true,
+    "sectionRemaining": 324772,
+    "writable": false
+  },
+  "GetKeyMagnitude2d_internal": {
+    "address": 449616,
+    "executable": true,
+    "sectionRemaining": 324752,
+    "writable": false
+  },
+  "GetKeyName": {
+    "address": 449620,
+    "executable": true,
+    "sectionRemaining": 324748,
+    "writable": false
+  },
+  "GetKeyOwnerData_internal": {
+    "address": 449624,
+    "executable": true,
+    "sectionRemaining": 324744,
+    "writable": false
+  },
+  "GetKeyOwner_internal": {
+    "address": 449692,
+    "executable": true,
+    "sectionRemaining": 324676,
+    "writable": false
+  },
+  "GetKeyPressedAmount": {
+    "address": 449696,
+    "executable": true,
+    "sectionRemaining": 324672,
+    "writable": false
+  },
+  "GetMainViewport": {
+    "address": 449700,
+    "executable": true,
+    "sectionRemaining": 324668,
+    "writable": false
+  },
+  "GetMouseClickedCount": {
+    "address": 449704,
+    "executable": true,
+    "sectionRemaining": 324664,
+    "writable": false
+  },
+  "GetMouseCursor": {
+    "address": 449708,
+    "executable": true,
+    "sectionRemaining": 324660,
+    "writable": false
+  },
+  "GetMouseDragDelta": {
+    "address": 449712,
+    "executable": true,
+    "sectionRemaining": 324656,
+    "writable": false
+  },
+  "GetMousePos": {
+    "address": 449716,
+    "executable": true,
+    "sectionRemaining": 324652,
+    "writable": false
+  },
+  "GetMousePosOnOpeningCurrentPopup": {
+    "address": 449720,
+    "executable": true,
+    "sectionRemaining": 324648,
+    "writable": false
+  },
+  "GetMultiSelectState_internal": {
+    "address": 449724,
+    "executable": true,
+    "sectionRemaining": 324644,
+    "writable": false
+  },
+  "GetNavTweakPressedAmount_internal": {
+    "address": 449800,
+    "executable": true,
+    "sectionRemaining": 324568,
+    "writable": false
+  },
+  "GetPlatformIO": {
+    "address": 449804,
+    "executable": true,
+    "sectionRemaining": 324564,
+    "writable": false
+  },
+  "GetPlatformIO_internal": {
+    "address": 449808,
+    "executable": true,
+    "sectionRemaining": 324560,
+    "writable": false
+  },
+  "GetPopupAllowedExtentRect_internal": {
+    "address": 449812,
+    "executable": true,
+    "sectionRemaining": 324556,
+    "writable": false
+  },
+  "GetRoundedFontSize_internal": {
+    "address": 449816,
+    "executable": true,
+    "sectionRemaining": 324552,
+    "writable": false
+  },
+  "GetScrollMaxX": {
+    "address": 449836,
+    "executable": true,
+    "sectionRemaining": 324532,
+    "writable": false
+  },
+  "GetScrollMaxY": {
+    "address": 449840,
+    "executable": true,
+    "sectionRemaining": 324528,
+    "writable": false
+  },
+  "GetScrollX": {
+    "address": 449844,
+    "executable": true,
+    "sectionRemaining": 324524,
+    "writable": false
+  },
+  "GetScrollY": {
+    "address": 449848,
+    "executable": true,
+    "sectionRemaining": 324520,
+    "writable": false
+  },
+  "GetShortcutRoutingData_internal": {
+    "address": 449852,
+    "executable": true,
+    "sectionRemaining": 324516,
+    "writable": false
+  },
+  "GetStateStorage": {
+    "address": 449856,
+    "executable": true,
+    "sectionRemaining": 324512,
+    "writable": false
+  },
+  "GetStyle": {
+    "address": 449860,
+    "executable": true,
+    "sectionRemaining": 324508,
+    "writable": false
+  },
+  "GetStyleColorName": {
+    "address": 449864,
+    "executable": true,
+    "sectionRemaining": 324504,
+    "writable": false
+  },
+  "GetStyleColorVec4": {
+    "address": 449868,
+    "executable": true,
+    "sectionRemaining": 324500,
+    "writable": false
+  },
+  "GetStyleVarInfo_internal": {
+    "address": 449872,
+    "executable": true,
+    "sectionRemaining": 324496,
+    "writable": false
+  },
+  "GetTextLineHeight": {
+    "address": 449876,
+    "executable": true,
+    "sectionRemaining": 324492,
+    "writable": false
+  },
+  "GetTextLineHeightWithSpacing": {
+    "address": 449880,
+    "executable": true,
+    "sectionRemaining": 324488,
+    "writable": false
+  },
+  "GetTime": {
+    "address": 449884,
+    "executable": true,
+    "sectionRemaining": 324484,
+    "writable": false
+  },
+  "GetTopMostAndVisiblePopupModal_internal": {
+    "address": 449888,
+    "executable": true,
+    "sectionRemaining": 324480,
+    "writable": false
+  },
+  "GetTopMostPopupModal_internal": {
+    "address": 449892,
+    "executable": true,
+    "sectionRemaining": 324476,
+    "writable": false
+  },
+  "GetTreeNodeToLabelSpacing": {
+    "address": 449896,
+    "executable": true,
+    "sectionRemaining": 324472,
+    "writable": false
+  },
+  "GetTypematicRepeatRate_internal": {
+    "address": 449900,
+    "executable": true,
+    "sectionRemaining": 324468,
+    "writable": false
+  },
+  "GetTypingSelectRequest_internal": {
+    "address": 449904,
+    "executable": true,
+    "sectionRemaining": 324464,
+    "writable": false
+  },
+  "GetVersion": {
+    "address": 449908,
+    "executable": true,
+    "sectionRemaining": 324460,
+    "writable": false
+  },
+  "GetViewportPlatformMonitor_internal": {
+    "address": 449912,
+    "executable": true,
+    "sectionRemaining": 324456,
+    "writable": false
+  },
+  "GetWindowAlwaysWantOwnTabBar_internal": {
+    "address": 449916,
+    "executable": true,
+    "sectionRemaining": 324452,
+    "writable": false
+  },
+  "GetWindowDockID": {
+    "address": 449936,
+    "executable": true,
+    "sectionRemaining": 324432,
+    "writable": false
+  },
+  "GetWindowDockNode_internal": {
+    "address": 449940,
+    "executable": true,
+    "sectionRemaining": 324428,
+    "writable": false
+  },
+  "GetWindowDpiScale": {
+    "address": 449964,
+    "executable": true,
+    "sectionRemaining": 324404,
+    "writable": false
+  },
+  "GetWindowDrawList": {
+    "address": 449968,
+    "executable": true,
+    "sectionRemaining": 324400,
+    "writable": false
+  },
+  "GetWindowHeight": {
+    "address": 449972,
+    "executable": true,
+    "sectionRemaining": 324396,
+    "writable": false
+  },
+  "GetWindowPos": {
+    "address": 449976,
+    "executable": true,
+    "sectionRemaining": 324392,
+    "writable": false
+  },
+  "GetWindowResizeBorderID_internal": {
+    "address": 449980,
+    "executable": true,
+    "sectionRemaining": 324388,
+    "writable": false
+  },
+  "GetWindowResizeCornerID_internal": {
+    "address": 449984,
+    "executable": true,
+    "sectionRemaining": 324384,
+    "writable": false
+  },
+  "GetWindowScrollbarID_internal": {
+    "address": 449988,
+    "executable": true,
+    "sectionRemaining": 324380,
+    "writable": false
+  },
+  "GetWindowScrollbarRect_internal": {
+    "address": 449992,
+    "executable": true,
+    "sectionRemaining": 324376,
+    "writable": false
+  },
+  "GetWindowSize": {
+    "address": 449996,
+    "executable": true,
+    "sectionRemaining": 324372,
+    "writable": false
+  },
+  "GetWindowViewport": {
+    "address": 450000,
+    "executable": true,
+    "sectionRemaining": 324368,
+    "writable": false
+  },
+  "GetWindowWidth": {
+    "address": 450004,
+    "executable": true,
+    "sectionRemaining": 324364,
+    "writable": false
+  },
+  "Get_GetWindowFramebufferScale_InteropPointer": {
+    "address": 460228,
+    "executable": true,
+    "sectionRemaining": 314140,
+    "writable": false
+  },
+  "Get_GetWindowPos_InteropPointer": {
+    "address": 460252,
+    "executable": true,
+    "sectionRemaining": 314116,
+    "writable": false
+  },
+  "Get_GetWindowSize_InteropPointer": {
+    "address": 460276,
+    "executable": true,
+    "sectionRemaining": 314092,
+    "writable": false
+  },
+  "ImBitVector_ClearBit_internal": {
+    "address": 450008,
+    "executable": true,
+    "sectionRemaining": 324360,
+    "writable": false
+  },
+  "ImBitVector_Clear_internal": {
+    "address": 450040,
+    "executable": true,
+    "sectionRemaining": 324328,
+    "writable": false
+  },
+  "ImBitVector_Create_internal": {
+    "address": 450092,
+    "executable": true,
+    "sectionRemaining": 324276,
+    "writable": false
+  },
+  "ImBitVector_SetBit_internal": {
+    "address": 450244,
+    "executable": true,
+    "sectionRemaining": 324124,
+    "writable": false
+  },
+  "ImBitVector_TestBit_internal": {
+    "address": 450276,
+    "executable": true,
+    "sectionRemaining": 324092,
+    "writable": false
+  },
+  "ImDrawCmd_GetTexID": {
+    "address": 450300,
+    "executable": true,
+    "sectionRemaining": 324068,
+    "writable": false
+  },
+  "ImDrawData_AddDrawList": {
+    "address": 450328,
+    "executable": true,
+    "sectionRemaining": 324040,
+    "writable": false
+  },
+  "ImDrawData_Clear": {
+    "address": 450332,
+    "executable": true,
+    "sectionRemaining": 324036,
+    "writable": false
+  },
+  "ImDrawData_DeIndexAllBuffers": {
+    "address": 450336,
+    "executable": true,
+    "sectionRemaining": 324032,
+    "writable": false
+  },
+  "ImDrawData_ScaleClipRects": {
+    "address": 450340,
+    "executable": true,
+    "sectionRemaining": 324028,
+    "writable": false
+  },
+  "ImDrawListSharedData_SetCircleTessellationMaxError_internal": {
+    "address": 450344,
+    "executable": true,
+    "sectionRemaining": 324024,
+    "writable": false
+  },
+  "ImDrawListSplitter_Clear": {
+    "address": 450348,
+    "executable": true,
+    "sectionRemaining": 324020,
+    "writable": false
+  },
+  "ImDrawListSplitter_ClearFreeMemory": {
+    "address": 450364,
+    "executable": true,
+    "sectionRemaining": 324004,
+    "writable": false
+  },
+  "ImDrawListSplitter_Merge": {
+    "address": 450368,
+    "executable": true,
+    "sectionRemaining": 324000,
+    "writable": false
+  },
+  "ImDrawListSplitter_SetCurrentChannel": {
+    "address": 450372,
+    "executable": true,
+    "sectionRemaining": 323996,
+    "writable": false
+  },
+  "ImDrawListSplitter_Split": {
+    "address": 450376,
+    "executable": true,
+    "sectionRemaining": 323992,
+    "writable": false
+  },
+  "ImDrawList_AddBezierCubic": {
+    "address": 450380,
+    "executable": true,
+    "sectionRemaining": 323988,
+    "writable": false
+  },
+  "ImDrawList_AddBezierQuadratic": {
+    "address": 450384,
+    "executable": true,
+    "sectionRemaining": 323984,
+    "writable": false
+  },
+  "ImDrawList_AddCallback": {
+    "address": 450388,
+    "executable": true,
+    "sectionRemaining": 323980,
+    "writable": false
+  },
+  "ImDrawList_AddCircle": {
+    "address": 450392,
+    "executable": true,
+    "sectionRemaining": 323976,
+    "writable": false
+  },
+  "ImDrawList_AddCircleFilled": {
+    "address": 450396,
+    "executable": true,
+    "sectionRemaining": 323972,
+    "writable": false
+  },
+  "ImDrawList_AddConcavePolyFilled": {
+    "address": 450400,
+    "executable": true,
+    "sectionRemaining": 323968,
+    "writable": false
+  },
+  "ImDrawList_AddConvexPolyFilled": {
+    "address": 450404,
+    "executable": true,
+    "sectionRemaining": 323964,
+    "writable": false
+  },
+  "ImDrawList_AddDrawCmd": {
+    "address": 450408,
+    "executable": true,
+    "sectionRemaining": 323960,
+    "writable": false
+  },
+  "ImDrawList_AddEllipse": {
+    "address": 450412,
+    "executable": true,
+    "sectionRemaining": 323956,
+    "writable": false
+  },
+  "ImDrawList_AddEllipseFilled": {
+    "address": 450416,
+    "executable": true,
+    "sectionRemaining": 323952,
+    "writable": false
+  },
+  "ImDrawList_AddImage": {
+    "address": 450420,
+    "executable": true,
+    "sectionRemaining": 323948,
+    "writable": false
+  },
+  "ImDrawList_AddImageQuad": {
+    "address": 450424,
+    "executable": true,
+    "sectionRemaining": 323944,
+    "writable": false
+  },
+  "ImDrawList_AddImageRounded": {
+    "address": 450428,
+    "executable": true,
+    "sectionRemaining": 323940,
+    "writable": false
+  },
+  "ImDrawList_AddLine": {
+    "address": 450432,
+    "executable": true,
+    "sectionRemaining": 323936,
+    "writable": false
+  },
+  "ImDrawList_AddNgon": {
+    "address": 450436,
+    "executable": true,
+    "sectionRemaining": 323932,
+    "writable": false
+  },
+  "ImDrawList_AddNgonFilled": {
+    "address": 450440,
+    "executable": true,
+    "sectionRemaining": 323928,
+    "writable": false
+  },
+  "ImDrawList_AddPolyline": {
+    "address": 450444,
+    "executable": true,
+    "sectionRemaining": 323924,
+    "writable": false
+  },
+  "ImDrawList_AddQuad": {
+    "address": 450448,
+    "executable": true,
+    "sectionRemaining": 323920,
+    "writable": false
+  },
+  "ImDrawList_AddQuadFilled": {
+    "address": 450452,
+    "executable": true,
+    "sectionRemaining": 323916,
+    "writable": false
+  },
+  "ImDrawList_AddRect": {
+    "address": 450456,
+    "executable": true,
+    "sectionRemaining": 323912,
+    "writable": false
+  },
+  "ImDrawList_AddRectFilled": {
+    "address": 450460,
+    "executable": true,
+    "sectionRemaining": 323908,
+    "writable": false
+  },
+  "ImDrawList_AddRectFilledMultiColor": {
+    "address": 450464,
+    "executable": true,
+    "sectionRemaining": 323904,
+    "writable": false
+  },
+  "ImDrawList_AddText_0": {
+    "address": 450468,
+    "executable": true,
+    "sectionRemaining": 323900,
+    "writable": false
+  },
+  "ImDrawList_AddText_1": {
+    "address": 450472,
+    "executable": true,
+    "sectionRemaining": 323896,
+    "writable": false
+  },
+  "ImDrawList_AddTriangle": {
+    "address": 450476,
+    "executable": true,
+    "sectionRemaining": 323892,
+    "writable": false
+  },
+  "ImDrawList_AddTriangleFilled": {
+    "address": 450480,
+    "executable": true,
+    "sectionRemaining": 323888,
+    "writable": false
+  },
+  "ImDrawList_CalcCircleAutoSegmentCount": {
+    "address": 450484,
+    "executable": true,
+    "sectionRemaining": 323884,
+    "writable": false
+  },
+  "ImDrawList_ChannelsMerge": {
+    "address": 450488,
+    "executable": true,
+    "sectionRemaining": 323880,
+    "writable": false
+  },
+  "ImDrawList_ChannelsSetCurrent": {
+    "address": 450500,
+    "executable": true,
+    "sectionRemaining": 323868,
+    "writable": false
+  },
+  "ImDrawList_ChannelsSplit": {
+    "address": 450516,
+    "executable": true,
+    "sectionRemaining": 323852,
+    "writable": false
+  },
+  "ImDrawList_ClearFreeMemory": {
+    "address": 450532,
+    "executable": true,
+    "sectionRemaining": 323836,
+    "writable": false
+  },
+  "ImDrawList_CloneOutput": {
+    "address": 450536,
+    "executable": true,
+    "sectionRemaining": 323832,
+    "writable": false
+  },
+  "ImDrawList_GetClipRectMax": {
+    "address": 450540,
+    "executable": true,
+    "sectionRemaining": 323828,
+    "writable": false
+  },
+  "ImDrawList_GetClipRectMin": {
+    "address": 450560,
+    "executable": true,
+    "sectionRemaining": 323808,
+    "writable": false
+  },
+  "ImDrawList_OnChangedClipRect": {
+    "address": 450580,
+    "executable": true,
+    "sectionRemaining": 323788,
+    "writable": false
+  },
+  "ImDrawList_OnChangedTexture": {
+    "address": 450584,
+    "executable": true,
+    "sectionRemaining": 323784,
+    "writable": false
+  },
+  "ImDrawList_OnChangedVtxOffset": {
+    "address": 450588,
+    "executable": true,
+    "sectionRemaining": 323780,
+    "writable": false
+  },
+  "ImDrawList_PathArcTo": {
+    "address": 450592,
+    "executable": true,
+    "sectionRemaining": 323776,
+    "writable": false
+  },
+  "ImDrawList_PathArcToFast": {
+    "address": 450596,
+    "executable": true,
+    "sectionRemaining": 323772,
+    "writable": false
+  },
+  "ImDrawList_PathArcToFastEx": {
+    "address": 450600,
+    "executable": true,
+    "sectionRemaining": 323768,
+    "writable": false
+  },
+  "ImDrawList_PathArcToN": {
+    "address": 450604,
+    "executable": true,
+    "sectionRemaining": 323764,
+    "writable": false
+  },
+  "ImDrawList_PathBezierCubicCurveTo": {
+    "address": 450608,
+    "executable": true,
+    "sectionRemaining": 323760,
+    "writable": false
+  },
+  "ImDrawList_PathBezierQuadraticCurveTo": {
+    "address": 450612,
+    "executable": true,
+    "sectionRemaining": 323756,
+    "writable": false
+  },
+  "ImDrawList_PathClear": {
+    "address": 450616,
+    "executable": true,
+    "sectionRemaining": 323752,
+    "writable": false
+  },
+  "ImDrawList_PathEllipticalArcTo": {
+    "address": 450624,
+    "executable": true,
+    "sectionRemaining": 323744,
+    "writable": false
+  },
+  "ImDrawList_PathFillConcave": {
+    "address": 450628,
+    "executable": true,
+    "sectionRemaining": 323740,
+    "writable": false
+  },
+  "ImDrawList_PathFillConvex": {
+    "address": 450676,
+    "executable": true,
+    "sectionRemaining": 323692,
+    "writable": false
+  },
+  "ImDrawList_PathLineTo": {
+    "address": 450724,
+    "executable": true,
+    "sectionRemaining": 323644,
+    "writable": false
+  },
+  "ImDrawList_PathLineToMergeDuplicate": {
+    "address": 450892,
+    "executable": true,
+    "sectionRemaining": 323476,
+    "writable": false
+  },
+  "ImDrawList_PathRect": {
+    "address": 451112,
+    "executable": true,
+    "sectionRemaining": 323256,
+    "writable": false
+  },
+  "ImDrawList_PathStroke": {
+    "address": 451116,
+    "executable": true,
+    "sectionRemaining": 323252,
+    "writable": false
+  },
+  "ImDrawList_PopClipRect": {
+    "address": 451168,
+    "executable": true,
+    "sectionRemaining": 323200,
+    "writable": false
+  },
+  "ImDrawList_PopTexture": {
+    "address": 451172,
+    "executable": true,
+    "sectionRemaining": 323196,
+    "writable": false
+  },
+  "ImDrawList_PopUnusedDrawCmd": {
+    "address": 451176,
+    "executable": true,
+    "sectionRemaining": 323192,
+    "writable": false
+  },
+  "ImDrawList_PrimQuadUV": {
+    "address": 451180,
+    "executable": true,
+    "sectionRemaining": 323188,
+    "writable": false
+  },
+  "ImDrawList_PrimRect": {
+    "address": 451184,
+    "executable": true,
+    "sectionRemaining": 323184,
+    "writable": false
+  },
+  "ImDrawList_PrimRectUV": {
+    "address": 451188,
+    "executable": true,
+    "sectionRemaining": 323180,
+    "writable": false
+  },
+  "ImDrawList_PrimReserve": {
+    "address": 451192,
+    "executable": true,
+    "sectionRemaining": 323176,
+    "writable": false
+  },
+  "ImDrawList_PrimUnreserve": {
+    "address": 451196,
+    "executable": true,
+    "sectionRemaining": 323172,
+    "writable": false
+  },
+  "ImDrawList_PrimVtx": {
+    "address": 451200,
+    "executable": true,
+    "sectionRemaining": 323168,
+    "writable": false
+  },
+  "ImDrawList_PrimWriteIdx": {
+    "address": 451280,
+    "executable": true,
+    "sectionRemaining": 323088,
+    "writable": false
+  },
+  "ImDrawList_PrimWriteVtx": {
+    "address": 451304,
+    "executable": true,
+    "sectionRemaining": 323064,
+    "writable": false
+  },
+  "ImDrawList_PushClipRect": {
+    "address": 451364,
+    "executable": true,
+    "sectionRemaining": 323004,
+    "writable": false
+  },
+  "ImDrawList_PushClipRectFullScreen": {
+    "address": 451376,
+    "executable": true,
+    "sectionRemaining": 322992,
+    "writable": false
+  },
+  "ImDrawList_PushTexture": {
+    "address": 451380,
+    "executable": true,
+    "sectionRemaining": 322988,
+    "writable": false
+  },
+  "ImDrawList_ResetForNewFrame": {
+    "address": 451384,
+    "executable": true,
+    "sectionRemaining": 322984,
+    "writable": false
+  },
+  "ImDrawList_SetDrawListSharedData": {
+    "address": 451388,
+    "executable": true,
+    "sectionRemaining": 322980,
+    "writable": false
+  },
+  "ImDrawList_SetTexture": {
+    "address": 451392,
+    "executable": true,
+    "sectionRemaining": 322976,
+    "writable": false
+  },
+  "ImDrawList_TryMergeDrawCmds": {
+    "address": 451396,
+    "executable": true,
+    "sectionRemaining": 322972,
+    "writable": false
+  },
+  "ImFontAtlas_AddCustomRect": {
+    "address": 451400,
+    "executable": true,
+    "sectionRemaining": 322968,
+    "writable": false
+  },
+  "ImFontAtlas_AddFont": {
+    "address": 451404,
+    "executable": true,
+    "sectionRemaining": 322964,
+    "writable": false
+  },
+  "ImFontAtlas_AddFontDefault": {
+    "address": 451408,
+    "executable": true,
+    "sectionRemaining": 322960,
+    "writable": false
+  },
+  "ImFontAtlas_AddFontFromFileTTF": {
+    "address": 451412,
+    "executable": true,
+    "sectionRemaining": 322956,
+    "writable": false
+  },
+  "ImFontAtlas_AddFontFromMemoryCompressedBase85TTF": {
+    "address": 451416,
+    "executable": true,
+    "sectionRemaining": 322952,
+    "writable": false
+  },
+  "ImFontAtlas_AddFontFromMemoryCompressedTTF": {
+    "address": 451420,
+    "executable": true,
+    "sectionRemaining": 322948,
+    "writable": false
+  },
+  "ImFontAtlas_AddFontFromMemoryTTF": {
+    "address": 451424,
+    "executable": true,
+    "sectionRemaining": 322944,
+    "writable": false
+  },
+  "ImFontAtlas_Clear": {
+    "address": 451428,
+    "executable": true,
+    "sectionRemaining": 322940,
+    "writable": false
+  },
+  "ImFontAtlas_ClearFonts": {
+    "address": 451432,
+    "executable": true,
+    "sectionRemaining": 322936,
+    "writable": false
+  },
+  "ImFontAtlas_ClearInputData": {
+    "address": 451436,
+    "executable": true,
+    "sectionRemaining": 322932,
+    "writable": false
+  },
+  "ImFontAtlas_ClearTexData": {
+    "address": 451440,
+    "executable": true,
+    "sectionRemaining": 322928,
+    "writable": false
+  },
+  "ImFontAtlas_CompactCache": {
+    "address": 451444,
+    "executable": true,
+    "sectionRemaining": 322924,
+    "writable": false
+  },
+  "ImFontAtlas_GetCustomRect": {
+    "address": 451448,
+    "executable": true,
+    "sectionRemaining": 322920,
+    "writable": false
+  },
+  "ImFontAtlas_GetGlyphRangesDefault": {
+    "address": 451468,
+    "executable": true,
+    "sectionRemaining": 322900,
+    "writable": false
+  },
+  "ImFontAtlas_RemoveCustomRect": {
+    "address": 451472,
+    "executable": true,
+    "sectionRemaining": 322896,
+    "writable": false
+  },
+  "ImFontAtlas_RemoveFont": {
+    "address": 451476,
+    "executable": true,
+    "sectionRemaining": 322892,
+    "writable": false
+  },
+  "ImFontAtlas_SetFontLoader": {
+    "address": 451480,
+    "executable": true,
+    "sectionRemaining": 322888,
+    "writable": false
+  },
+  "ImFontBaked_ClearOutputData": {
+    "address": 451484,
+    "executable": true,
+    "sectionRemaining": 322884,
+    "writable": false
+  },
+  "ImFontBaked_FindGlyph": {
+    "address": 451488,
+    "executable": true,
+    "sectionRemaining": 322880,
+    "writable": false
+  },
+  "ImFontBaked_FindGlyphNoFallback": {
+    "address": 451492,
+    "executable": true,
+    "sectionRemaining": 322876,
+    "writable": false
+  },
+  "ImFontBaked_GetCharAdvance": {
+    "address": 451496,
+    "executable": true,
+    "sectionRemaining": 322872,
+    "writable": false
+  },
+  "ImFontBaked_IsGlyphLoaded": {
+    "address": 451500,
+    "executable": true,
+    "sectionRemaining": 322868,
+    "writable": false
+  },
+  "ImFontGlyphRangesBuilder_AddChar": {
+    "address": 451520,
+    "executable": true,
+    "sectionRemaining": 322848,
+    "writable": false
+  },
+  "ImFontGlyphRangesBuilder_AddRanges": {
+    "address": 451552,
+    "executable": true,
+    "sectionRemaining": 322816,
+    "writable": false
+  },
+  "ImFontGlyphRangesBuilder_AddText": {
+    "address": 451556,
+    "executable": true,
+    "sectionRemaining": 322812,
+    "writable": false
+  },
+  "ImFontGlyphRangesBuilder_BuildRanges": {
+    "address": 451560,
+    "executable": true,
+    "sectionRemaining": 322808,
+    "writable": false
+  },
+  "ImFontGlyphRangesBuilder_Clear": {
+    "address": 451564,
+    "executable": true,
+    "sectionRemaining": 322804,
+    "writable": false
+  },
+  "ImFontGlyphRangesBuilder_GetBit": {
+    "address": 451716,
+    "executable": true,
+    "sectionRemaining": 322652,
+    "writable": false
+  },
+  "ImFontGlyphRangesBuilder_SetBit": {
+    "address": 451740,
+    "executable": true,
+    "sectionRemaining": 322628,
+    "writable": false
+  },
+  "ImFont_AddRemapChar": {
+    "address": 451772,
+    "executable": true,
+    "sectionRemaining": 322596,
+    "writable": false
+  },
+  "ImFont_CalcTextSizeA": {
+    "address": 451776,
+    "executable": true,
+    "sectionRemaining": 322592,
+    "writable": false
+  },
+  "ImFont_CalcWordWrapPosition": {
+    "address": 451780,
+    "executable": true,
+    "sectionRemaining": 322588,
+    "writable": false
+  },
+  "ImFont_ClearOutputData": {
+    "address": 451784,
+    "executable": true,
+    "sectionRemaining": 322584,
+    "writable": false
+  },
+  "ImFont_GetDebugName": {
+    "address": 451788,
+    "executable": true,
+    "sectionRemaining": 322580,
+    "writable": false
+  },
+  "ImFont_GetFontBaked": {
+    "address": 451820,
+    "executable": true,
+    "sectionRemaining": 322548,
+    "writable": false
+  },
+  "ImFont_IsGlyphInFont": {
+    "address": 451824,
+    "executable": true,
+    "sectionRemaining": 322544,
+    "writable": false
+  },
+  "ImFont_IsGlyphRangeUnused": {
+    "address": 451844,
+    "executable": true,
+    "sectionRemaining": 322524,
+    "writable": false
+  },
+  "ImFont_IsLoaded": {
+    "address": 451864,
+    "executable": true,
+    "sectionRemaining": 322504,
+    "writable": false
+  },
+  "ImFont_RenderChar": {
+    "address": 451880,
+    "executable": true,
+    "sectionRemaining": 322488,
+    "writable": false
+  },
+  "ImFont_RenderText": {
+    "address": 451884,
+    "executable": true,
+    "sectionRemaining": 322484,
+    "writable": false
+  },
+  "ImGuiDockNode_IsCentralNode_internal": {
+    "address": 451896,
+    "executable": true,
+    "sectionRemaining": 322472,
+    "writable": false
+  },
+  "ImGuiDockNode_IsDockSpace_internal": {
+    "address": 451908,
+    "executable": true,
+    "sectionRemaining": 322460,
+    "writable": false
+  },
+  "ImGuiDockNode_IsEmpty_internal": {
+    "address": 451920,
+    "executable": true,
+    "sectionRemaining": 322448,
+    "writable": false
+  },
+  "ImGuiDockNode_IsFloatingNode_internal": {
+    "address": 451944,
+    "executable": true,
+    "sectionRemaining": 322424,
+    "writable": false
+  },
+  "ImGuiDockNode_IsHiddenTabBar_internal": {
+    "address": 451968,
+    "executable": true,
+    "sectionRemaining": 322400,
+    "writable": false
+  },
+  "ImGuiDockNode_IsLeafNode_internal": {
+    "address": 451980,
+    "executable": true,
+    "sectionRemaining": 322388,
+    "writable": false
+  },
+  "ImGuiDockNode_IsNoTabBar_internal": {
+    "address": 451996,
+    "executable": true,
+    "sectionRemaining": 322372,
+    "writable": false
+  },
+  "ImGuiDockNode_IsRootNode_internal": {
+    "address": 452008,
+    "executable": true,
+    "sectionRemaining": 322360,
+    "writable": false
+  },
+  "ImGuiDockNode_IsSplitNode_internal": {
+    "address": 452024,
+    "executable": true,
+    "sectionRemaining": 322344,
+    "writable": false
+  },
+  "ImGuiDockNode_Rect_internal": {
+    "address": 452040,
+    "executable": true,
+    "sectionRemaining": 322328,
+    "writable": false
+  },
+  "ImGuiDockNode_SetLocalFlags_internal": {
+    "address": 452060,
+    "executable": true,
+    "sectionRemaining": 322308,
+    "writable": false
+  },
+  "ImGuiDockNode_UpdateMergedFlags_internal": {
+    "address": 452088,
+    "executable": true,
+    "sectionRemaining": 322280,
+    "writable": false
+  },
+  "ImGuiIO_AddFocusEvent": {
+    "address": 452112,
+    "executable": true,
+    "sectionRemaining": 322256,
+    "writable": false
+  },
+  "ImGuiIO_AddInputCharacter": {
+    "address": 452124,
+    "executable": true,
+    "sectionRemaining": 322244,
+    "writable": false
+  },
+  "ImGuiIO_AddInputCharacterUTF16": {
+    "address": 452128,
+    "executable": true,
+    "sectionRemaining": 322240,
+    "writable": false
+  },
+  "ImGuiIO_AddInputCharactersUTF8": {
+    "address": 452132,
+    "executable": true,
+    "sectionRemaining": 322236,
+    "writable": false
+  },
+  "ImGuiIO_AddKeyAnalogEvent": {
+    "address": 452136,
+    "executable": true,
+    "sectionRemaining": 322232,
+    "writable": false
+  },
+  "ImGuiIO_AddKeyEvent": {
+    "address": 452148,
+    "executable": true,
+    "sectionRemaining": 322220,
+    "writable": false
+  },
+  "ImGuiIO_AddMouseButtonEvent": {
+    "address": 452160,
+    "executable": true,
+    "sectionRemaining": 322208,
+    "writable": false
+  },
+  "ImGuiIO_AddMousePosEvent": {
+    "address": 452172,
+    "executable": true,
+    "sectionRemaining": 322196,
+    "writable": false
+  },
+  "ImGuiIO_AddMouseSourceEvent": {
+    "address": 452176,
+    "executable": true,
+    "sectionRemaining": 322192,
+    "writable": false
+  },
+  "ImGuiIO_AddMouseViewportEvent": {
+    "address": 452180,
+    "executable": true,
+    "sectionRemaining": 322188,
+    "writable": false
+  },
+  "ImGuiIO_AddMouseWheelEvent": {
+    "address": 452184,
+    "executable": true,
+    "sectionRemaining": 322184,
+    "writable": false
+  },
+  "ImGuiIO_ClearEventsQueue": {
+    "address": 452188,
+    "executable": true,
+    "sectionRemaining": 322180,
+    "writable": false
+  },
+  "ImGuiIO_ClearInputKeys": {
+    "address": 452192,
+    "executable": true,
+    "sectionRemaining": 322176,
+    "writable": false
+  },
+  "ImGuiIO_ClearInputMouse": {
+    "address": 452196,
+    "executable": true,
+    "sectionRemaining": 322172,
+    "writable": false
+  },
+  "ImGuiIO_SetAppAcceptingEvents": {
+    "address": 452200,
+    "executable": true,
+    "sectionRemaining": 322168,
+    "writable": false
+  },
+  "ImGuiIO_SetKeyEventNativeData": {
+    "address": 452212,
+    "executable": true,
+    "sectionRemaining": 322156,
+    "writable": false
+  },
+  "ImGuiInputTextCallbackData_ClearSelection": {
+    "address": 452216,
+    "executable": true,
+    "sectionRemaining": 322152,
+    "writable": false
+  },
+  "ImGuiInputTextCallbackData_DeleteChars": {
+    "address": 452228,
+    "executable": true,
+    "sectionRemaining": 322140,
+    "writable": false
+  },
+  "ImGuiInputTextCallbackData_HasSelection": {
+    "address": 452232,
+    "executable": true,
+    "sectionRemaining": 322136,
+    "writable": false
+  },
+  "ImGuiInputTextCallbackData_InsertChars": {
+    "address": 452248,
+    "executable": true,
+    "sectionRemaining": 322120,
+    "writable": false
+  },
+  "ImGuiInputTextCallbackData_SelectAll": {
+    "address": 452252,
+    "executable": true,
+    "sectionRemaining": 322116,
+    "writable": false
+  },
+  "ImGuiInputTextDeactivatedState_ClearFreeMemory_internal": {
+    "address": 452264,
+    "executable": true,
+    "sectionRemaining": 322104,
+    "writable": false
+  },
+  "ImGuiInputTextState_ClearFreeMemory_internal": {
+    "address": 452320,
+    "executable": true,
+    "sectionRemaining": 322048,
+    "writable": false
+  },
+  "ImGuiInputTextState_ClearSelection_internal": {
+    "address": 452388,
+    "executable": true,
+    "sectionRemaining": 321980,
+    "writable": false
+  },
+  "ImGuiInputTextState_ClearText_internal": {
+    "address": 452392,
+    "executable": true,
+    "sectionRemaining": 321976,
+    "writable": false
+  },
+  "ImGuiInputTextState_CursorAnimReset_internal": {
+    "address": 452408,
+    "executable": true,
+    "sectionRemaining": 321960,
+    "writable": false
+  },
+  "ImGuiInputTextState_CursorClamp_internal": {
+    "address": 452412,
+    "executable": true,
+    "sectionRemaining": 321956,
+    "writable": false
+  },
+  "ImGuiInputTextState_GetCursorPos_internal": {
+    "address": 452416,
+    "executable": true,
+    "sectionRemaining": 321952,
+    "writable": false
+  },
+  "ImGuiInputTextState_GetSelectionEnd_internal": {
+    "address": 452420,
+    "executable": true,
+    "sectionRemaining": 321948,
+    "writable": false
+  },
+  "ImGuiInputTextState_GetSelectionStart_internal": {
+    "address": 452424,
+    "executable": true,
+    "sectionRemaining": 321944,
+    "writable": false
+  },
+  "ImGuiInputTextState_HasSelection_internal": {
+    "address": 452428,
+    "executable": true,
+    "sectionRemaining": 321940,
+    "writable": false
+  },
+  "ImGuiInputTextState_OnCharPressed_internal": {
+    "address": 452448,
+    "executable": true,
+    "sectionRemaining": 321920,
+    "writable": false
+  },
+  "ImGuiInputTextState_OnKeyPressed_internal": {
+    "address": 452452,
+    "executable": true,
+    "sectionRemaining": 321916,
+    "writable": false
+  },
+  "ImGuiInputTextState_ReloadUserBufAndKeepSelection_internal": {
+    "address": 452456,
+    "executable": true,
+    "sectionRemaining": 321912,
+    "writable": false
+  },
+  "ImGuiInputTextState_ReloadUserBufAndMoveToEnd_internal": {
+    "address": 452460,
+    "executable": true,
+    "sectionRemaining": 321908,
+    "writable": false
+  },
+  "ImGuiInputTextState_ReloadUserBufAndSelectAll_internal": {
+    "address": 452464,
+    "executable": true,
+    "sectionRemaining": 321904,
+    "writable": false
+  },
+  "ImGuiInputTextState_SelectAll_internal": {
+    "address": 452468,
+    "executable": true,
+    "sectionRemaining": 321900,
+    "writable": false
+  },
+  "ImGuiKeyRoutingTable_Clear_internal": {
+    "address": 452472,
+    "executable": true,
+    "sectionRemaining": 321896,
+    "writable": false
+  },
+  "ImGuiListClipperData_Reset_internal": {
+    "address": 452596,
+    "executable": true,
+    "sectionRemaining": 321772,
+    "writable": false
+  },
+  "ImGuiListClipperRange_FromIndices_internal": {
+    "address": 452700,
+    "executable": true,
+    "sectionRemaining": 321668,
+    "writable": false
+  },
+  "ImGuiListClipperRange_FromPositions_internal": {
+    "address": 452716,
+    "executable": true,
+    "sectionRemaining": 321652,
+    "writable": false
+  },
+  "ImGuiListClipper_Begin": {
+    "address": 452744,
+    "executable": true,
+    "sectionRemaining": 321624,
+    "writable": false
+  },
+  "ImGuiListClipper_End": {
+    "address": 452748,
+    "executable": true,
+    "sectionRemaining": 321620,
+    "writable": false
+  },
+  "ImGuiListClipper_IncludeItemByIndex": {
+    "address": 452752,
+    "executable": true,
+    "sectionRemaining": 321616,
+    "writable": false
+  },
+  "ImGuiListClipper_IncludeItemsByIndex": {
+    "address": 452760,
+    "executable": true,
+    "sectionRemaining": 321608,
+    "writable": false
+  },
+  "ImGuiListClipper_SeekCursorForItem": {
+    "address": 452764,
+    "executable": true,
+    "sectionRemaining": 321604,
+    "writable": false
+  },
+  "ImGuiListClipper_Step": {
+    "address": 452768,
+    "executable": true,
+    "sectionRemaining": 321600,
+    "writable": false
+  },
+  "ImGuiMenuColumns_CalcNextTotalWidth_internal": {
+    "address": 452788,
+    "executable": true,
+    "sectionRemaining": 321580,
+    "writable": false
+  },
+  "ImGuiMenuColumns_DeclColumns_internal": {
+    "address": 452800,
+    "executable": true,
+    "sectionRemaining": 321568,
+    "writable": false
+  },
+  "ImGuiMenuColumns_Update_internal": {
+    "address": 452804,
+    "executable": true,
+    "sectionRemaining": 321564,
+    "writable": false
+  },
+  "ImGuiMultiSelectTempData_ClearIO_internal": {
+    "address": 452816,
+    "executable": true,
+    "sectionRemaining": 321552,
+    "writable": false
+  },
+  "ImGuiMultiSelectTempData_Clear_internal": {
+    "address": 452924,
+    "executable": true,
+    "sectionRemaining": 321444,
+    "writable": false
+  },
+  "ImGuiNavItemData_Clear_internal": {
+    "address": 453052,
+    "executable": true,
+    "sectionRemaining": 321316,
+    "writable": false
+  },
+  "ImGuiNextItemData_ClearFlags_internal": {
+    "address": 453092,
+    "executable": true,
+    "sectionRemaining": 321276,
+    "writable": false
+  },
+  "ImGuiNextWindowData_ClearFlags_internal": {
+    "address": 453100,
+    "executable": true,
+    "sectionRemaining": 321268,
+    "writable": false
+  },
+  "ImGuiPayload_Clear": {
+    "address": 453108,
+    "executable": true,
+    "sectionRemaining": 321260,
+    "writable": false
+  },
+  "ImGuiPayload_IsDataType": {
+    "address": 453144,
+    "executable": true,
+    "sectionRemaining": 321224,
+    "writable": false
+  },
+  "ImGuiPayload_IsDelivery": {
+    "address": 453204,
+    "executable": true,
+    "sectionRemaining": 321164,
+    "writable": false
+  },
+  "ImGuiPayload_IsPreview": {
+    "address": 453212,
+    "executable": true,
+    "sectionRemaining": 321156,
+    "writable": false
+  },
+  "ImGuiSelectionBasicStorage_ApplyRequests": {
+    "address": 453220,
+    "executable": true,
+    "sectionRemaining": 321148,
+    "writable": false
+  },
+  "ImGuiSelectionBasicStorage_Clear": {
+    "address": 453224,
+    "executable": true,
+    "sectionRemaining": 321144,
+    "writable": false
+  },
+  "ImGuiSelectionBasicStorage_Contains": {
+    "address": 453228,
+    "executable": true,
+    "sectionRemaining": 321140,
+    "writable": false
+  },
+  "ImGuiSelectionBasicStorage_GetNextSelectedItem": {
+    "address": 453248,
+    "executable": true,
+    "sectionRemaining": 321120,
+    "writable": false
+  },
+  "ImGuiSelectionBasicStorage_GetStorageIdFromIndex": {
+    "address": 453268,
+    "executable": true,
+    "sectionRemaining": 321100,
+    "writable": false
+  },
+  "ImGuiSelectionBasicStorage_SetItemSelected": {
+    "address": 453276,
+    "executable": true,
+    "sectionRemaining": 321092,
+    "writable": false
+  },
+  "ImGuiSelectionBasicStorage_Swap": {
+    "address": 453288,
+    "executable": true,
+    "sectionRemaining": 321080,
+    "writable": false
+  },
+  "ImGuiSelectionExternalStorage_ApplyRequests": {
+    "address": 453292,
+    "executable": true,
+    "sectionRemaining": 321076,
+    "writable": false
+  },
+  "ImGuiStorage_BuildSortByKey": {
+    "address": 453296,
+    "executable": true,
+    "sectionRemaining": 321072,
+    "writable": false
+  },
+  "ImGuiStorage_Clear": {
+    "address": 453300,
+    "executable": true,
+    "sectionRemaining": 321068,
+    "writable": false
+  },
+  "ImGuiStorage_GetBool": {
+    "address": 453352,
+    "executable": true,
+    "sectionRemaining": 321016,
+    "writable": false
+  },
+  "ImGuiStorage_GetBoolRef": {
+    "address": 453380,
+    "executable": true,
+    "sectionRemaining": 320988,
+    "writable": false
+  },
+  "ImGuiStorage_GetFloat": {
+    "address": 453392,
+    "executable": true,
+    "sectionRemaining": 320976,
+    "writable": false
+  },
+  "ImGuiStorage_GetFloatRef": {
+    "address": 453396,
+    "executable": true,
+    "sectionRemaining": 320972,
+    "writable": false
+  },
+  "ImGuiStorage_GetInt": {
+    "address": 453400,
+    "executable": true,
+    "sectionRemaining": 320968,
+    "writable": false
+  },
+  "ImGuiStorage_GetIntRef": {
+    "address": 453404,
+    "executable": true,
+    "sectionRemaining": 320964,
+    "writable": false
+  },
+  "ImGuiStorage_GetVoidPtr": {
+    "address": 453408,
+    "executable": true,
+    "sectionRemaining": 320960,
+    "writable": false
+  },
+  "ImGuiStorage_GetVoidPtrRef": {
+    "address": 453412,
+    "executable": true,
+    "sectionRemaining": 320956,
+    "writable": false
+  },
+  "ImGuiStorage_SetAllInt": {
+    "address": 453416,
+    "executable": true,
+    "sectionRemaining": 320952,
+    "writable": false
+  },
+  "ImGuiStorage_SetBool": {
+    "address": 453420,
+    "executable": true,
+    "sectionRemaining": 320948,
+    "writable": false
+  },
+  "ImGuiStorage_SetFloat": {
+    "address": 453432,
+    "executable": true,
+    "sectionRemaining": 320936,
+    "writable": false
+  },
+  "ImGuiStorage_SetInt": {
+    "address": 453436,
+    "executable": true,
+    "sectionRemaining": 320932,
+    "writable": false
+  },
+  "ImGuiStorage_SetVoidPtr": {
+    "address": 453440,
+    "executable": true,
+    "sectionRemaining": 320928,
+    "writable": false
+  },
+  "ImGuiStyleVarInfo_GetVarPtr_internal": {
+    "address": 453444,
+    "executable": true,
+    "sectionRemaining": 320924,
+    "writable": false
+  },
+  "ImGuiStyle_ScaleAllSizes": {
+    "address": 453456,
+    "executable": true,
+    "sectionRemaining": 320912,
+    "writable": false
+  },
+  "ImGuiTableSettings_GetColumnSettings_internal": {
+    "address": 453460,
+    "executable": true,
+    "sectionRemaining": 320908,
+    "writable": false
+  },
+  "ImGuiTextFilter_Build": {
+    "address": 453468,
+    "executable": true,
+    "sectionRemaining": 320900,
+    "writable": false
+  },
+  "ImGuiTextFilter_Clear": {
+    "address": 453472,
+    "executable": true,
+    "sectionRemaining": 320896,
+    "writable": false
+  },
+  "ImGuiTextFilter_Draw": {
+    "address": 453480,
+    "executable": true,
+    "sectionRemaining": 320888,
+    "writable": false
+  },
+  "ImGuiTextFilter_IsActive": {
+    "address": 453500,
+    "executable": true,
+    "sectionRemaining": 320868,
+    "writable": false
+  },
+  "ImGuiTextFilter_PassFilter": {
+    "address": 453516,
+    "executable": true,
+    "sectionRemaining": 320852,
+    "writable": false
+  },
+  "ImGuiTextIndex_append_internal": {
+    "address": 453536,
+    "executable": true,
+    "sectionRemaining": 320832,
+    "writable": false
+  },
+  "ImGuiTextIndex_clear_internal": {
+    "address": 453540,
+    "executable": true,
+    "sectionRemaining": 320828,
+    "writable": false
+  },
+  "ImGuiTextIndex_get_line_begin_internal": {
+    "address": 453592,
+    "executable": true,
+    "sectionRemaining": 320776,
+    "writable": false
+  },
+  "ImGuiTextIndex_get_line_end_internal": {
+    "address": 453608,
+    "executable": true,
+    "sectionRemaining": 320760,
+    "writable": false
+  },
+  "ImGuiTextIndex_size_internal": {
+    "address": 453656,
+    "executable": true,
+    "sectionRemaining": 320712,
+    "writable": false
+  },
+  "ImGuiTypingSelectState_Clear_internal": {
+    "address": 453664,
+    "executable": true,
+    "sectionRemaining": 320704,
+    "writable": false
+  },
+  "ImGuiViewportP_CalcWorkRectPos_internal": {
+    "address": 453676,
+    "executable": true,
+    "sectionRemaining": 320692,
+    "writable": false
+  },
+  "ImGuiViewportP_CalcWorkRectSize_internal": {
+    "address": 453696,
+    "executable": true,
+    "sectionRemaining": 320672,
+    "writable": false
+  },
+  "ImGuiViewportP_ClearRequestFlags_internal": {
+    "address": 453732,
+    "executable": true,
+    "sectionRemaining": 320636,
+    "writable": false
+  },
+  "ImGuiViewportP_GetBuildWorkRect_internal": {
+    "address": 453744,
+    "executable": true,
+    "sectionRemaining": 320624,
+    "writable": false
+  },
+  "ImGuiViewportP_GetMainRect_internal": {
+    "address": 453788,
+    "executable": true,
+    "sectionRemaining": 320580,
+    "writable": false
+  },
+  "ImGuiViewportP_GetWorkRect_internal": {
+    "address": 453808,
+    "executable": true,
+    "sectionRemaining": 320560,
+    "writable": false
+  },
+  "ImGuiViewportP_UpdateWorkRect_internal": {
+    "address": 453828,
+    "executable": true,
+    "sectionRemaining": 320540,
+    "writable": false
+  },
+  "ImGuiViewport_GetCenter": {
+    "address": 453864,
+    "executable": true,
+    "sectionRemaining": 320504,
+    "writable": false
+  },
+  "ImGuiViewport_GetWorkCenter": {
+    "address": 453884,
+    "executable": true,
+    "sectionRemaining": 320484,
+    "writable": false
+  },
+  "ImGuiWindowSettings_GetName_internal": {
+    "address": 453904,
+    "executable": true,
+    "sectionRemaining": 320464,
+    "writable": false
+  },
+  "ImGuiWindow_GetIDFromPos_internal": {
+    "address": 453912,
+    "executable": true,
+    "sectionRemaining": 320456,
+    "writable": false
+  },
+  "ImGuiWindow_GetIDFromRectangle_internal": {
+    "address": 453916,
+    "executable": true,
+    "sectionRemaining": 320452,
+    "writable": false
+  },
+  "ImGuiWindow_GetID_internal_0": {
+    "address": 453920,
+    "executable": true,
+    "sectionRemaining": 320448,
+    "writable": false
+  },
+  "ImGuiWindow_GetID_internal_1": {
+    "address": 453924,
+    "executable": true,
+    "sectionRemaining": 320444,
+    "writable": false
+  },
+  "ImGuiWindow_GetID_internal_2": {
+    "address": 453928,
+    "executable": true,
+    "sectionRemaining": 320440,
+    "writable": false
+  },
+  "ImGuiWindow_MenuBarRect_internal": {
+    "address": 453932,
+    "executable": true,
+    "sectionRemaining": 320436,
+    "writable": false
+  },
+  "ImGuiWindow_Rect_internal": {
+    "address": 453960,
+    "executable": true,
+    "sectionRemaining": 320408,
+    "writable": false
+  },
+  "ImGuiWindow_TitleBarRect_internal": {
+    "address": 453980,
+    "executable": true,
+    "sectionRemaining": 320388,
+    "writable": false
+  },
+  "ImRect_Add_internal_0": {
+    "address": 454004,
+    "executable": true,
+    "sectionRemaining": 320364,
+    "writable": false
+  },
+  "ImRect_Add_internal_1": {
+    "address": 454088,
+    "executable": true,
+    "sectionRemaining": 320280,
+    "writable": false
+  },
+  "ImRect_ClipWithFull_internal": {
+    "address": 454172,
+    "executable": true,
+    "sectionRemaining": 320196,
+    "writable": false
+  },
+  "ImRect_ClipWith_internal": {
+    "address": 454228,
+    "executable": true,
+    "sectionRemaining": 320140,
+    "writable": false
+  },
+  "ImRect_ContainsWithPad_internal": {
+    "address": 454268,
+    "executable": true,
+    "sectionRemaining": 320100,
+    "writable": false
+  },
+  "ImRect_Contains_internal_0": {
+    "address": 454360,
+    "executable": true,
+    "sectionRemaining": 320008,
+    "writable": false
+  },
+  "ImRect_Contains_internal_1": {
+    "address": 454428,
+    "executable": true,
+    "sectionRemaining": 319940,
+    "writable": false
+  },
+  "ImRect_Expand_internal_0": {
+    "address": 454520,
+    "executable": true,
+    "sectionRemaining": 319848,
+    "writable": false
+  },
+  "ImRect_Expand_internal_1": {
+    "address": 454548,
+    "executable": true,
+    "sectionRemaining": 319820,
+    "writable": false
+  },
+  "ImRect_Floor_internal": {
+    "address": 454608,
+    "executable": true,
+    "sectionRemaining": 319760,
+    "writable": false
+  },
+  "ImRect_GetArea_internal": {
+    "address": 454628,
+    "executable": true,
+    "sectionRemaining": 319740,
+    "writable": false
+  },
+  "ImRect_GetBL_internal": {
+    "address": 454644,
+    "executable": true,
+    "sectionRemaining": 319724,
+    "writable": false
+  },
+  "ImRect_GetBR_internal": {
+    "address": 454656,
+    "executable": true,
+    "sectionRemaining": 319712,
+    "writable": false
+  },
+  "ImRect_GetCenter_internal": {
+    "address": 454664,
+    "executable": true,
+    "sectionRemaining": 319704,
+    "writable": false
+  },
+  "ImRect_GetHeight_internal": {
+    "address": 454688,
+    "executable": true,
+    "sectionRemaining": 319680,
+    "writable": false
+  },
+  "ImRect_GetSize_internal": {
+    "address": 454704,
+    "executable": true,
+    "sectionRemaining": 319664,
+    "writable": false
+  },
+  "ImRect_GetTL_internal": {
+    "address": 454720,
+    "executable": true,
+    "sectionRemaining": 319648,
+    "writable": false
+  },
+  "ImRect_GetTR_internal": {
+    "address": 454728,
+    "executable": true,
+    "sectionRemaining": 319640,
+    "writable": false
+  },
+  "ImRect_GetWidth_internal": {
+    "address": 454736,
+    "executable": true,
+    "sectionRemaining": 319632,
+    "writable": false
+  },
+  "ImRect_IsInverted_internal": {
+    "address": 454752,
+    "executable": true,
+    "sectionRemaining": 319616,
+    "writable": false
+  },
+  "ImRect_Overlaps_internal": {
+    "address": 454780,
+    "executable": true,
+    "sectionRemaining": 319588,
+    "writable": false
+  },
+  "ImRect_ToVec4_internal": {
+    "address": 454856,
+    "executable": true,
+    "sectionRemaining": 319512,
+    "writable": false
+  },
+  "ImRect_TranslateX_internal": {
+    "address": 454868,
+    "executable": true,
+    "sectionRemaining": 319500,
+    "writable": false
+  },
+  "ImRect_TranslateY_internal": {
+    "address": 454896,
+    "executable": true,
+    "sectionRemaining": 319472,
+    "writable": false
+  },
+  "ImRect_Translate_internal": {
+    "address": 454924,
+    "executable": true,
+    "sectionRemaining": 319444,
+    "writable": false
+  },
+  "ImTextureData_Create": {
+    "address": 454984,
+    "executable": true,
+    "sectionRemaining": 319384,
+    "writable": false
+  },
+  "ImTextureData_DestroyPixels": {
+    "address": 454988,
+    "executable": true,
+    "sectionRemaining": 319380,
+    "writable": false
+  },
+  "ImTextureData_GetPitch": {
+    "address": 454992,
+    "executable": true,
+    "sectionRemaining": 319376,
+    "writable": false
+  },
+  "ImTextureData_GetPixels": {
+    "address": 455008,
+    "executable": true,
+    "sectionRemaining": 319360,
+    "writable": false
+  },
+  "ImTextureData_GetPixelsAt": {
+    "address": 455016,
+    "executable": true,
+    "sectionRemaining": 319352,
+    "writable": false
+  },
+  "ImTextureData_GetSizeInBytes": {
+    "address": 455040,
+    "executable": true,
+    "sectionRemaining": 319328,
+    "writable": false
+  },
+  "ImTextureData_GetTexID": {
+    "address": 455060,
+    "executable": true,
+    "sectionRemaining": 319308,
+    "writable": false
+  },
+  "ImTextureData_GetTexRef": {
+    "address": 455068,
+    "executable": true,
+    "sectionRemaining": 319300,
+    "writable": false
+  },
+  "ImTextureData_SetStatus": {
+    "address": 455076,
+    "executable": true,
+    "sectionRemaining": 319292,
+    "writable": false
+  },
+  "ImTextureData_SetTexID": {
+    "address": 455084,
+    "executable": true,
+    "sectionRemaining": 319284,
+    "writable": false
+  },
+  "ImTextureRef_GetTexID": {
+    "address": 455092,
+    "executable": true,
+    "sectionRemaining": 319276,
+    "writable": false
+  },
+  "Image": {
+    "address": 455116,
+    "executable": true,
+    "sectionRemaining": 319252,
+    "writable": false
+  },
+  "ImageButton": {
+    "address": 455120,
+    "executable": true,
+    "sectionRemaining": 319248,
+    "writable": false
+  },
+  "ImageButtonEx_internal": {
+    "address": 455140,
+    "executable": true,
+    "sectionRemaining": 319228,
+    "writable": false
+  },
+  "ImageWithBg": {
+    "address": 455176,
+    "executable": true,
+    "sectionRemaining": 319192,
+    "writable": false
+  },
+  "Indent": {
+    "address": 455180,
+    "executable": true,
+    "sectionRemaining": 319188,
+    "writable": false
+  },
+  "Initialize_internal": {
+    "address": 455184,
+    "executable": true,
+    "sectionRemaining": 319184,
+    "writable": false
+  },
+  "InputDouble": {
+    "address": 455188,
+    "executable": true,
+    "sectionRemaining": 319180,
+    "writable": false
+  },
+  "InputFloat": {
+    "address": 455208,
+    "executable": true,
+    "sectionRemaining": 319160,
+    "writable": false
+  },
+  "InputFloat2": {
+    "address": 455228,
+    "executable": true,
+    "sectionRemaining": 319140,
+    "writable": false
+  },
+  "InputFloat3": {
+    "address": 455248,
+    "executable": true,
+    "sectionRemaining": 319120,
+    "writable": false
+  },
+  "InputFloat4": {
+    "address": 455268,
+    "executable": true,
+    "sectionRemaining": 319100,
+    "writable": false
+  },
+  "InputInt": {
+    "address": 455288,
+    "executable": true,
+    "sectionRemaining": 319080,
+    "writable": false
+  },
+  "InputInt2": {
+    "address": 455308,
+    "executable": true,
+    "sectionRemaining": 319060,
+    "writable": false
+  },
+  "InputInt3": {
+    "address": 455328,
+    "executable": true,
+    "sectionRemaining": 319040,
+    "writable": false
+  },
+  "InputInt4": {
+    "address": 455348,
+    "executable": true,
+    "sectionRemaining": 319020,
+    "writable": false
+  },
+  "InputScalar": {
+    "address": 455368,
+    "executable": true,
+    "sectionRemaining": 319000,
+    "writable": false
+  },
+  "InputScalarN": {
+    "address": 455388,
+    "executable": true,
+    "sectionRemaining": 318980,
+    "writable": false
+  },
+  "InputText": {
+    "address": 455408,
+    "executable": true,
+    "sectionRemaining": 318960,
+    "writable": false
+  },
+  "InputTextDeactivateHook_internal": {
+    "address": 455428,
+    "executable": true,
+    "sectionRemaining": 318940,
+    "writable": false
+  },
+  "InputTextEx_internal": {
+    "address": 455432,
+    "executable": true,
+    "sectionRemaining": 318936,
+    "writable": false
+  },
+  "InputTextMultiline": {
+    "address": 455452,
+    "executable": true,
+    "sectionRemaining": 318916,
+    "writable": false
+  },
+  "InputTextWithHint": {
+    "address": 455472,
+    "executable": true,
+    "sectionRemaining": 318896,
+    "writable": false
+  },
+  "InvisibleButton": {
+    "address": 455492,
+    "executable": true,
+    "sectionRemaining": 318876,
+    "writable": false
+  },
+  "IsActiveIdUsingNavDir_internal": {
+    "address": 455512,
+    "executable": true,
+    "sectionRemaining": 318856,
+    "writable": false
+  },
+  "IsAliasKey_internal": {
+    "address": 455540,
+    "executable": true,
+    "sectionRemaining": 318828,
+    "writable": false
+  },
+  "IsAnyItemActive": {
+    "address": 455556,
+    "executable": true,
+    "sectionRemaining": 318812,
+    "writable": false
+  },
+  "IsAnyItemFocused": {
+    "address": 455576,
+    "executable": true,
+    "sectionRemaining": 318792,
+    "writable": false
+  },
+  "IsAnyItemHovered": {
+    "address": 455596,
+    "executable": true,
+    "sectionRemaining": 318772,
+    "writable": false
+  },
+  "IsAnyMouseDown": {
+    "address": 455616,
+    "executable": true,
+    "sectionRemaining": 318752,
+    "writable": false
+  },
+  "IsClippedEx_internal": {
+    "address": 455636,
+    "executable": true,
+    "sectionRemaining": 318732,
+    "writable": false
+  },
+  "IsDragDropActive_internal": {
+    "address": 455656,
+    "executable": true,
+    "sectionRemaining": 318712,
+    "writable": false
+  },
+  "IsDragDropPayloadBeingAccepted_internal": {
+    "address": 455676,
+    "executable": true,
+    "sectionRemaining": 318692,
+    "writable": false
+  },
+  "IsGamepadKey_internal": {
+    "address": 455696,
+    "executable": true,
+    "sectionRemaining": 318672,
+    "writable": false
+  },
+  "IsItemActivated": {
+    "address": 455712,
+    "executable": true,
+    "sectionRemaining": 318656,
+    "writable": false
+  },
+  "IsItemActive": {
+    "address": 455732,
+    "executable": true,
+    "sectionRemaining": 318636,
+    "writable": false
+  },
+  "IsItemActiveAsInputText_internal": {
+    "address": 455752,
+    "executable": true,
+    "sectionRemaining": 318616,
+    "writable": false
+  },
+  "IsItemClicked": {
+    "address": 455808,
+    "executable": true,
+    "sectionRemaining": 318560,
+    "writable": false
+  },
+  "IsItemDeactivated": {
+    "address": 455828,
+    "executable": true,
+    "sectionRemaining": 318540,
+    "writable": false
+  },
+  "IsItemDeactivatedAfterEdit": {
+    "address": 455848,
+    "executable": true,
+    "sectionRemaining": 318520,
+    "writable": false
+  },
+  "IsItemEdited": {
+    "address": 455868,
+    "executable": true,
+    "sectionRemaining": 318500,
+    "writable": false
+  },
+  "IsItemFocused": {
+    "address": 455888,
+    "executable": true,
+    "sectionRemaining": 318480,
+    "writable": false
+  },
+  "IsItemHovered": {
+    "address": 455908,
+    "executable": true,
+    "sectionRemaining": 318460,
+    "writable": false
+  },
+  "IsItemToggledOpen": {
+    "address": 455928,
+    "executable": true,
+    "sectionRemaining": 318440,
+    "writable": false
+  },
+  "IsItemToggledSelection": {
+    "address": 455948,
+    "executable": true,
+    "sectionRemaining": 318420,
+    "writable": false
+  },
+  "IsItemVisible": {
+    "address": 455968,
+    "executable": true,
+    "sectionRemaining": 318400,
+    "writable": false
+  },
+  "IsKeyChordPressed": {
+    "address": 455988,
+    "executable": true,
+    "sectionRemaining": 318380,
+    "writable": false
+  },
+  "IsKeyChordPressed_internal": {
+    "address": 456008,
+    "executable": true,
+    "sectionRemaining": 318360,
+    "writable": false
+  },
+  "IsKeyDown": {
+    "address": 456028,
+    "executable": true,
+    "sectionRemaining": 318340,
+    "writable": false
+  },
+  "IsKeyDown_internal": {
+    "address": 456048,
+    "executable": true,
+    "sectionRemaining": 318320,
+    "writable": false
+  },
+  "IsKeyPressed": {
+    "address": 456068,
+    "executable": true,
+    "sectionRemaining": 318300,
+    "writable": false
+  },
+  "IsKeyPressed_internal": {
+    "address": 456096,
+    "executable": true,
+    "sectionRemaining": 318272,
+    "writable": false
+  },
+  "IsKeyReleased": {
+    "address": 456116,
+    "executable": true,
+    "sectionRemaining": 318252,
+    "writable": false
+  },
+  "IsKeyReleased_internal": {
+    "address": 456136,
+    "executable": true,
+    "sectionRemaining": 318232,
+    "writable": false
+  },
+  "IsKeyboardKey_internal": {
+    "address": 456156,
+    "executable": true,
+    "sectionRemaining": 318212,
+    "writable": false
+  },
+  "IsLRModKey_internal": {
+    "address": 456172,
+    "executable": true,
+    "sectionRemaining": 318196,
+    "writable": false
+  },
+  "IsLegacyKey_internal": {
+    "address": 456188,
+    "executable": true,
+    "sectionRemaining": 318180,
+    "writable": false
+  },
+  "IsMouseClicked": {
+    "address": 456200,
+    "executable": true,
+    "sectionRemaining": 318168,
+    "writable": false
+  },
+  "IsMouseClicked_internal": {
+    "address": 456228,
+    "executable": true,
+    "sectionRemaining": 318140,
+    "writable": false
+  },
+  "IsMouseDoubleClicked": {
+    "address": 456248,
+    "executable": true,
+    "sectionRemaining": 318120,
+    "writable": false
+  },
+  "IsMouseDoubleClicked_internal": {
+    "address": 456268,
+    "executable": true,
+    "sectionRemaining": 318100,
+    "writable": false
+  },
+  "IsMouseDown": {
+    "address": 456288,
+    "executable": true,
+    "sectionRemaining": 318080,
+    "writable": false
+  },
+  "IsMouseDown_internal": {
+    "address": 456308,
+    "executable": true,
+    "sectionRemaining": 318060,
+    "writable": false
+  },
+  "IsMouseDragPastThreshold_internal": {
+    "address": 456328,
+    "executable": true,
+    "sectionRemaining": 318040,
+    "writable": false
+  },
+  "IsMouseDragging": {
+    "address": 456348,
+    "executable": true,
+    "sectionRemaining": 318020,
+    "writable": false
+  },
+  "IsMouseHoveringRect": {
+    "address": 456368,
+    "executable": true,
+    "sectionRemaining": 318000,
+    "writable": false
+  },
+  "IsMouseKey_internal": {
+    "address": 456396,
+    "executable": true,
+    "sectionRemaining": 317972,
+    "writable": false
+  },
+  "IsMousePosValid": {
+    "address": 456412,
+    "executable": true,
+    "sectionRemaining": 317956,
+    "writable": false
+  },
+  "IsMouseReleased": {
+    "address": 456432,
+    "executable": true,
+    "sectionRemaining": 317936,
+    "writable": false
+  },
+  "IsMouseReleasedWithDelay": {
+    "address": 456452,
+    "executable": true,
+    "sectionRemaining": 317916,
+    "writable": false
+  },
+  "IsMouseReleased_internal": {
+    "address": 456472,
+    "executable": true,
+    "sectionRemaining": 317896,
+    "writable": false
+  },
+  "IsNamedKeyOrMod_internal": {
+    "address": 456492,
+    "executable": true,
+    "sectionRemaining": 317876,
+    "writable": false
+  },
+  "IsNamedKey_internal": {
+    "address": 456564,
+    "executable": true,
+    "sectionRemaining": 317804,
+    "writable": false
+  },
+  "IsPopupOpen": {
+    "address": 456580,
+    "executable": true,
+    "sectionRemaining": 317788,
+    "writable": false
+  },
+  "IsPopupOpen_internal": {
+    "address": 456600,
+    "executable": true,
+    "sectionRemaining": 317768,
+    "writable": false
+  },
+  "IsRectVisible_0": {
+    "address": 456620,
+    "executable": true,
+    "sectionRemaining": 317748,
+    "writable": false
+  },
+  "IsRectVisible_1": {
+    "address": 456640,
+    "executable": true,
+    "sectionRemaining": 317728,
+    "writable": false
+  },
+  "IsWindowAbove_internal": {
+    "address": 456660,
+    "executable": true,
+    "sectionRemaining": 317708,
+    "writable": false
+  },
+  "IsWindowAppearing": {
+    "address": 456680,
+    "executable": true,
+    "sectionRemaining": 317688,
+    "writable": false
+  },
+  "IsWindowChildOf_internal": {
+    "address": 456700,
+    "executable": true,
+    "sectionRemaining": 317668,
+    "writable": false
+  },
+  "IsWindowCollapsed": {
+    "address": 456736,
+    "executable": true,
+    "sectionRemaining": 317632,
+    "writable": false
+  },
+  "IsWindowContentHoverable_internal": {
+    "address": 456756,
+    "executable": true,
+    "sectionRemaining": 317612,
+    "writable": false
+  },
+  "IsWindowDocked": {
+    "address": 456776,
+    "executable": true,
+    "sectionRemaining": 317592,
+    "writable": false
+  },
+  "IsWindowFocused": {
+    "address": 456796,
+    "executable": true,
+    "sectionRemaining": 317572,
+    "writable": false
+  },
+  "IsWindowHovered": {
+    "address": 456816,
+    "executable": true,
+    "sectionRemaining": 317552,
+    "writable": false
+  },
+  "IsWindowNavFocusable_internal": {
+    "address": 456836,
+    "executable": true,
+    "sectionRemaining": 317532,
+    "writable": false
+  },
+  "IsWindowWithinBeginStackOf_internal": {
+    "address": 456856,
+    "executable": true,
+    "sectionRemaining": 317512,
+    "writable": false
+  },
+  "ItemAdd_internal": {
+    "address": 456876,
+    "executable": true,
+    "sectionRemaining": 317492,
+    "writable": false
+  },
+  "ItemHoverable_internal": {
+    "address": 456896,
+    "executable": true,
+    "sectionRemaining": 317472,
+    "writable": false
+  },
+  "ItemSize_internal_0": {
+    "address": 456916,
+    "executable": true,
+    "sectionRemaining": 317452,
+    "writable": false
+  },
+  "ItemSize_internal_1": {
+    "address": 456920,
+    "executable": true,
+    "sectionRemaining": 317448,
+    "writable": false
+  },
+  "KeepAliveID_internal": {
+    "address": 456964,
+    "executable": true,
+    "sectionRemaining": 317404,
+    "writable": false
+  },
+  "LabelText": {
+    "address": 460072,
+    "executable": true,
+    "sectionRemaining": 314296,
+    "writable": false
+  },
+  "ListBox_0": {
+    "address": 456968,
+    "executable": true,
+    "sectionRemaining": 317400,
+    "writable": false
+  },
+  "ListBox_1": {
+    "address": 456988,
+    "executable": true,
+    "sectionRemaining": 317380,
+    "writable": false
+  },
+  "LoadIniSettingsFromDisk": {
+    "address": 457008,
+    "executable": true,
+    "sectionRemaining": 317360,
+    "writable": false
+  },
+  "LoadIniSettingsFromMemory": {
+    "address": 457012,
+    "executable": true,
+    "sectionRemaining": 317356,
+    "writable": false
+  },
+  "LocalizeGetMsg_internal": {
+    "address": 457016,
+    "executable": true,
+    "sectionRemaining": 317352,
+    "writable": false
+  },
+  "LocalizeRegisterEntries_internal": {
+    "address": 457056,
+    "executable": true,
+    "sectionRemaining": 317312,
+    "writable": false
+  },
+  "LogBegin_internal": {
+    "address": 457060,
+    "executable": true,
+    "sectionRemaining": 317308,
+    "writable": false
+  },
+  "LogButtons": {
+    "address": 457064,
+    "executable": true,
+    "sectionRemaining": 317304,
+    "writable": false
+  },
+  "LogFinish": {
+    "address": 457068,
+    "executable": true,
+    "sectionRemaining": 317300,
+    "writable": false
+  },
+  "LogRenderedText_internal": {
+    "address": 457072,
+    "executable": true,
+    "sectionRemaining": 317296,
+    "writable": false
+  },
+  "LogSetNextTextDecoration_internal": {
+    "address": 457076,
+    "executable": true,
+    "sectionRemaining": 317292,
+    "writable": false
+  },
+  "LogText": {
+    "address": 460076,
+    "executable": true,
+    "sectionRemaining": 314292,
+    "writable": false
+  },
+  "LogToBuffer_internal": {
+    "address": 457080,
+    "executable": true,
+    "sectionRemaining": 317288,
+    "writable": false
+  },
+  "LogToClipboard": {
+    "address": 457084,
+    "executable": true,
+    "sectionRemaining": 317284,
+    "writable": false
+  },
+  "LogToFile": {
+    "address": 457088,
+    "executable": true,
+    "sectionRemaining": 317280,
+    "writable": false
+  },
+  "LogToTTY": {
+    "address": 457092,
+    "executable": true,
+    "sectionRemaining": 317276,
+    "writable": false
+  },
+  "MarkIniSettingsDirty_internal_0": {
+    "address": 457096,
+    "executable": true,
+    "sectionRemaining": 317272,
+    "writable": false
+  },
+  "MarkIniSettingsDirty_internal_1": {
+    "address": 457100,
+    "executable": true,
+    "sectionRemaining": 317268,
+    "writable": false
+  },
+  "MarkItemEdited_internal": {
+    "address": 457104,
+    "executable": true,
+    "sectionRemaining": 317264,
+    "writable": false
+  },
+  "MemAlloc": {
+    "address": 457108,
+    "executable": true,
+    "sectionRemaining": 317260,
+    "writable": false
+  },
+  "MemFree": {
+    "address": 457112,
+    "executable": true,
+    "sectionRemaining": 317256,
+    "writable": false
+  },
+  "MenuItemEx_internal": {
+    "address": 457116,
+    "executable": true,
+    "sectionRemaining": 317252,
+    "writable": false
+  },
+  "MenuItem_0": {
+    "address": 457152,
+    "executable": true,
+    "sectionRemaining": 317216,
+    "writable": false
+  },
+  "MenuItem_1": {
+    "address": 457188,
+    "executable": true,
+    "sectionRemaining": 317180,
+    "writable": false
+  },
+  "MouseButtonToKey_internal": {
+    "address": 457236,
+    "executable": true,
+    "sectionRemaining": 317132,
+    "writable": false
+  },
+  "MultiSelectAddSetAll_internal": {
+    "address": 457244,
+    "executable": true,
+    "sectionRemaining": 317124,
+    "writable": false
+  },
+  "MultiSelectAddSetRange_internal": {
+    "address": 457256,
+    "executable": true,
+    "sectionRemaining": 317112,
+    "writable": false
+  },
+  "MultiSelectItemFooter_internal": {
+    "address": 457268,
+    "executable": true,
+    "sectionRemaining": 317100,
+    "writable": false
+  },
+  "MultiSelectItemHeader_internal": {
+    "address": 457312,
+    "executable": true,
+    "sectionRemaining": 317056,
+    "writable": false
+  },
+  "NavClearPreferredPosForAxis_internal": {
+    "address": 457336,
+    "executable": true,
+    "sectionRemaining": 317032,
+    "writable": false
+  },
+  "NavHighlightActivated_internal": {
+    "address": 457340,
+    "executable": true,
+    "sectionRemaining": 317028,
+    "writable": false
+  },
+  "NavInitRequestApplyResult_internal": {
+    "address": 457344,
+    "executable": true,
+    "sectionRemaining": 317024,
+    "writable": false
+  },
+  "NavInitWindow_internal": {
+    "address": 457348,
+    "executable": true,
+    "sectionRemaining": 317020,
+    "writable": false
+  },
+  "NavMoveRequestApplyResult_internal": {
+    "address": 457360,
+    "executable": true,
+    "sectionRemaining": 317008,
+    "writable": false
+  },
+  "NavMoveRequestButNoResultYet_internal": {
+    "address": 457364,
+    "executable": true,
+    "sectionRemaining": 317004,
+    "writable": false
+  },
+  "NavMoveRequestCancel_internal": {
+    "address": 457384,
+    "executable": true,
+    "sectionRemaining": 316984,
+    "writable": false
+  },
+  "NavMoveRequestForward_internal": {
+    "address": 457388,
+    "executable": true,
+    "sectionRemaining": 316980,
+    "writable": false
+  },
+  "NavMoveRequestResolveWithLastItem_internal": {
+    "address": 457392,
+    "executable": true,
+    "sectionRemaining": 316976,
+    "writable": false
+  },
+  "NavMoveRequestResolveWithPastTreeNode_internal": {
+    "address": 457396,
+    "executable": true,
+    "sectionRemaining": 316972,
+    "writable": false
+  },
+  "NavMoveRequestSubmit_internal": {
+    "address": 457400,
+    "executable": true,
+    "sectionRemaining": 316968,
+    "writable": false
+  },
+  "NavMoveRequestTryWrapping_internal": {
+    "address": 457404,
+    "executable": true,
+    "sectionRemaining": 316964,
+    "writable": false
+  },
+  "NavUpdateCurrentWindowIsScrollPushableX_internal": {
+    "address": 457408,
+    "executable": true,
+    "sectionRemaining": 316960,
+    "writable": false
+  },
+  "NewFrame": {
+    "address": 457412,
+    "executable": true,
+    "sectionRemaining": 316956,
+    "writable": false
+  },
+  "NewLine": {
+    "address": 457416,
+    "executable": true,
+    "sectionRemaining": 316952,
+    "writable": false
+  },
+  "NextColumn": {
+    "address": 457420,
+    "executable": true,
+    "sectionRemaining": 316948,
+    "writable": false
+  },
+  "OpenPopupEx_internal": {
+    "address": 457424,
+    "executable": true,
+    "sectionRemaining": 316944,
+    "writable": false
+  },
+  "OpenPopupOnItemClick": {
+    "address": 457428,
+    "executable": true,
+    "sectionRemaining": 316940,
+    "writable": false
+  },
+  "OpenPopup_0": {
+    "address": 457432,
+    "executable": true,
+    "sectionRemaining": 316936,
+    "writable": false
+  },
+  "OpenPopup_1": {
+    "address": 457436,
+    "executable": true,
+    "sectionRemaining": 316932,
+    "writable": false
+  },
+  "Platform_GetWindowFramebufferScale_ManagedFunctionPointer": {
+    "address": 1046200,
+    "executable": false,
+    "sectionRemaining": 33,
+    "writable": true
+  },
+  "Platform_GetWindowPos_ManagedFunctionPointer": {
+    "address": 1046208,
+    "executable": false,
+    "sectionRemaining": 25,
+    "writable": true
+  },
+  "Platform_GetWindowSize_ManagedFunctionPointer": {
+    "address": 1046216,
+    "executable": false,
+    "sectionRemaining": 17,
+    "writable": true
+  },
+  "PlotEx_internal": {
+    "address": 457440,
+    "executable": true,
+    "sectionRemaining": 316928,
+    "writable": false
+  },
+  "PlotHistogram_0": {
+    "address": 457444,
+    "executable": true,
+    "sectionRemaining": 316924,
+    "writable": false
+  },
+  "PlotHistogram_1": {
+    "address": 457448,
+    "executable": true,
+    "sectionRemaining": 316920,
+    "writable": false
+  },
+  "PlotLines_0": {
+    "address": 457452,
+    "executable": true,
+    "sectionRemaining": 316916,
+    "writable": false
+  },
+  "PlotLines_1": {
+    "address": 457456,
+    "executable": true,
+    "sectionRemaining": 316912,
+    "writable": false
+  },
+  "PopClipRect": {
+    "address": 457460,
+    "executable": true,
+    "sectionRemaining": 316908,
+    "writable": false
+  },
+  "PopColumnsBackground_internal": {
+    "address": 457464,
+    "executable": true,
+    "sectionRemaining": 316904,
+    "writable": false
+  },
+  "PopFocusScope_internal": {
+    "address": 457468,
+    "executable": true,
+    "sectionRemaining": 316900,
+    "writable": false
+  },
+  "PopFont": {
+    "address": 457472,
+    "executable": true,
+    "sectionRemaining": 316896,
+    "writable": false
+  },
+  "PopID": {
+    "address": 457476,
+    "executable": true,
+    "sectionRemaining": 316892,
+    "writable": false
+  },
+  "PopItemFlag": {
+    "address": 457480,
+    "executable": true,
+    "sectionRemaining": 316888,
+    "writable": false
+  },
+  "PopItemWidth": {
+    "address": 457484,
+    "executable": true,
+    "sectionRemaining": 316884,
+    "writable": false
+  },
+  "PopPasswordFont_internal": {
+    "address": 457488,
+    "executable": true,
+    "sectionRemaining": 316880,
+    "writable": false
+  },
+  "PopStyleColor": {
+    "address": 457492,
+    "executable": true,
+    "sectionRemaining": 316876,
+    "writable": false
+  },
+  "PopStyleVar": {
+    "address": 457496,
+    "executable": true,
+    "sectionRemaining": 316872,
+    "writable": false
+  },
+  "PopTextWrapPos": {
+    "address": 457500,
+    "executable": true,
+    "sectionRemaining": 316868,
+    "writable": false
+  },
+  "ProgressBar": {
+    "address": 457504,
+    "executable": true,
+    "sectionRemaining": 316864,
+    "writable": false
+  },
+  "PushClipRect": {
+    "address": 457508,
+    "executable": true,
+    "sectionRemaining": 316860,
+    "writable": false
+  },
+  "PushColumnClipRect_internal": {
+    "address": 457520,
+    "executable": true,
+    "sectionRemaining": 316848,
+    "writable": false
+  },
+  "PushColumnsBackground_internal": {
+    "address": 457524,
+    "executable": true,
+    "sectionRemaining": 316844,
+    "writable": false
+  },
+  "PushFocusScope_internal": {
+    "address": 457528,
+    "executable": true,
+    "sectionRemaining": 316840,
+    "writable": false
+  },
+  "PushFont": {
+    "address": 457532,
+    "executable": true,
+    "sectionRemaining": 316836,
+    "writable": false
+  },
+  "PushID_0": {
+    "address": 457536,
+    "executable": true,
+    "sectionRemaining": 316832,
+    "writable": false
+  },
+  "PushID_1": {
+    "address": 457540,
+    "executable": true,
+    "sectionRemaining": 316828,
+    "writable": false
+  },
+  "PushID_2": {
+    "address": 457544,
+    "executable": true,
+    "sectionRemaining": 316824,
+    "writable": false
+  },
+  "PushID_3": {
+    "address": 457548,
+    "executable": true,
+    "sectionRemaining": 316820,
+    "writable": false
+  },
+  "PushItemFlag": {
+    "address": 457552,
+    "executable": true,
+    "sectionRemaining": 316816,
+    "writable": false
+  },
+  "PushItemWidth": {
+    "address": 457564,
+    "executable": true,
+    "sectionRemaining": 316804,
+    "writable": false
+  },
+  "PushMultiItemsWidths_internal": {
+    "address": 457568,
+    "executable": true,
+    "sectionRemaining": 316800,
+    "writable": false
+  },
+  "PushOverrideID_internal": {
+    "address": 457572,
+    "executable": true,
+    "sectionRemaining": 316796,
+    "writable": false
+  },
+  "PushPasswordFont_internal": {
+    "address": 457576,
+    "executable": true,
+    "sectionRemaining": 316792,
+    "writable": false
+  },
+  "PushStyleColor_0": {
+    "address": 457580,
+    "executable": true,
+    "sectionRemaining": 316788,
+    "writable": false
+  },
+  "PushStyleColor_1": {
+    "address": 457584,
+    "executable": true,
+    "sectionRemaining": 316784,
+    "writable": false
+  },
+  "PushStyleVarX": {
+    "address": 457588,
+    "executable": true,
+    "sectionRemaining": 316780,
+    "writable": false
+  },
+  "PushStyleVarY": {
+    "address": 457592,
+    "executable": true,
+    "sectionRemaining": 316776,
+    "writable": false
+  },
+  "PushStyleVar_0": {
+    "address": 457596,
+    "executable": true,
+    "sectionRemaining": 316772,
+    "writable": false
+  },
+  "PushStyleVar_1": {
+    "address": 457600,
+    "executable": true,
+    "sectionRemaining": 316768,
+    "writable": false
+  },
+  "PushTextWrapPos": {
+    "address": 457604,
+    "executable": true,
+    "sectionRemaining": 316764,
+    "writable": false
+  },
+  "RadioButton_0": {
+    "address": 457608,
+    "executable": true,
+    "sectionRemaining": 316760,
+    "writable": false
+  },
+  "RadioButton_1": {
+    "address": 457636,
+    "executable": true,
+    "sectionRemaining": 316732,
+    "writable": false
+  },
+  "RegisterFontAtlas_internal": {
+    "address": 457656,
+    "executable": true,
+    "sectionRemaining": 316712,
+    "writable": false
+  },
+  "RegisterUserTexture_internal": {
+    "address": 457660,
+    "executable": true,
+    "sectionRemaining": 316708,
+    "writable": false
+  },
+  "RemoveContextHook_internal": {
+    "address": 457664,
+    "executable": true,
+    "sectionRemaining": 316704,
+    "writable": false
+  },
+  "RemoveSettingsHandler_internal": {
+    "address": 457668,
+    "executable": true,
+    "sectionRemaining": 316700,
+    "writable": false
+  },
+  "Render": {
+    "address": 457672,
+    "executable": true,
+    "sectionRemaining": 316696,
+    "writable": false
+  },
+  "RenderArrowDockMenu_internal": {
+    "address": 457676,
+    "executable": true,
+    "sectionRemaining": 316692,
+    "writable": false
+  },
+  "RenderArrowPointingAt_internal": {
+    "address": 457680,
+    "executable": true,
+    "sectionRemaining": 316688,
+    "writable": false
+  },
+  "RenderArrow_internal": {
+    "address": 457684,
+    "executable": true,
+    "sectionRemaining": 316684,
+    "writable": false
+  },
+  "RenderBullet_internal": {
+    "address": 457688,
+    "executable": true,
+    "sectionRemaining": 316680,
+    "writable": false
+  },
+  "RenderCheckMark_internal": {
+    "address": 457692,
+    "executable": true,
+    "sectionRemaining": 316676,
+    "writable": false
+  },
+  "RenderColorRectWithAlphaCheckerboard_internal": {
+    "address": 457696,
+    "executable": true,
+    "sectionRemaining": 316672,
+    "writable": false
+  },
+  "RenderDragDropTargetRect_internal": {
+    "address": 457700,
+    "executable": true,
+    "sectionRemaining": 316668,
+    "writable": false
+  },
+  "RenderFrameBorder_internal": {
+    "address": 457704,
+    "executable": true,
+    "sectionRemaining": 316664,
+    "writable": false
+  },
+  "RenderFrame_internal": {
+    "address": 457708,
+    "executable": true,
+    "sectionRemaining": 316660,
+    "writable": false
+  },
+  "RenderMouseCursor_internal": {
+    "address": 457720,
+    "executable": true,
+    "sectionRemaining": 316648,
+    "writable": false
+  },
+  "RenderNavCursor_internal": {
+    "address": 457724,
+    "executable": true,
+    "sectionRemaining": 316644,
+    "writable": false
+  },
+  "RenderPlatformWindowsDefault": {
+    "address": 457728,
+    "executable": true,
+    "sectionRemaining": 316640,
+    "writable": false
+  },
+  "RenderRectFilledRangeH_internal": {
+    "address": 457732,
+    "executable": true,
+    "sectionRemaining": 316636,
+    "writable": false
+  },
+  "RenderRectFilledWithHole_internal": {
+    "address": 457736,
+    "executable": true,
+    "sectionRemaining": 316632,
+    "writable": false
+  },
+  "RenderTextClippedEx_internal": {
+    "address": 457740,
+    "executable": true,
+    "sectionRemaining": 316628,
+    "writable": false
+  },
+  "RenderTextClipped_internal": {
+    "address": 457744,
+    "executable": true,
+    "sectionRemaining": 316624,
+    "writable": false
+  },
+  "RenderTextEllipsis_internal": {
+    "address": 457748,
+    "executable": true,
+    "sectionRemaining": 316620,
+    "writable": false
+  },
+  "RenderTextWrapped_internal": {
+    "address": 457752,
+    "executable": true,
+    "sectionRemaining": 316616,
+    "writable": false
+  },
+  "RenderText_internal": {
+    "address": 457756,
+    "executable": true,
+    "sectionRemaining": 316612,
+    "writable": false
+  },
+  "ResetMouseDragDelta": {
+    "address": 457768,
+    "executable": true,
+    "sectionRemaining": 316600,
+    "writable": false
+  },
+  "SameLine": {
+    "address": 457772,
+    "executable": true,
+    "sectionRemaining": 316596,
+    "writable": false
+  },
+  "SaveIniSettingsToDisk": {
+    "address": 457776,
+    "executable": true,
+    "sectionRemaining": 316592,
+    "writable": false
+  },
+  "SaveIniSettingsToMemory": {
+    "address": 457780,
+    "executable": true,
+    "sectionRemaining": 316588,
+    "writable": false
+  },
+  "ScaleWindowsInViewport_internal": {
+    "address": 457784,
+    "executable": true,
+    "sectionRemaining": 316584,
+    "writable": false
+  },
+  "ScrollToBringRectIntoView_internal": {
+    "address": 457788,
+    "executable": true,
+    "sectionRemaining": 316580,
+    "writable": false
+  },
+  "ScrollToItem_internal": {
+    "address": 457796,
+    "executable": true,
+    "sectionRemaining": 316572,
+    "writable": false
+  },
+  "ScrollToRectEx_internal": {
+    "address": 457800,
+    "executable": true,
+    "sectionRemaining": 316568,
+    "writable": false
+  },
+  "ScrollToRect_internal": {
+    "address": 457804,
+    "executable": true,
+    "sectionRemaining": 316564,
+    "writable": false
+  },
+  "ScrollbarEx_internal": {
+    "address": 457808,
+    "executable": true,
+    "sectionRemaining": 316560,
+    "writable": false
+  },
+  "Scrollbar_internal": {
+    "address": 457828,
+    "executable": true,
+    "sectionRemaining": 316540,
+    "writable": false
+  },
+  "Selectable_0": {
+    "address": 457832,
+    "executable": true,
+    "sectionRemaining": 316536,
+    "writable": false
+  },
+  "Selectable_1": {
+    "address": 457860,
+    "executable": true,
+    "sectionRemaining": 316508,
+    "writable": false
+  },
+  "Separator": {
+    "address": 457900,
+    "executable": true,
+    "sectionRemaining": 316468,
+    "writable": false
+  },
+  "SeparatorEx_internal": {
+    "address": 457904,
+    "executable": true,
+    "sectionRemaining": 316464,
+    "writable": false
+  },
+  "SeparatorText": {
+    "address": 457908,
+    "executable": true,
+    "sectionRemaining": 316460,
+    "writable": false
+  },
+  "SeparatorTextEx_internal": {
+    "address": 457912,
+    "executable": true,
+    "sectionRemaining": 316456,
+    "writable": false
+  },
+  "SetActiveID_internal": {
+    "address": 457916,
+    "executable": true,
+    "sectionRemaining": 316452,
+    "writable": false
+  },
+  "SetActiveIdUsingAllKeyboardKeys_internal": {
+    "address": 457920,
+    "executable": true,
+    "sectionRemaining": 316448,
+    "writable": false
+  },
+  "SetAllocatorFunctions": {
+    "address": 457924,
+    "executable": true,
+    "sectionRemaining": 316444,
+    "writable": false
+  },
+  "SetClipboardText": {
+    "address": 457928,
+    "executable": true,
+    "sectionRemaining": 316440,
+    "writable": false
+  },
+  "SetColorEditOptions": {
+    "address": 457932,
+    "executable": true,
+    "sectionRemaining": 316436,
+    "writable": false
+  },
+  "SetColumnOffset": {
+    "address": 457936,
+    "executable": true,
+    "sectionRemaining": 316432,
+    "writable": false
+  },
+  "SetColumnWidth": {
+    "address": 457940,
+    "executable": true,
+    "sectionRemaining": 316428,
+    "writable": false
+  },
+  "SetCurrentContext": {
+    "address": 457944,
+    "executable": true,
+    "sectionRemaining": 316424,
+    "writable": false
+  },
+  "SetCurrentFont_internal": {
+    "address": 457948,
+    "executable": true,
+    "sectionRemaining": 316420,
+    "writable": false
+  },
+  "SetCurrentViewport_internal": {
+    "address": 457952,
+    "executable": true,
+    "sectionRemaining": 316416,
+    "writable": false
+  },
+  "SetCursorPos": {
+    "address": 457956,
+    "executable": true,
+    "sectionRemaining": 316412,
+    "writable": false
+  },
+  "SetCursorPosX": {
+    "address": 457960,
+    "executable": true,
+    "sectionRemaining": 316408,
+    "writable": false
+  },
+  "SetCursorPosY": {
+    "address": 457964,
+    "executable": true,
+    "sectionRemaining": 316404,
+    "writable": false
+  },
+  "SetCursorScreenPos": {
+    "address": 457968,
+    "executable": true,
+    "sectionRemaining": 316400,
+    "writable": false
+  },
+  "SetDragDropPayload": {
+    "address": 457972,
+    "executable": true,
+    "sectionRemaining": 316396,
+    "writable": false
+  },
+  "SetFocusID_internal": {
+    "address": 457992,
+    "executable": true,
+    "sectionRemaining": 316376,
+    "writable": false
+  },
+  "SetFontRasterizerDensity_internal": {
+    "address": 457996,
+    "executable": true,
+    "sectionRemaining": 316372,
+    "writable": false
+  },
+  "SetHoveredID_internal": {
+    "address": 458000,
+    "executable": true,
+    "sectionRemaining": 316368,
+    "writable": false
+  },
+  "SetItemDefaultFocus": {
+    "address": 458004,
+    "executable": true,
+    "sectionRemaining": 316364,
+    "writable": false
+  },
+  "SetItemKeyOwner": {
+    "address": 458008,
+    "executable": true,
+    "sectionRemaining": 316360,
+    "writable": false
+  },
+  "SetItemKeyOwner_internal": {
+    "address": 458012,
+    "executable": true,
+    "sectionRemaining": 316356,
+    "writable": false
+  },
+  "SetItemTooltip": {
+    "address": 460080,
+    "executable": true,
+    "sectionRemaining": 314288,
+    "writable": false
+  },
+  "SetKeyOwner_internal": {
+    "address": 458016,
+    "executable": true,
+    "sectionRemaining": 316352,
+    "writable": false
+  },
+  "SetKeyOwnersForKeyChord_internal": {
+    "address": 458020,
+    "executable": true,
+    "sectionRemaining": 316348,
+    "writable": false
+  },
+  "SetKeyboardFocusHere": {
+    "address": 458024,
+    "executable": true,
+    "sectionRemaining": 316344,
+    "writable": false
+  },
+  "SetLastItemData_internal": {
+    "address": 458028,
+    "executable": true,
+    "sectionRemaining": 316340,
+    "writable": false
+  },
+  "SetMouseCursor": {
+    "address": 458032,
+    "executable": true,
+    "sectionRemaining": 316336,
+    "writable": false
+  },
+  "SetNavCursorVisible": {
+    "address": 458036,
+    "executable": true,
+    "sectionRemaining": 316332,
+    "writable": false
+  },
+  "SetNavCursorVisibleAfterMove_internal": {
+    "address": 458048,
+    "executable": true,
+    "sectionRemaining": 316320,
+    "writable": false
+  },
+  "SetNavFocusScope_internal": {
+    "address": 458052,
+    "executable": true,
+    "sectionRemaining": 316316,
+    "writable": false
+  },
+  "SetNavID_internal": {
+    "address": 458056,
+    "executable": true,
+    "sectionRemaining": 316312,
+    "writable": false
+  },
+  "SetNavWindow_internal": {
+    "address": 458060,
+    "executable": true,
+    "sectionRemaining": 316308,
+    "writable": false
+  },
+  "SetNextFrameWantCaptureKeyboard": {
+    "address": 458064,
+    "executable": true,
+    "sectionRemaining": 316304,
+    "writable": false
+  },
+  "SetNextFrameWantCaptureMouse": {
+    "address": 458076,
+    "executable": true,
+    "sectionRemaining": 316292,
+    "writable": false
+  },
+  "SetNextItemAllowOverlap": {
+    "address": 458088,
+    "executable": true,
+    "sectionRemaining": 316280,
+    "writable": false
+  },
+  "SetNextItemOpen": {
+    "address": 458092,
+    "executable": true,
+    "sectionRemaining": 316276,
+    "writable": false
+  },
+  "SetNextItemRefVal_internal": {
+    "address": 458104,
+    "executable": true,
+    "sectionRemaining": 316264,
+    "writable": false
+  },
+  "SetNextItemSelectionUserData": {
+    "address": 458108,
+    "executable": true,
+    "sectionRemaining": 316260,
+    "writable": false
+  },
+  "SetNextItemShortcut": {
+    "address": 458112,
+    "executable": true,
+    "sectionRemaining": 316256,
+    "writable": false
+  },
+  "SetNextItemStorageID": {
+    "address": 458116,
+    "executable": true,
+    "sectionRemaining": 316252,
+    "writable": false
+  },
+  "SetNextItemWidth": {
+    "address": 458120,
+    "executable": true,
+    "sectionRemaining": 316248,
+    "writable": false
+  },
+  "SetNextWindowBgAlpha": {
+    "address": 458124,
+    "executable": true,
+    "sectionRemaining": 316244,
+    "writable": false
+  },
+  "SetNextWindowClass": {
+    "address": 458128,
+    "executable": true,
+    "sectionRemaining": 316240,
+    "writable": false
+  },
+  "SetNextWindowCollapsed": {
+    "address": 458132,
+    "executable": true,
+    "sectionRemaining": 316236,
+    "writable": false
+  },
+  "SetNextWindowContentSize": {
+    "address": 458144,
+    "executable": true,
+    "sectionRemaining": 316224,
+    "writable": false
+  },
+  "SetNextWindowDockID": {
+    "address": 458148,
+    "executable": true,
+    "sectionRemaining": 316220,
+    "writable": false
+  },
+  "SetNextWindowFocus": {
+    "address": 458152,
+    "executable": true,
+    "sectionRemaining": 316216,
+    "writable": false
+  },
+  "SetNextWindowPos": {
+    "address": 458156,
+    "executable": true,
+    "sectionRemaining": 316212,
+    "writable": false
+  },
+  "SetNextWindowRefreshPolicy_internal": {
+    "address": 458160,
+    "executable": true,
+    "sectionRemaining": 316208,
+    "writable": false
+  },
+  "SetNextWindowScroll": {
+    "address": 458164,
+    "executable": true,
+    "sectionRemaining": 316204,
+    "writable": false
+  },
+  "SetNextWindowSize": {
+    "address": 458168,
+    "executable": true,
+    "sectionRemaining": 316200,
+    "writable": false
+  },
+  "SetNextWindowSizeConstraints": {
+    "address": 458172,
+    "executable": true,
+    "sectionRemaining": 316196,
+    "writable": false
+  },
+  "SetNextWindowViewport": {
+    "address": 458176,
+    "executable": true,
+    "sectionRemaining": 316192,
+    "writable": false
+  },
+  "SetScrollFromPosX": {
+    "address": 458180,
+    "executable": true,
+    "sectionRemaining": 316188,
+    "writable": false
+  },
+  "SetScrollFromPosX_internal": {
+    "address": 458184,
+    "executable": true,
+    "sectionRemaining": 316184,
+    "writable": false
+  },
+  "SetScrollFromPosY": {
+    "address": 458188,
+    "executable": true,
+    "sectionRemaining": 316180,
+    "writable": false
+  },
+  "SetScrollFromPosY_internal": {
+    "address": 458192,
+    "executable": true,
+    "sectionRemaining": 316176,
+    "writable": false
+  },
+  "SetScrollHereX": {
+    "address": 458196,
+    "executable": true,
+    "sectionRemaining": 316172,
+    "writable": false
+  },
+  "SetScrollHereY": {
+    "address": 458200,
+    "executable": true,
+    "sectionRemaining": 316168,
+    "writable": false
+  },
+  "SetScrollX": {
+    "address": 458204,
+    "executable": true,
+    "sectionRemaining": 316164,
+    "writable": false
+  },
+  "SetScrollX_internal": {
+    "address": 458208,
+    "executable": true,
+    "sectionRemaining": 316160,
+    "writable": false
+  },
+  "SetScrollY": {
+    "address": 458212,
+    "executable": true,
+    "sectionRemaining": 316156,
+    "writable": false
+  },
+  "SetScrollY_internal": {
+    "address": 458216,
+    "executable": true,
+    "sectionRemaining": 316152,
+    "writable": false
+  },
+  "SetShortcutRouting_internal": {
+    "address": 458220,
+    "executable": true,
+    "sectionRemaining": 316148,
+    "writable": false
+  },
+  "SetStateStorage": {
+    "address": 458240,
+    "executable": true,
+    "sectionRemaining": 316128,
+    "writable": false
+  },
+  "SetTabItemClosed": {
+    "address": 458244,
+    "executable": true,
+    "sectionRemaining": 316124,
+    "writable": false
+  },
+  "SetTooltip": {
+    "address": 460084,
+    "executable": true,
+    "sectionRemaining": 314284,
+    "writable": false
+  },
+  "SetWindowClipRectBeforeSetChannel_internal": {
+    "address": 458248,
+    "executable": true,
+    "sectionRemaining": 316120,
+    "writable": false
+  },
+  "SetWindowCollapsed_0": {
+    "address": 458252,
+    "executable": true,
+    "sectionRemaining": 316116,
+    "writable": false
+  },
+  "SetWindowCollapsed_1": {
+    "address": 458264,
+    "executable": true,
+    "sectionRemaining": 316104,
+    "writable": false
+  },
+  "SetWindowCollapsed_internal": {
+    "address": 458276,
+    "executable": true,
+    "sectionRemaining": 316092,
+    "writable": false
+  },
+  "SetWindowDock_internal": {
+    "address": 458288,
+    "executable": true,
+    "sectionRemaining": 316080,
+    "writable": false
+  },
+  "SetWindowFocus_0": {
+    "address": 458292,
+    "executable": true,
+    "sectionRemaining": 316076,
+    "writable": false
+  },
+  "SetWindowFocus_1": {
+    "address": 458296,
+    "executable": true,
+    "sectionRemaining": 316072,
+    "writable": false
+  },
+  "SetWindowHiddenAndSkipItemsForCurrentFrame_internal": {
+    "address": 458300,
+    "executable": true,
+    "sectionRemaining": 316068,
+    "writable": false
+  },
+  "SetWindowHitTestHole_internal": {
+    "address": 458304,
+    "executable": true,
+    "sectionRemaining": 316064,
+    "writable": false
+  },
+  "SetWindowParentWindowForFocusRoute_internal": {
+    "address": 458308,
+    "executable": true,
+    "sectionRemaining": 316060,
+    "writable": false
+  },
+  "SetWindowPos_0": {
+    "address": 458316,
+    "executable": true,
+    "sectionRemaining": 316052,
+    "writable": false
+  },
+  "SetWindowPos_1": {
+    "address": 458320,
+    "executable": true,
+    "sectionRemaining": 316048,
+    "writable": false
+  },
+  "SetWindowPos_internal": {
+    "address": 458324,
+    "executable": true,
+    "sectionRemaining": 316044,
+    "writable": false
+  },
+  "SetWindowSize_0": {
+    "address": 458328,
+    "executable": true,
+    "sectionRemaining": 316040,
+    "writable": false
+  },
+  "SetWindowSize_1": {
+    "address": 458332,
+    "executable": true,
+    "sectionRemaining": 316036,
+    "writable": false
+  },
+  "SetWindowSize_internal": {
+    "address": 458336,
+    "executable": true,
+    "sectionRemaining": 316032,
+    "writable": false
+  },
+  "SetWindowViewport_internal": {
+    "address": 458340,
+    "executable": true,
+    "sectionRemaining": 316028,
+    "writable": false
+  },
+  "ShadeVertsLinearColorGradientKeepAlpha_internal": {
+    "address": 458344,
+    "executable": true,
+    "sectionRemaining": 316024,
+    "writable": false
+  },
+  "ShadeVertsLinearUV_internal": {
+    "address": 458348,
+    "executable": true,
+    "sectionRemaining": 316020,
+    "writable": false
+  },
+  "ShadeVertsTransformPos_internal": {
+    "address": 458360,
+    "executable": true,
+    "sectionRemaining": 316008,
+    "writable": false
+  },
+  "Shortcut": {
+    "address": 458364,
+    "executable": true,
+    "sectionRemaining": 316004,
+    "writable": false
+  },
+  "Shortcut_internal": {
+    "address": 458384,
+    "executable": true,
+    "sectionRemaining": 315984,
+    "writable": false
+  },
+  "ShowAboutWindow": {
+    "address": 458404,
+    "executable": true,
+    "sectionRemaining": 315964,
+    "writable": false
+  },
+  "ShowDebugLogWindow": {
+    "address": 458428,
+    "executable": true,
+    "sectionRemaining": 315940,
+    "writable": false
+  },
+  "ShowDemoWindow": {
+    "address": 458452,
+    "executable": true,
+    "sectionRemaining": 315916,
+    "writable": false
+  },
+  "ShowFontAtlas_internal": {
+    "address": 458476,
+    "executable": true,
+    "sectionRemaining": 315892,
+    "writable": false
+  },
+  "ShowFontSelector": {
+    "address": 458480,
+    "executable": true,
+    "sectionRemaining": 315888,
+    "writable": false
+  },
+  "ShowIDStackToolWindow": {
+    "address": 458484,
+    "executable": true,
+    "sectionRemaining": 315884,
+    "writable": false
+  },
+  "ShowMetricsWindow": {
+    "address": 458508,
+    "executable": true,
+    "sectionRemaining": 315860,
+    "writable": false
+  },
+  "ShowStyleEditor": {
+    "address": 458532,
+    "executable": true,
+    "sectionRemaining": 315836,
+    "writable": false
+  },
+  "ShowStyleSelector": {
+    "address": 458536,
+    "executable": true,
+    "sectionRemaining": 315832,
+    "writable": false
+  },
+  "ShowUserGuide": {
+    "address": 458556,
+    "executable": true,
+    "sectionRemaining": 315812,
+    "writable": false
+  },
+  "ShrinkWidths_internal": {
+    "address": 458560,
+    "executable": true,
+    "sectionRemaining": 315808,
+    "writable": false
+  },
+  "Shutdown_internal": {
+    "address": 458564,
+    "executable": true,
+    "sectionRemaining": 315804,
+    "writable": false
+  },
+  "SliderAngle": {
+    "address": 458568,
+    "executable": true,
+    "sectionRemaining": 315800,
+    "writable": false
+  },
+  "SliderBehavior_internal": {
+    "address": 458588,
+    "executable": true,
+    "sectionRemaining": 315780,
+    "writable": false
+  },
+  "SliderFloat": {
+    "address": 458624,
+    "executable": true,
+    "sectionRemaining": 315744,
+    "writable": false
+  },
+  "SliderFloat2": {
+    "address": 458644,
+    "executable": true,
+    "sectionRemaining": 315724,
+    "writable": false
+  },
+  "SliderFloat3": {
+    "address": 458664,
+    "executable": true,
+    "sectionRemaining": 315704,
+    "writable": false
+  },
+  "SliderFloat4": {
+    "address": 458684,
+    "executable": true,
+    "sectionRemaining": 315684,
+    "writable": false
+  },
+  "SliderInt": {
+    "address": 458704,
+    "executable": true,
+    "sectionRemaining": 315664,
+    "writable": false
+  },
+  "SliderInt2": {
+    "address": 458724,
+    "executable": true,
+    "sectionRemaining": 315644,
+    "writable": false
+  },
+  "SliderInt3": {
+    "address": 458744,
+    "executable": true,
+    "sectionRemaining": 315624,
+    "writable": false
+  },
+  "SliderInt4": {
+    "address": 458764,
+    "executable": true,
+    "sectionRemaining": 315604,
+    "writable": false
+  },
+  "SliderScalar": {
+    "address": 458784,
+    "executable": true,
+    "sectionRemaining": 315584,
+    "writable": false
+  },
+  "SliderScalarN": {
+    "address": 458804,
+    "executable": true,
+    "sectionRemaining": 315564,
+    "writable": false
+  },
+  "SmallButton": {
+    "address": 458824,
+    "executable": true,
+    "sectionRemaining": 315544,
+    "writable": false
+  },
+  "Spacing": {
+    "address": 458844,
+    "executable": true,
+    "sectionRemaining": 315524,
+    "writable": false
+  },
+  "SplitterBehavior_internal": {
+    "address": 458848,
+    "executable": true,
+    "sectionRemaining": 315520,
+    "writable": false
+  },
+  "StartMouseMovingWindowOrNode_internal": {
+    "address": 458868,
+    "executable": true,
+    "sectionRemaining": 315500,
+    "writable": false
+  },
+  "StartMouseMovingWindow_internal": {
+    "address": 458880,
+    "executable": true,
+    "sectionRemaining": 315488,
+    "writable": false
+  },
+  "StopMouseMovingWindow_internal": {
+    "address": 458884,
+    "executable": true,
+    "sectionRemaining": 315484,
+    "writable": false
+  },
+  "StyleColorsClassic": {
+    "address": 458888,
+    "executable": true,
+    "sectionRemaining": 315480,
+    "writable": false
+  },
+  "StyleColorsDark": {
+    "address": 458892,
+    "executable": true,
+    "sectionRemaining": 315476,
+    "writable": false
+  },
+  "StyleColorsLight": {
+    "address": 458896,
+    "executable": true,
+    "sectionRemaining": 315472,
+    "writable": false
+  },
+  "TabBarAddTab_internal": {
+    "address": 458900,
+    "executable": true,
+    "sectionRemaining": 315468,
+    "writable": false
+  },
+  "TabBarCloseTab_internal": {
+    "address": 458904,
+    "executable": true,
+    "sectionRemaining": 315464,
+    "writable": false
+  },
+  "TabBarFindMostRecentlySelectedTabForActiveWindow_internal": {
+    "address": 458908,
+    "executable": true,
+    "sectionRemaining": 315460,
+    "writable": false
+  },
+  "TabBarFindTabByID_internal": {
+    "address": 458912,
+    "executable": true,
+    "sectionRemaining": 315456,
+    "writable": false
+  },
+  "TabBarFindTabByOrder_internal": {
+    "address": 458916,
+    "executable": true,
+    "sectionRemaining": 315452,
+    "writable": false
+  },
+  "TabBarGetCurrentTab_internal": {
+    "address": 458920,
+    "executable": true,
+    "sectionRemaining": 315448,
+    "writable": false
+  },
+  "TabBarGetTabName_internal": {
+    "address": 458924,
+    "executable": true,
+    "sectionRemaining": 315444,
+    "writable": false
+  },
+  "TabBarGetTabOrder_internal": {
+    "address": 458928,
+    "executable": true,
+    "sectionRemaining": 315440,
+    "writable": false
+  },
+  "TabBarProcessReorder_internal": {
+    "address": 458956,
+    "executable": true,
+    "sectionRemaining": 315412,
+    "writable": false
+  },
+  "TabBarQueueFocus_internal_0": {
+    "address": 458976,
+    "executable": true,
+    "sectionRemaining": 315392,
+    "writable": false
+  },
+  "TabBarQueueFocus_internal_1": {
+    "address": 458980,
+    "executable": true,
+    "sectionRemaining": 315388,
+    "writable": false
+  },
+  "TabBarQueueReorderFromMousePos_internal": {
+    "address": 458984,
+    "executable": true,
+    "sectionRemaining": 315384,
+    "writable": false
+  },
+  "TabBarQueueReorder_internal": {
+    "address": 458988,
+    "executable": true,
+    "sectionRemaining": 315380,
+    "writable": false
+  },
+  "TabBarRemoveTab_internal": {
+    "address": 458992,
+    "executable": true,
+    "sectionRemaining": 315376,
+    "writable": false
+  },
+  "TabItemBackground_internal": {
+    "address": 458996,
+    "executable": true,
+    "sectionRemaining": 315372,
+    "writable": false
+  },
+  "TabItemButton": {
+    "address": 459000,
+    "executable": true,
+    "sectionRemaining": 315368,
+    "writable": false
+  },
+  "TabItemCalcSize_internal_0": {
+    "address": 459020,
+    "executable": true,
+    "sectionRemaining": 315348,
+    "writable": false
+  },
+  "TabItemCalcSize_internal_1": {
+    "address": 459032,
+    "executable": true,
+    "sectionRemaining": 315336,
+    "writable": false
+  },
+  "TabItemEx_internal": {
+    "address": 459036,
+    "executable": true,
+    "sectionRemaining": 315332,
+    "writable": false
+  },
+  "TabItemLabelAndCloseButton_internal": {
+    "address": 459076,
+    "executable": true,
+    "sectionRemaining": 315292,
+    "writable": false
+  },
+  "TabItemSpacing_internal": {
+    "address": 459088,
+    "executable": true,
+    "sectionRemaining": 315280,
+    "writable": false
+  },
+  "TableAngledHeadersRow": {
+    "address": 459092,
+    "executable": true,
+    "sectionRemaining": 315276,
+    "writable": false
+  },
+  "TableAngledHeadersRowEx_internal": {
+    "address": 459096,
+    "executable": true,
+    "sectionRemaining": 315272,
+    "writable": false
+  },
+  "TableBeginApplyRequests_internal": {
+    "address": 459100,
+    "executable": true,
+    "sectionRemaining": 315268,
+    "writable": false
+  },
+  "TableBeginCell_internal": {
+    "address": 459104,
+    "executable": true,
+    "sectionRemaining": 315264,
+    "writable": false
+  },
+  "TableBeginContextMenuPopup_internal": {
+    "address": 459108,
+    "executable": true,
+    "sectionRemaining": 315260,
+    "writable": false
+  },
+  "TableBeginInitMemory_internal": {
+    "address": 459128,
+    "executable": true,
+    "sectionRemaining": 315240,
+    "writable": false
+  },
+  "TableBeginRow_internal": {
+    "address": 459132,
+    "executable": true,
+    "sectionRemaining": 315236,
+    "writable": false
+  },
+  "TableCalcMaxColumnWidth_internal": {
+    "address": 459136,
+    "executable": true,
+    "sectionRemaining": 315232,
+    "writable": false
+  },
+  "TableDrawBorders_internal": {
+    "address": 459140,
+    "executable": true,
+    "sectionRemaining": 315228,
+    "writable": false
+  },
+  "TableDrawDefaultContextMenu_internal": {
+    "address": 459144,
+    "executable": true,
+    "sectionRemaining": 315224,
+    "writable": false
+  },
+  "TableEndCell_internal": {
+    "address": 459148,
+    "executable": true,
+    "sectionRemaining": 315220,
+    "writable": false
+  },
+  "TableEndRow_internal": {
+    "address": 459152,
+    "executable": true,
+    "sectionRemaining": 315216,
+    "writable": false
+  },
+  "TableFindByID_internal": {
+    "address": 459156,
+    "executable": true,
+    "sectionRemaining": 315212,
+    "writable": false
+  },
+  "TableFixColumnSortDirection_internal": {
+    "address": 459160,
+    "executable": true,
+    "sectionRemaining": 315208,
+    "writable": false
+  },
+  "TableGcCompactSettings_internal": {
+    "address": 459164,
+    "executable": true,
+    "sectionRemaining": 315204,
+    "writable": false
+  },
+  "TableGcCompactTransientBuffers_internal_0": {
+    "address": 459168,
+    "executable": true,
+    "sectionRemaining": 315200,
+    "writable": false
+  },
+  "TableGcCompactTransientBuffers_internal_1": {
+    "address": 459172,
+    "executable": true,
+    "sectionRemaining": 315196,
+    "writable": false
+  },
+  "TableGetBoundSettings_internal": {
+    "address": 459176,
+    "executable": true,
+    "sectionRemaining": 315192,
+    "writable": false
+  },
+  "TableGetCellBgRect_internal": {
+    "address": 459180,
+    "executable": true,
+    "sectionRemaining": 315188,
+    "writable": false
+  },
+  "TableGetColumnCount": {
+    "address": 459184,
+    "executable": true,
+    "sectionRemaining": 315184,
+    "writable": false
+  },
+  "TableGetColumnFlags": {
+    "address": 459188,
+    "executable": true,
+    "sectionRemaining": 315180,
+    "writable": false
+  },
+  "TableGetColumnIndex": {
+    "address": 459192,
+    "executable": true,
+    "sectionRemaining": 315176,
+    "writable": false
+  },
+  "TableGetColumnName": {
+    "address": 459196,
+    "executable": true,
+    "sectionRemaining": 315172,
+    "writable": false
+  },
+  "TableGetColumnName_internal": {
+    "address": 459200,
+    "executable": true,
+    "sectionRemaining": 315168,
+    "writable": false
+  },
+  "TableGetColumnNextSortDirection_internal": {
+    "address": 459204,
+    "executable": true,
+    "sectionRemaining": 315164,
+    "writable": false
+  },
+  "TableGetColumnResizeID_internal": {
+    "address": 459208,
+    "executable": true,
+    "sectionRemaining": 315160,
+    "writable": false
+  },
+  "TableGetColumnWidthAuto_internal": {
+    "address": 459212,
+    "executable": true,
+    "sectionRemaining": 315156,
+    "writable": false
+  },
+  "TableGetHeaderAngledMaxLabelWidth_internal": {
+    "address": 459216,
+    "executable": true,
+    "sectionRemaining": 315152,
+    "writable": false
+  },
+  "TableGetHeaderRowHeight_internal": {
+    "address": 459220,
+    "executable": true,
+    "sectionRemaining": 315148,
+    "writable": false
+  },
+  "TableGetHoveredColumn": {
+    "address": 459224,
+    "executable": true,
+    "sectionRemaining": 315144,
+    "writable": false
+  },
+  "TableGetHoveredRow_internal": {
+    "address": 459228,
+    "executable": true,
+    "sectionRemaining": 315140,
+    "writable": false
+  },
+  "TableGetInstanceData_internal": {
+    "address": 459232,
+    "executable": true,
+    "sectionRemaining": 315136,
+    "writable": false
+  },
+  "TableGetInstanceID_internal": {
+    "address": 459264,
+    "executable": true,
+    "sectionRemaining": 315104,
+    "writable": false
+  },
+  "TableGetRowIndex": {
+    "address": 459300,
+    "executable": true,
+    "sectionRemaining": 315068,
+    "writable": false
+  },
+  "TableGetSortSpecs": {
+    "address": 459304,
+    "executable": true,
+    "sectionRemaining": 315064,
+    "writable": false
+  },
+  "TableHeader": {
+    "address": 459308,
+    "executable": true,
+    "sectionRemaining": 315060,
+    "writable": false
+  },
+  "TableHeadersRow": {
+    "address": 459312,
+    "executable": true,
+    "sectionRemaining": 315056,
+    "writable": false
+  },
+  "TableLoadSettings_internal": {
+    "address": 459316,
+    "executable": true,
+    "sectionRemaining": 315052,
+    "writable": false
+  },
+  "TableMergeDrawChannels_internal": {
+    "address": 459320,
+    "executable": true,
+    "sectionRemaining": 315048,
+    "writable": false
+  },
+  "TableNextColumn": {
+    "address": 459324,
+    "executable": true,
+    "sectionRemaining": 315044,
+    "writable": false
+  },
+  "TableNextRow": {
+    "address": 459344,
+    "executable": true,
+    "sectionRemaining": 315024,
+    "writable": false
+  },
+  "TableOpenContextMenu_internal": {
+    "address": 459348,
+    "executable": true,
+    "sectionRemaining": 315020,
+    "writable": false
+  },
+  "TablePopBackgroundChannel_internal": {
+    "address": 459352,
+    "executable": true,
+    "sectionRemaining": 315016,
+    "writable": false
+  },
+  "TablePopColumnChannel_internal": {
+    "address": 459356,
+    "executable": true,
+    "sectionRemaining": 315012,
+    "writable": false
+  },
+  "TablePushBackgroundChannel_internal": {
+    "address": 459360,
+    "executable": true,
+    "sectionRemaining": 315008,
+    "writable": false
+  },
+  "TablePushColumnChannel_internal": {
+    "address": 459364,
+    "executable": true,
+    "sectionRemaining": 315004,
+    "writable": false
+  },
+  "TableRemove_internal": {
+    "address": 459368,
+    "executable": true,
+    "sectionRemaining": 315000,
+    "writable": false
+  },
+  "TableResetSettings_internal": {
+    "address": 459372,
+    "executable": true,
+    "sectionRemaining": 314996,
+    "writable": false
+  },
+  "TableSaveSettings_internal": {
+    "address": 459376,
+    "executable": true,
+    "sectionRemaining": 314992,
+    "writable": false
+  },
+  "TableSetBgColor": {
+    "address": 459380,
+    "executable": true,
+    "sectionRemaining": 314988,
+    "writable": false
+  },
+  "TableSetColumnEnabled": {
+    "address": 459384,
+    "executable": true,
+    "sectionRemaining": 314984,
+    "writable": false
+  },
+  "TableSetColumnIndex": {
+    "address": 459396,
+    "executable": true,
+    "sectionRemaining": 314972,
+    "writable": false
+  },
+  "TableSetColumnSortDirection_internal": {
+    "address": 459416,
+    "executable": true,
+    "sectionRemaining": 314952,
+    "writable": false
+  },
+  "TableSetColumnWidthAutoAll_internal": {
+    "address": 459428,
+    "executable": true,
+    "sectionRemaining": 314940,
+    "writable": false
+  },
+  "TableSetColumnWidthAutoSingle_internal": {
+    "address": 459432,
+    "executable": true,
+    "sectionRemaining": 314936,
+    "writable": false
+  },
+  "TableSetColumnWidth_internal": {
+    "address": 459436,
+    "executable": true,
+    "sectionRemaining": 314932,
+    "writable": false
+  },
+  "TableSettingsAddSettingsHandler_internal": {
+    "address": 459440,
+    "executable": true,
+    "sectionRemaining": 314928,
+    "writable": false
+  },
+  "TableSettingsCreate_internal": {
+    "address": 459444,
+    "executable": true,
+    "sectionRemaining": 314924,
+    "writable": false
+  },
+  "TableSettingsFindByID_internal": {
+    "address": 459448,
+    "executable": true,
+    "sectionRemaining": 314920,
+    "writable": false
+  },
+  "TableSetupColumn": {
+    "address": 459452,
+    "executable": true,
+    "sectionRemaining": 314916,
+    "writable": false
+  },
+  "TableSetupDrawChannels_internal": {
+    "address": 459456,
+    "executable": true,
+    "sectionRemaining": 314912,
+    "writable": false
+  },
+  "TableSetupScrollFreeze": {
+    "address": 459460,
+    "executable": true,
+    "sectionRemaining": 314908,
+    "writable": false
+  },
+  "TableSortSpecsBuild_internal": {
+    "address": 459464,
+    "executable": true,
+    "sectionRemaining": 314904,
+    "writable": false
+  },
+  "TableSortSpecsSanitize_internal": {
+    "address": 459468,
+    "executable": true,
+    "sectionRemaining": 314900,
+    "writable": false
+  },
+  "TableUpdateBorders_internal": {
+    "address": 459472,
+    "executable": true,
+    "sectionRemaining": 314896,
+    "writable": false
+  },
+  "TableUpdateColumnsWeightFromWidth_internal": {
+    "address": 459476,
+    "executable": true,
+    "sectionRemaining": 314892,
+    "writable": false
+  },
+  "TableUpdateLayout_internal": {
+    "address": 459480,
+    "executable": true,
+    "sectionRemaining": 314888,
+    "writable": false
+  },
+  "TeleportMousePos_internal": {
+    "address": 459484,
+    "executable": true,
+    "sectionRemaining": 314884,
+    "writable": false
+  },
+  "TempInputIsActive_internal": {
+    "address": 459488,
+    "executable": true,
+    "sectionRemaining": 314880,
+    "writable": false
+  },
+  "TempInputScalar_internal": {
+    "address": 459536,
+    "executable": true,
+    "sectionRemaining": 314832,
+    "writable": false
+  },
+  "TempInputText_internal": {
+    "address": 459556,
+    "executable": true,
+    "sectionRemaining": 314812,
+    "writable": false
+  },
+  "TestKeyOwner_internal": {
+    "address": 459576,
+    "executable": true,
+    "sectionRemaining": 314792,
+    "writable": false
+  },
+  "TestShortcutRouting_internal": {
+    "address": 459596,
+    "executable": true,
+    "sectionRemaining": 314772,
+    "writable": false
+  },
+  "Text": {
+    "address": 460088,
+    "executable": true,
+    "sectionRemaining": 314280,
+    "writable": false
+  },
+  "TextAligned_internal": {
+    "address": 460220,
+    "executable": true,
+    "sectionRemaining": 314148,
+    "writable": false
+  },
+  "TextColored": {
+    "address": 460092,
+    "executable": true,
+    "sectionRemaining": 314276,
+    "writable": false
+  },
+  "TextDisabled": {
+    "address": 460132,
+    "executable": true,
+    "sectionRemaining": 314236,
+    "writable": false
+  },
+  "TextEx_internal": {
+    "address": 459616,
+    "executable": true,
+    "sectionRemaining": 314752,
+    "writable": false
+  },
+  "TextLink": {
+    "address": 459620,
+    "executable": true,
+    "sectionRemaining": 314748,
+    "writable": false
+  },
+  "TextLinkOpenURL": {
+    "address": 459640,
+    "executable": true,
+    "sectionRemaining": 314728,
+    "writable": false
+  },
+  "TextUnformatted": {
+    "address": 459660,
+    "executable": true,
+    "sectionRemaining": 314708,
+    "writable": false
+  },
+  "TextV": {
+    "address": 460224,
+    "executable": true,
+    "sectionRemaining": 314144,
+    "writable": false
+  },
+  "TextWrapped": {
+    "address": 460136,
+    "executable": true,
+    "sectionRemaining": 314232,
+    "writable": false
+  },
+  "TranslateWindowsInViewport_internal": {
+    "address": 459664,
+    "executable": true,
+    "sectionRemaining": 314704,
+    "writable": false
+  },
+  "TreeNodeBehavior_internal": {
+    "address": 459668,
+    "executable": true,
+    "sectionRemaining": 314700,
+    "writable": false
+  },
+  "TreeNodeDrawLineToChildNode_internal": {
+    "address": 459688,
+    "executable": true,
+    "sectionRemaining": 314680,
+    "writable": false
+  },
+  "TreeNodeDrawLineToTreePop_internal": {
+    "address": 459692,
+    "executable": true,
+    "sectionRemaining": 314676,
+    "writable": false
+  },
+  "TreeNodeEx_0": {
+    "address": 459696,
+    "executable": true,
+    "sectionRemaining": 314672,
+    "writable": false
+  },
+  "TreeNodeEx_1": {
+    "address": 460180,
+    "executable": true,
+    "sectionRemaining": 314188,
+    "writable": false
+  },
+  "TreeNodeEx_2": {
+    "address": 460200,
+    "executable": true,
+    "sectionRemaining": 314168,
+    "writable": false
+  },
+  "TreeNodeGetOpen_internal": {
+    "address": 459716,
+    "executable": true,
+    "sectionRemaining": 314652,
+    "writable": false
+  },
+  "TreeNodeSetOpen_internal": {
+    "address": 459736,
+    "executable": true,
+    "sectionRemaining": 314632,
+    "writable": false
+  },
+  "TreeNodeUpdateNextOpen_internal": {
+    "address": 459748,
+    "executable": true,
+    "sectionRemaining": 314620,
+    "writable": false
+  },
+  "TreeNode_0": {
+    "address": 459768,
+    "executable": true,
+    "sectionRemaining": 314600,
+    "writable": false
+  },
+  "TreeNode_1": {
+    "address": 460140,
+    "executable": true,
+    "sectionRemaining": 314228,
+    "writable": false
+  },
+  "TreeNode_2": {
+    "address": 460160,
+    "executable": true,
+    "sectionRemaining": 314208,
+    "writable": false
+  },
+  "TreePop": {
+    "address": 459788,
+    "executable": true,
+    "sectionRemaining": 314580,
+    "writable": false
+  },
+  "TreePushOverrideID_internal": {
+    "address": 459792,
+    "executable": true,
+    "sectionRemaining": 314576,
+    "writable": false
+  },
+  "TreePush_0": {
+    "address": 459796,
+    "executable": true,
+    "sectionRemaining": 314572,
+    "writable": false
+  },
+  "TreePush_1": {
+    "address": 459800,
+    "executable": true,
+    "sectionRemaining": 314568,
+    "writable": false
+  },
+  "TypingSelectFindBestLeadingMatch_internal": {
+    "address": 459804,
+    "executable": true,
+    "sectionRemaining": 314564,
+    "writable": false
+  },
+  "TypingSelectFindMatch_internal": {
+    "address": 459808,
+    "executable": true,
+    "sectionRemaining": 314560,
+    "writable": false
+  },
+  "TypingSelectFindNextSingleCharMatch_internal": {
+    "address": 459812,
+    "executable": true,
+    "sectionRemaining": 314556,
+    "writable": false
+  },
+  "Unindent": {
+    "address": 459816,
+    "executable": true,
+    "sectionRemaining": 314552,
+    "writable": false
+  },
+  "UnregisterFontAtlas_internal": {
+    "address": 459820,
+    "executable": true,
+    "sectionRemaining": 314548,
+    "writable": false
+  },
+  "UnregisterUserTexture_internal": {
+    "address": 459824,
+    "executable": true,
+    "sectionRemaining": 314544,
+    "writable": false
+  },
+  "UpdateCurrentFontSize_internal": {
+    "address": 459828,
+    "executable": true,
+    "sectionRemaining": 314540,
+    "writable": false
+  },
+  "UpdateHoveredWindowAndCaptureFlags_internal": {
+    "address": 459832,
+    "executable": true,
+    "sectionRemaining": 314536,
+    "writable": false
+  },
+  "UpdateInputEvents_internal": {
+    "address": 459836,
+    "executable": true,
+    "sectionRemaining": 314532,
+    "writable": false
+  },
+  "UpdateMouseMovingWindowEndFrame_internal": {
+    "address": 459848,
+    "executable": true,
+    "sectionRemaining": 314520,
+    "writable": false
+  },
+  "UpdateMouseMovingWindowNewFrame_internal": {
+    "address": 459852,
+    "executable": true,
+    "sectionRemaining": 314516,
+    "writable": false
+  },
+  "UpdatePlatformWindows": {
+    "address": 459856,
+    "executable": true,
+    "sectionRemaining": 314512,
+    "writable": false
+  },
+  "UpdateWindowParentAndRootLinks_internal": {
+    "address": 459860,
+    "executable": true,
+    "sectionRemaining": 314508,
+    "writable": false
+  },
+  "UpdateWindowSkipRefresh_internal": {
+    "address": 459864,
+    "executable": true,
+    "sectionRemaining": 314504,
+    "writable": false
+  },
+  "VSliderFloat": {
+    "address": 459868,
+    "executable": true,
+    "sectionRemaining": 314500,
+    "writable": false
+  },
+  "VSliderInt": {
+    "address": 459888,
+    "executable": true,
+    "sectionRemaining": 314480,
+    "writable": false
+  },
+  "VSliderScalar": {
+    "address": 459908,
+    "executable": true,
+    "sectionRemaining": 314460,
+    "writable": false
+  },
+  "Value_0": {
+    "address": 459928,
+    "executable": true,
+    "sectionRemaining": 314440,
+    "writable": false
+  },
+  "Value_1": {
+    "address": 459940,
+    "executable": true,
+    "sectionRemaining": 314428,
+    "writable": false
+  },
+  "Value_2": {
+    "address": 459944,
+    "executable": true,
+    "sectionRemaining": 314424,
+    "writable": false
+  },
+  "Value_3": {
+    "address": 459948,
+    "executable": true,
+    "sectionRemaining": 314420,
+    "writable": false
+  },
+  "WindowPosAbsToRel_internal": {
+    "address": 459952,
+    "executable": true,
+    "sectionRemaining": 314416,
+    "writable": false
+  },
+  "WindowPosRelToAbs_internal": {
+    "address": 459972,
+    "executable": true,
+    "sectionRemaining": 314396,
+    "writable": false
+  },
+  "WindowRectAbsToRel_internal": {
+    "address": 459992,
+    "executable": true,
+    "sectionRemaining": 314376,
+    "writable": false
+  },
+  "WindowRectRelToAbs_internal": {
+    "address": 460028,
+    "executable": true,
+    "sectionRemaining": 314340,
+    "writable": false
+  },
+  "purr_accessor_at": {
+    "address": 464628,
+    "executable": true,
+    "sectionRemaining": 309740,
+    "writable": false
+  },
+  "purr_accessor_cell": {
+    "address": 465584,
+    "executable": true,
+    "sectionRemaining": 308784,
+    "writable": false
+  },
+  "purr_accessor_count": {
+    "address": 464288,
+    "executable": true,
+    "sectionRemaining": 310080,
+    "writable": false
+  },
+  "purr_accessor_empty_string": {
+    "address": 463768,
+    "executable": true,
+    "sectionRemaining": 310600,
+    "writable": false
+  },
+  "purr_accessor_field_info": {
+    "address": 460312,
+    "executable": true,
+    "sectionRemaining": 314056,
+    "writable": false
+  },
+  "purr_accessor_file_size": {
+    "address": 465748,
+    "executable": true,
+    "sectionRemaining": 308620,
+    "writable": false
+  },
+  "purr_accessor_get": {
+    "address": 460436,
+    "executable": true,
+    "sectionRemaining": 313932,
+    "writable": false
+  },
+  "purr_accessor_lookup": {
+    "address": 465264,
+    "executable": true,
+    "sectionRemaining": 309104,
+    "writable": false
+  },
+  "purr_accessor_named_key": {
+    "address": 464140,
+    "executable": true,
+    "sectionRemaining": 310228,
+    "writable": false
+  },
+  "purr_accessor_pool_alive": {
+    "address": 465460,
+    "executable": true,
+    "sectionRemaining": 308908,
+    "writable": false
+  },
+  "purr_accessor_rect": {
+    "address": 463600,
+    "executable": true,
+    "sectionRemaining": 310768,
+    "writable": false
+  },
+  "purr_accessor_rect_count": {
+    "address": 463568,
+    "executable": true,
+    "sectionRemaining": 310800,
+    "writable": false
+  },
+  "purr_accessor_rect_set": {
+    "address": 463696,
+    "executable": true,
+    "sectionRemaining": 310672,
+    "writable": false
+  },
+  "purr_accessor_set": {
+    "address": 461400,
+    "executable": true,
+    "sectionRemaining": 312968,
+    "writable": false
+  },
+  "purr_accessor_shared": {
+    "address": 465664,
+    "executable": true,
+    "sectionRemaining": 308704,
+    "writable": false
+  },
+  "purr_accessor_short": {
+    "address": 465512,
+    "executable": true,
+    "sectionRemaining": 308856,
+    "writable": false
+  },
+  "purr_accessor_style": {
+    "address": 463476,
+    "executable": true,
+    "sectionRemaining": 310892,
+    "writable": false
+  },
+  "purr_accessor_style_count": {
+    "address": 463468,
+    "executable": true,
+    "sectionRemaining": 310900,
+    "writable": false
+  },
+  "purr_accessor_text_append": {
+    "address": 463968,
+    "executable": true,
+    "sectionRemaining": 310400,
+    "writable": false
+  },
+  "purr_accessor_text_clear": {
+    "address": 464064,
+    "executable": true,
+    "sectionRemaining": 310304,
+    "writable": false
+  },
+  "purr_accessor_text_copy": {
+    "address": 463808,
+    "executable": true,
+    "sectionRemaining": 310560,
+    "writable": false
+  },
+  "purr_accessor_textedit": {
+    "address": 465704,
+    "executable": true,
+    "sectionRemaining": 308664,
+    "writable": false
+  },
+  "purr_accessors_identity": {
+    "address": 460300,
+    "executable": true,
+    "sectionRemaining": 314068,
+    "writable": false
+  }
+}

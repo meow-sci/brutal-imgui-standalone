@@ -1,0 +1,25 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildThisFileDirectory)=/_/</PathMap>
+    <ImportDirectoryBuildTargets>false</ImportDirectoryBuildTargets>
+    <ImportDirectoryPackagesProps>false</ImportDirectoryPackagesProps>
+    <RestoreConfigFile Condition="'$(RestoreConfigFile)' == ''">$(MSBuildThisFileDirectory)NuGet.Config</RestoreConfigFile>
+    <KSAFolder Condition="'$(KSAFolder)' == ''">$(KSA_DLL_DIR)</KSAFolder>
+    <BrutalAssembliesDirectory Condition="'$(KSAFolder)' != ''">$([MSBuild]::EnsureTrailingSlash('$(KSAFolder)'))</BrutalAssembliesDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <RequiredBrutalAssembly Include="Brutal.ImGui;Brutal.Glfw;Brutal.Core.Common;Brutal.Core.Strings;Brutal.Core.Numerics" />
+  </ItemGroup>
+  <Target Name="ValidateExternalBrutalReferences" BeforeTargets="ResolveAssemblyReferences" Condition="'$(DesignTimeBuild)' != 'true'">
+    <Error Condition="'$(BrutalAssembliesDirectory)' == ''" Text="Set KSA_DLL_DIR or KSAFolder to your external BRUTAL managed assembly directory. See README.md." />
+    <Error Condition="!Exists('$(BrutalAssembliesDirectory)%(RequiredBrutalAssembly.Identity).dll')" Text="Missing external managed reference: $(BrutalAssembliesDirectory)%(RequiredBrutalAssembly.Identity).dll" />
+  </Target>
+</Project>

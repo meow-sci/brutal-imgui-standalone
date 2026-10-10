@@ -1,0 +1,149 @@
+{
+  "schema": "xbrutal.imgui-standalone.native.v1",
+  "upstream": {
+    "version": "1.92.2 docking",
+    "commit": "031a18c417158427217bc5890e0ec0cb7e7b4b63",
+    "archiveSha256": "2d1c175790496529ed8e90e0fba5b9dc852769f959edb9ef145e8f82d4dcc3be"
+  },
+  "config": {
+    "wcharBits": 32,
+    "drawIndexBits": 16,
+    "sha256": "18e6ca90823b36a891eca1c182eba6deb8a35d64431d03db3b91477a1e5049f3"
+  },
+  "toolchain": "Zig 0.17.0",
+  "compileFlags": [
+    "-std=c++11",
+    "-O2",
+    "-DNDEBUG",
+    "-fPIC",
+    "-fvisibility=hidden",
+    "-fno-strict-aliasing",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-fno-threadsafe-statics",
+    "-nostdlib++"
+  ],
+  "targets": {
+    "osx-arm64": "aarch64-macos.11.0",
+    "linux-x64": "x86_64-linux-gnu.2.17",
+    "win-x64": "x86_64-windows-gnu"
+  },
+  "sourceLock": "native/frozen-inputs.json",
+  "patchManifest": "native/provenance/patch-manifest.json",
+  "exports": {
+    "productionApi": 1175,
+    "functions": 1172,
+    "writableEightByteSlots": 3,
+    "inventory": "native/provenance/exports.json",
+    "macOSLinkerInfrastructure": "Exactly __dso_handle and _mh_dylib_header: writable non-code aliases, separately counted, not API."
+  },
+  "assets": [
+    {
+      "path": "runtimes/osx-arm64/native/libimgui.dylib",
+      "sha256": "048ce8fd55b30b86f9ea3c3c4531cf8be78763002a06d0a3e8d784c4e41f9c5a",
+      "rid": "osx-arm64",
+      "implementation": "owned-imgui",
+      "dependencies": [
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "rawExports": 1177,
+      "linkerInfrastructure": [
+        "__dso_handle",
+        "_mh_dylib_header"
+      ]
+    },
+    {
+      "path": "runtimes/linux-x64/native/libimgui.so",
+      "sha256": "ba20d709f69b23928a1b5f7c65f47a8c5cab95e86644e3b86dd667dee16029ab",
+      "rid": "linux-x64",
+      "implementation": "owned-imgui",
+      "dependencies": [
+        "libc.so.6",
+        "libm.so.6"
+      ],
+      "rawExports": 1175,
+      "linkerInfrastructure": []
+    },
+    {
+      "path": "runtimes/win-x64/native/imgui.dll",
+      "sha256": "a57ce9a768466f99c2d3e66dd45ce0b6a5a03547aafa49217e92a9a5c2a3da08",
+      "rid": "win-x64",
+      "implementation": "owned-imgui",
+      "dependencies": [
+        "KERNEL32.dll",
+        "SHELL32.dll",
+        "USER32.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll"
+      ],
+      "rawExports": 1175,
+      "linkerInfrastructure": []
+    }
+  ],
+  "history": {
+    "sourceBaseline": "purrtty 5d71c50943c13310d02066eb56b6fd4abc914790",
+    "productionBundle": "sol-delivery-20261008T144358Z-33442-combined-final3",
+    "qualificationBundleSha256": "b0c089d45a6aeac64e8affa9ddbc2fb48675ec1c00d23e805f346be98cd5fd39",
+    "scope": "Frozen historical full-fixture qualification; not relocated or rerun. No fixture images ship."
+  },
+  "externalGlfw": {
+    "package": "Ultz.Native.GLFW",
+    "version": "3.4.0",
+    "payloadIncluded": false,
+    "assets": [
+      {
+        "path": "runtimes/osx-arm64/native/libglfw.dylib",
+        "sha256": "c2057028e3f9310b23c1b9a8da2e57839aa98066d1d6fa928d8cdfa7b4813258",
+        "rid": "osx-arm64",
+        "implementation": "GLFW 3.4.0 (Ultz.Native.GLFW 3.4.0)",
+        "dependencies": [
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "/usr/lib/libSystem.B.dylib",
+          "/usr/lib/libobjc.A.dylib"
+        ]
+      },
+      {
+        "path": "runtimes/linux-x64/native/libglfw.so",
+        "sha256": "abd1e55084037754c954e3a35db13744e939bdda7c42b235ba6466eb89bc88de",
+        "rid": "linux-x64",
+        "implementation": "GLFW 3.4.0 (Ultz.Native.GLFW 3.4.0)",
+        "dependencies": [
+          "libc.so.6",
+          "libm.so.6"
+        ]
+      },
+      {
+        "path": "runtimes/win-x64/native/glfw3.dll",
+        "sha256": "a107a8e8378527897d5e99f3a53d01a7289ef5fda564952fbec2769386eccd58",
+        "rid": "win-x64",
+        "implementation": "GLFW 3.4.0 (Ultz.Native.GLFW 3.4.0)",
+        "dependencies": [
+          "GDI32.dll",
+          "KERNEL32.dll",
+          "SHELL32.dll",
+          "USER32.dll",
+          "VCRUNTIME140.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ]
+      }
+    ]
+  }
+}

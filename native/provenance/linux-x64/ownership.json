@@ -1,0 +1,52 @@
+{
+  "coreOwner": "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/source/imgui.cpp",
+  "objects": [
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/0.o",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/1.o",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/2.o",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/3.o",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/4.o",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/5.o",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/6.o",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/linux-x64/7.o"
+  ],
+  "requiredFlags": [
+    "zig",
+    "c++",
+    "-std=c++11",
+    "-O2",
+    "-DNDEBUG",
+    "-fPIC",
+    "-fvisibility=hidden",
+    "-fno-strict-aliasing",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-fno-threadsafe-statics",
+    "-nostdlib++",
+    "-target",
+    "x86_64-linux-gnu.2.17",
+    "-I",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/source",
+    "-I",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/native/full/api",
+    "-include",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/native/include/playground_imgui_config.h",
+    "-I",
+    "/private/var/folders/w0/fc1q2qkn5psg65k24cn8n1w80000gn/T/imgui-full-integration-23vme6z0/integration/ImGuiPlayground/.tmp/native/accessors/combined-final-build",
+    "-I",
+    "/private/var/folders/w0/fc1q2qkn5psg65k24cn8n1w80000gn/T/imgui-full-integration-23vme6z0/integration/ImGuiPlayground/.tmp/native/full-api/profile/combined-final-enums",
+    "-I",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/native/full/accessors"
+  ],
+  "separateFixtureBodiesLinked": false,
+  "translationUnits": [
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/source/imgui_draw.cpp",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/source/imgui_tables.cpp",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/source/imgui_widgets.cpp",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/source/imgui_demo.cpp",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/generated/wrappers.cpp",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/native/full/manual/manual.cpp",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/native/full/accessors/accessors.cpp",
+    "/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/full-api/profile/sol-delivery-20261008T144358Z-33442-selected-copy/source/imgui.cpp"
+  ]
+}

@@ -1,0 +1,19 @@
+<Project>
+  <!-- ResolvePackageAssets supplies the actual cache paths and layout metadata,
+       including for indirect PackageReferences. Never use GeneratePathProperty. -->
+  <PropertyGroup>
+    <_XBrutalFontFile>$(MSBuildThisFileDirectory)../contentFiles/any/net10.0/fonts/JetBrainsMono-Regular.ttf</_XBrutalFontFile>
+  </PropertyGroup>
+  <Target Name="XBrutalGlfwAliases" DependsOnTargets="ResolvePackageAssets" AfterTargets="ResolvePackageAssets" BeforeTargets="AssignTargetPaths;ComputeFilesToPublish" Condition="'$(DesignTimeBuild)' != 'true'">
+    <ItemGroup>
+      <_XBrutalGlfw Include="@(NativeCopyLocalItems);@(RuntimeTargetsCopyLocalItems)" Condition="'%(NuGetPackageId)' == 'Ultz.Native.GLFW' AND '%(NuGetPackageVersion)' == '3.4.0' AND ('%(PathInPackage)' == 'runtimes/osx-arm64/native/libglfw.3.dylib' OR '%(PathInPackage)' == 'runtimes/linux-x64/native/libglfw.so.3')">
+        <AliasName Condition="'%(Filename)%(Extension)' == 'libglfw.3.dylib'">libglfw.dylib</AliasName>
+        <AliasName Condition="'%(Filename)%(Extension)' == 'libglfw.so.3'">libglfw.so</AliasName>
+      </_XBrutalGlfw>
+      <!-- contentFiles alone does not reach indirect package consumers. -->
+      <None Remove="$(_XBrutalFontFile)" />
+      <Content Include="$(_XBrutalFontFile)" Link="fonts/JetBrainsMono-Regular.ttf" TargetPath="fonts/JetBrainsMono-Regular.ttf" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" Pack="false" Visible="false" />
+      <Content Include="@(_XBrutalGlfw)" Link="%(_XBrutalGlfw.DestinationSubDirectory)%(_XBrutalGlfw.AliasName)" TargetPath="%(_XBrutalGlfw.DestinationSubDirectory)%(_XBrutalGlfw.AliasName)" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" Pack="false" Visible="false" />
+    </ItemGroup>
+  </Target>
+</Project>

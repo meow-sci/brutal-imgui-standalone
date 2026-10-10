@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <StandalonePackageVersion Condition="'$(StandalonePackageVersion)' == ''">0.1.0-local.4</StandalonePackageVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="XBrutal.ImGuiStandalone" Version="[$(StandalonePackageVersion)]" />
+    <Reference Include="Brutal.ImGui"><HintPath>$(BrutalAssembliesDirectory)Brutal.ImGui.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="Brutal.Glfw"><HintPath>$(BrutalAssembliesDirectory)Brutal.Glfw.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="Brutal.Core.Common"><HintPath>$(BrutalAssembliesDirectory)Brutal.Core.Common.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="Brutal.Core.Strings"><HintPath>$(BrutalAssembliesDirectory)Brutal.Core.Strings.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="Brutal.Core.Numerics"><HintPath>$(BrutalAssembliesDirectory)Brutal.Core.Numerics.dll</HintPath><Private>true</Private></Reference>
+  </ItemGroup>
+</Project>

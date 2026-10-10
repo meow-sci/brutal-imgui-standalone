@@ -1,0 +1,1358 @@
+
+/Users/asherwin/repos/meow-sci/purrtty/ImGuiPlayground/.tmp/native/combined/sol-delivery-20261008T144358Z-33442-combined-final3/win-x64/production/imgui.dll:	file format coff-x86-64
+Characteristics 0x2022
+	executable
+	large address aware
+	DLL
+
+Time/Date               Tue Jan 28 23:31:20 2087
+Magic                   020b	(PE32+)
+MajorLinkerVersion      14
+MinorLinkerVersion      0
+SizeOfCode              0000000000105a00
+SizeOfInitializedData   000000000004f600
+SizeOfUninitializedData 0000000000000000
+AddressOfEntryPoint     00000000000decc0
+BaseOfCode              0000000000001000
+ImageBase               0000000180000000
+SectionAlignment        00001000
+FileAlignment           00000200
+MajorOSystemVersion     6
+MinorOSystemVersion     0
+MajorImageVersion       0
+MinorImageVersion       0
+MajorSubsystemVersion   6
+MinorSubsystemVersion   0
+Win32Version            00000000
+SizeOfImage             0015d000
+SizeOfHeaders           00000400
+CheckSum                00000000
+Subsystem               00000002	(Windows GUI)
+DllCharacteristics      00000160
+					HIGH_ENTROPY_VA
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve      0000000000100000
+SizeOfStackCommit       0000000000001000
+SizeOfHeapReserve       0000000000100000
+SizeOfHeapCommit        0000000000001000
+LoaderFlags             00000000
+NumberOfRvaAndSizes     00000010
+
+The Data Directory
+Entry 0 00000000001328f8 00009e38 Export Directory [.edata (or where ever we found it)]
+Entry 1 000000000013c730 000000f0 Import Directory [parts of .idata]
+Entry 2 0000000000000000 00000000 Resource Directory [.rsrc]
+Entry 3 0000000000151000 000093a8 Exception Directory [.pdata]
+Entry 4 0000000000000000 00000000 Security Directory
+Entry 5 000000000015c000 00000464 Base Relocation Directory [.reloc]
+Entry 6 0000000000148000 00000038 Debug Directory
+Entry 7 0000000000000000 00000000 Description Directory
+Entry 8 0000000000000000 00000000 Special Directory
+Entry 9 00000000001295e0 00000028 Thread Storage Directory [.tls]
+Entry a 0000000000000000 00000000 Load Configuration Directory
+Entry b 0000000000000000 00000000 Bound Import Directory
+Entry c 000000000013ca30 00000210 Import Address Table Directory
+Entry d 0000000000000000 00000000 Delay Import Directory
+Entry e 0000000000000000 00000000 CLR Runtime Header
+Entry f 0000000000000000 00000000 Reserved
+TLS directory:
+  StartAddressOfRawData: 0x0000018015b000
+  EndAddressOfRawData: 0x0000018015b008
+  AddressOfIndex: 0x0000018014f38c
+  AddressOfCallBacks: 0x000001801328c0
+  SizeOfZeroFill: 0
+  Characteristics: 4194304
+  Alignment: 8
+
+
+The Import Tables:
+  lookup 0013c820 time 00000000 fwd 00000000 name 0013cf6a addr 0013ca30
+
+    DLL Name: api-ms-win-crt-convert-l1-1-0.dll
+    Hint/Ord  Name
+           0  atof
+
+  lookup 0013c830 time 00000000 fwd 00000000 name 0013cf8c addr 0013ca40
+
+    DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+    Hint/Ord  Name
+           0  calloc
+           0  free
+           0  malloc
+
+  lookup 0013c850 time 00000000 fwd 00000000 name 0013cfab addr 0013ca60
+
+    DLL Name: api-ms-win-crt-math-l1-1-0.dll
+    Hint/Ord  Name
+           0  acosf
+           0  atan2f
+           0  pow
+           0  powf
+
+  lookup 0013c878 time 00000000 fwd 00000000 name 0013cfca addr 0013ca88
+
+    DLL Name: api-ms-win-crt-private-l1-1-0.dll
+    Hint/Ord  Name
+           0  memchr
+           0  strchr
+           0  strstr
+
+  lookup 0013c898 time 00000000 fwd 00000000 name 0013cfec addr 0013caa8
+
+    DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+    Hint/Ord  Name
+           0  _execute_onexit_table
+           0  _exit
+           0  _initialize_onexit_table
+           0  _initterm
+           0  _initterm_e
+           0  _register_onexit_function
+           0  abort
+
+  lookup 0013c8d8 time 00000000 fwd 00000000 name 0013d00e addr 0013cae8
+
+    DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+    Hint/Ord  Name
+           0  __acrt_iob_func
+           0  __stdio_common_vfprintf
+           0  __stdio_common_vsprintf
+           0  __stdio_common_vsscanf
+           0  _wfopen
+           0  fclose
+           0  fflush
+           0  fread
+           0  fseek
+           0  ftell
+           0  fwrite
+
+  lookup 0013c938 time 00000000 fwd 00000000 name 0013d02e addr 0013cb48
+
+    DLL Name: api-ms-win-crt-string-l1-1-0.dll
+    Hint/Ord  Name
+           0  strcmp
+           0  strncmp
+           0  strncpy
+           0  toupper
+
+  lookup 0013c960 time 00000000 fwd 00000000 name 0013d04f addr 0013cb70
+
+    DLL Name: api-ms-win-crt-utility-l1-1-0.dll
+    Hint/Ord  Name
+           0  qsort
+
+  lookup 0013c970 time 00000000 fwd 00000000 name 0013d071 addr 0013cb80
+
+    DLL Name: KERNEL32.dll
+    Hint/Ord  Name
+           0  DeleteCriticalSection
+           0  EnterCriticalSection
+           0  GetLastError
+           0  GlobalAlloc
+           0  GlobalFree
+           0  GlobalLock
+           0  GlobalUnlock
+           0  InitializeCriticalSection
+           0  LeaveCriticalSection
+           0  MultiByteToWideChar
+           0  Sleep
+           0  TlsGetValue
+           0  VirtualProtect
+           0  VirtualQuery
+           0  WideCharToMultiByte
+
+  lookup 0013c9f0 time 00000000 fwd 00000000 name 0013d07e addr 0013cc00
+
+    DLL Name: SHELL32.dll
+    Hint/Ord  Name
+           0  ShellExecuteW
+
+  lookup 0013ca00 time 00000000 fwd 00000000 name 0013d08a addr 0013cc10
+
+    DLL Name: USER32.dll
+    Hint/Ord  Name
+           0  CloseClipboard
+           0  EmptyClipboard
+           0  GetClipboardData
+           0  OpenClipboard
+           0  SetClipboardData
+
+Export Table:
+ DLL name: imgui.dll
+ Ordinal base: 1
+ Ordinal      RVA  Name
+       1  0x7e230  AcceptDragDropPayload
+       2  0x7e240  ActivateItemByID_internal
+       3  0x7e250  AddContextHook_internal
+       4  0x7e260  AddDrawListToDrawDataEx_internal
+       5  0x7e270  AddSettingsHandler_internal
+       6  0x7e280  AlignTextToFramePadding
+       7  0x7e290  ArrowButton
+       8  0x7e2b0  ArrowButtonEx_internal
+       9  0x7e2d0  Begin
+      10  0x7e300  BeginBoxSelect_internal
+      11  0x7e320  BeginChildEx_internal
+      12  0x7e340  BeginChild_0
+      13  0x7e360  BeginChild_1
+      14  0x7e380  BeginColumns_internal
+      15  0x7e390  BeginCombo
+      16  0x7e3b0  BeginComboPopup_internal
+      17  0x7e3d0  BeginComboPreview_internal
+      18  0x7e3f0  BeginDisabled
+      19  0x7e400  BeginDisabledOverrideReenable_internal
+      20  0x7e410  BeginDockableDragDropSource_internal
+      21  0x7e420  BeginDockableDragDropTarget_internal
+      22  0x7e430  BeginDocked_internal
+      23  0x7e450  BeginDragDropSource
+      24  0x7e470  BeginDragDropTarget
+      25  0x7e490  BeginDragDropTargetCustom_internal
+      26  0x7e4b0  BeginErrorTooltip_internal
+      27  0x7e4d0  BeginGroup
+      28  0x7e4e0  BeginItemTooltip
+      29  0x7e500  BeginListBox
+      30  0x7e520  BeginMainMenuBar
+      31  0x7e540  BeginMenu
+      32  0x7e560  BeginMenuBar
+      33  0x7e580  BeginMenuEx_internal
+      34  0x7e5a0  BeginMultiSelect
+      35  0x7e5b0  BeginPopup
+      36  0x7e5d0  BeginPopupContextItem
+      37  0x7e5f0  BeginPopupContextVoid
+      38  0x7e610  BeginPopupContextWindow
+      39  0x7e630  BeginPopupEx_internal
+      40  0x7e650  BeginPopupMenuEx_internal
+      41  0x7e670  BeginPopupModal
+      42  0x7e6a0  BeginTabBar
+      43  0x7e6c0  BeginTabBarEx_internal
+      44  0x7e6e0  BeginTabItem
+      45  0x7e710  BeginTable
+      46  0x7e740  BeginTableEx_internal
+      47  0x7e770  BeginTooltip
+      48  0x7e790  BeginTooltipEx_internal
+      49  0x7e7b0  BeginTooltipHidden_internal
+      50  0x7e7d0  BeginViewportSideBar_internal
+      51  0x7e7f0  BringWindowToDisplayBack_internal
+      52  0x7e800  BringWindowToDisplayBehind_internal
+      53  0x7e810  BringWindowToDisplayFront_internal
+      54  0x7e820  BringWindowToFocusFront_internal
+      55  0x7e830  Bullet
+      56  0x85190  BulletText
+      57  0x7e840  Button
+      58  0x7e860  ButtonBehavior_internal
+      59  0x7e880  ButtonEx_internal
+      60  0x7e8a0  CalcItemSize_internal
+      61  0x7e8b0  CalcItemWidth
+      62  0x7e8c0  CalcRoundingFlagsForRectInRect_internal
+      63  0x7e8d0  CalcTextSize
+      64  0x7e8f0  CalcTypematicRepeatAmount_internal
+      65  0x7e900  CalcWindowNextAutoFitSize_internal
+      66  0x7e910  CalcWrapWidthForPos_internal
+      67  0x7e920  CallContextHooks_internal
+      68  0x7e930  Checkbox
+      69  0x7e960  CheckboxFlags_0
+      70  0x7e980  CheckboxFlags_1
+      71  0x7e9a0  CheckboxFlags_internal_0
+      72  0x7e9c0  CheckboxFlags_internal_1
+      73  0x7e9e0  ClearActiveID_internal
+      74  0x7e9f0  ClearDragDrop_internal
+      75  0x7ea00  ClearIniSettings_internal
+      76  0x7ea10  ClearWindowSettings_internal
+      77  0x7ea20  CloseButton_internal
+      78  0x7ea40  CloseCurrentPopup
+      79  0x7ea50  ClosePopupToLevel_internal
+      80  0x7ea60  ClosePopupsExceptModals_internal
+      81  0x7ea70  ClosePopupsOverWindow_internal
+      82  0x7ea80  CollapseButton_internal
+      83  0x7eaa0  CollapsingHeader_0
+      84  0x7eac0  CollapsingHeader_1
+      85  0x7eaf0  ColorButton
+      86  0x7eb10  ColorConvertFloat4ToU32
+      87  0x7eb20  ColorConvertHSVtoRGB
+      88  0x7eb30  ColorConvertRGBtoHSV
+      89  0x7eb40  ColorConvertU32ToFloat4
+      90  0x7eb70  ColorEdit3
+      91  0x7eb90  ColorEdit4
+      92  0x7ebb0  ColorEditOptionsPopup_internal
+      93  0x7ebc0  ColorPicker3
+      94  0x7ebe0  ColorPicker4
+      95  0x7ec00  ColorPickerOptionsPopup_internal
+      96  0x7ec10  ColorTooltip_internal
+      97  0x7ec20  Columns
+      98  0x7ec40  Combo_0
+      99  0x7ec60  Combo_1
+     100  0x7ec80  Combo_2
+     101  0x7ecb0  ConvertSingleModFlagToKey_internal
+     102  0x7ece0  CreateContext
+     103  0x7ecf0  CreateNewWindowSettings_internal
+     104  0x7ed00  DataTypeApplyFromText_internal
+     105  0x7ed20  DataTypeApplyOp_internal
+     106  0x7ed30  DataTypeClamp_internal
+     107  0x7ed50  DataTypeCompare_internal
+     108  0x7ed60  DataTypeFormatString_internal
+     109  0x7ed70  DataTypeGetInfo_internal
+     110  0x7ed80  DataTypeIsZero_internal
+     111  0x7eda0  DebugAllocHook_internal
+     112  0x7edb0  DebugBreakButtonTooltip_internal
+     113  0x7edc0  DebugBreakButton_internal
+     114  0x7ede0  DebugBreakClearData_internal
+     115  0x7edf0  DebugCheckVersionAndDataLayout
+     116  0x7ee20  DebugDrawCursorPos_internal
+     117  0x7ee30  DebugDrawItemRect_internal
+     118  0x7ee40  DebugDrawLineExtents_internal
+     119  0x7ee50  DebugFlashStyleColor
+     120  0x7ee60  DebugHookIdInfo_internal
+     121  0x7ee70  DebugLocateItemOnHover_internal
+     122  0x7ee80  DebugLocateItemResolveWithLastItem_internal
+     123  0x7ee90  DebugLocateItem_internal
+     124  0x851b0  DebugLog
+     125  0x7eea0  DebugNodeColumns_internal
+     126  0x7eeb0  DebugNodeDockNode_internal
+     127  0x7eec0  DebugNodeDrawCmdShowMeshAndBoundingBox_internal
+     128  0x7eef0  DebugNodeDrawList_internal
+     129  0x7ef00  DebugNodeFontGlyph_internal
+     130  0x7ef10  DebugNodeFontGlyphesForSrcMask_internal
+     131  0x7ef20  DebugNodeFont_internal
+     132  0x7ef30  DebugNodeInputTextState_internal
+     133  0x7ef40  DebugNodeMultiSelectState_internal
+     134  0x7ef50  DebugNodePlatformMonitor_internal
+     135  0x7ef60  DebugNodeStorage_internal
+     136  0x7ef70  DebugNodeTabBar_internal
+     137  0x7ef80  DebugNodeTableSettings_internal
+     138  0x7ef90  DebugNodeTable_internal
+     139  0x7efa0  DebugNodeTexture_internal
+     140  0x7efb0  DebugNodeTypingSelectState_internal
+     141  0x7efc0  DebugNodeViewport_internal
+     142  0x7efd0  DebugNodeWindowSettings_internal
+     143  0x7efe0  DebugNodeWindow_internal
+     144  0x7eff0  DebugNodeWindowsListByBeginStackParent_internal
+     145  0x7f000  DebugNodeWindowsList_internal
+     146  0x7f010  DebugRenderKeyboardPreview_internal
+     147  0x7f020  DebugRenderViewportThumbnail_internal
+     148  0x7f030  DebugStartItemPicker
+     149  0x7f040  DebugTextEncoding
+     150  0x7f050  DebugTextUnformattedWithLocateItem_internal
+     151  0x7f060  DestroyContext
+     152  0x7f070  DestroyPlatformWindow_internal
+     153  0x7f080  DestroyPlatformWindows
+     154  0x7f090  DockBuilderAddNode_internal
+     155  0x7f0a0  DockBuilderCopyDockSpace_internal
+     156  0x7f0b0  DockBuilderCopyNode_internal
+     157  0x7f0c0  DockBuilderCopyWindowSettings_internal
+     158  0x7f0d0  DockBuilderDockWindow_internal
+     159  0x7f0e0  DockBuilderFinish_internal
+     160  0x7f0f0  DockBuilderGetCentralNode_internal
+     161  0x7f130  DockBuilderGetNode_internal
+     162  0x7f140  DockBuilderRemoveNodeChildNodes_internal
+     163  0x7f150  DockBuilderRemoveNodeDockedWindows_internal
+     164  0x7f160  DockBuilderRemoveNode_internal
+     165  0x7f170  DockBuilderSetNodePos_internal
+     166  0x7f180  DockBuilderSetNodeSize_internal
+     167  0x7f190  DockBuilderSplitNode_internal
+     168  0x7f1a0  DockContextCalcDropPosForDocking_internal
+     169  0x7f1d0  DockContextClearNodes_internal
+     170  0x7f1f0  DockContextEndFrame_internal
+     171  0x7f200  DockContextFindNodeByID_internal
+     172  0x7f210  DockContextGenNodeID_internal
+     173  0x7f220  DockContextInitialize_internal
+     174  0x7f230  DockContextNewFrameUpdateDocking_internal
+     175  0x7f240  DockContextNewFrameUpdateUndocking_internal
+     176  0x7f250  DockContextProcessUndockNode_internal
+     177  0x7f260  DockContextProcessUndockWindow_internal
+     178  0x7f280  DockContextQueueDock_internal
+     179  0x7f2c0  DockContextQueueUndockNode_internal
+     180  0x7f2d0  DockContextQueueUndockWindow_internal
+     181  0x7f2e0  DockContextRebuildNodes_internal
+     182  0x7f2f0  DockContextShutdown_internal
+     183  0x7f300  DockNodeBeginAmendTabBar_internal
+     184  0x7f320  DockNodeEndAmendTabBar_internal
+     185  0x7f330  DockNodeGetDepth_internal
+     186  0x7f350  DockNodeGetRootNode_internal
+     187  0x7f370  DockNodeGetWindowMenuButtonId_internal
+     188  0x7f390  DockNodeIsInHierarchyOf_internal
+     189  0x7f3d0  DockNodeWindowMenuHandler_Default_internal
+     190  0x7f3e0  DockSpace
+     191  0x7f3f0  DockSpaceOverViewport
+     192  0x7f400  DragBehavior_internal
+     193  0x7f440  DragFloat
+     194  0x7f480  DragFloat2
+     195  0x7f4c0  DragFloat3
+     196  0x7f500  DragFloat4
+     197  0x7f540  DragFloatRange2
+     198  0x7f580  DragInt
+     199  0x7f5b0  DragInt2
+     200  0x7f5e0  DragInt3
+     201  0x7f610  DragInt4
+     202  0x7f640  DragIntRange2
+     203  0x7f680  DragScalar
+     204  0x7f6c0  DragScalarN
+     205  0x7f700  Dummy
+     206  0x7f710  End
+     207  0x7f720  EndBoxSelect_internal
+     208  0x7f730  EndChild
+     209  0x7f740  EndColumns_internal
+     210  0x7f750  EndCombo
+     211  0x7f760  EndComboPreview_internal
+     212  0x7f770  EndDisabled
+     213  0x7f780  EndDisabledOverrideReenable_internal
+     214  0x7f790  EndDragDropSource
+     215  0x7f7a0  EndDragDropTarget
+     216  0x7f7b0  EndErrorTooltip_internal
+     217  0x7f7c0  EndFrame
+     218  0x7f7d0  EndGroup
+     219  0x7f7e0  EndListBox
+     220  0x7f7f0  EndMainMenuBar
+     221  0x7f800  EndMenu
+     222  0x7f810  EndMenuBar
+     223  0x7f820  EndMultiSelect
+     224  0x7f830  EndPopup
+     225  0x7f840  EndTabBar
+     226  0x7f850  EndTabItem
+     227  0x7f860  EndTable
+     228  0x7f870  EndTooltip
+     229  0x7f880  ErrorCheckEndFrameFinalizeErrorTooltip_internal
+     230  0x7f890  ErrorCheckUsingSetCursorPosToExtendParentBoundaries_internal
+     231  0x7f8a0  ErrorLog_internal
+     232  0x7f8c0  ErrorRecoveryStoreState_internal
+     233  0x7f8d0  ErrorRecoveryTryToRecoverState_internal
+     234  0x7f8e0  ErrorRecoveryTryToRecoverWindowState_internal
+     235  0x7f8f0  FindBestWindowPosForPopupEx_internal
+     236  0x7f900  FindBestWindowPosForPopup_internal
+     237  0x7f910  FindBlockingModal_internal
+     238  0x7f920  FindBottomMostVisibleWindowWithinBeginStack_internal
+     239  0x7f930  FindHoveredViewportFromPlatformWindowStack_internal
+     240  0x7f940  FindHoveredWindowEx_internal
+     241  0x7f950  FindOrCreateColumns_internal
+     242  0x7f960  FindRenderedTextEnd_internal
+     243  0x7f970  FindSettingsHandler_internal
+     244  0x7f980  FindViewportByID
+     245  0x7f990  FindViewportByPlatformHandle
+     246  0x7f9a0  FindWindowByID_internal
+     247  0x7f9b0  FindWindowByName_internal
+     248  0x7f9c0  FindWindowDisplayIndex_internal
+     249  0x7f9d0  FindWindowSettingsByID_internal
+     250  0x7f9e0  FindWindowSettingsByWindow_internal
+     251  0x7f9f0  FixupKeyChord_internal
+     252  0x7fa00  FocusItem_internal
+     253  0x7fa10  FocusTopMostWindowUnderOne_internal
+     254  0x7fa20  FocusWindow_internal
+     255  0x7fa30  GcAwakeTransientWindowBuffers_internal
+     256  0x7fa40  GcCompactTransientMiscBuffers_internal
+     257  0x7fa50  GcCompactTransientWindowBuffers_internal
+     258  0x7fa60  GetActiveID_internal
+     259  0x7fa80  GetAllocatorFunctions
+     260  0x7fae0  GetBackgroundDrawList
+     261  0x7faf0  GetBoxSelectState_internal
+     262  0x7fb30  GetClipboardText
+     263  0x7fb40  GetColorU32_0
+     264  0x7fb50  GetColorU32_1
+     265  0x7fb60  GetColorU32_2
+     266  0x7fb70  GetColumnIndex
+     267  0x7fb80  GetColumnNormFromOffset_internal
+     268  0x7fb90  GetColumnOffset
+     269  0x7fba0  GetColumnOffsetFromNorm_internal
+     270  0x7fbb0  GetColumnWidth
+     271  0x7fbc0  GetColumnsCount
+     272  0x7fbd0  GetColumnsID_internal
+     273  0x7fbe0  GetContentRegionAvail
+     274  0x7fbf0  GetCurrentContext
+     275  0x7fc00  GetCurrentFocusScope_internal
+     276  0x7fc20  GetCurrentTabBar_internal
+     277  0x7fc40  GetCurrentTable_internal
+     278  0x7fc60  GetCurrentWindowRead_internal
+     279  0x7fc80  GetCurrentWindow_internal
+     280  0x7fcb0  GetCursorPos
+     281  0x7fcc0  GetCursorPosX
+     282  0x7fcd0  GetCursorPosY
+     283  0x7fce0  GetCursorScreenPos
+     284  0x7fcf0  GetCursorStartPos
+     285  0x7fd00  GetDefaultFont_internal
+     286  0x7fd10  GetDragDropPayload
+     287  0x7fd20  GetDrawData
+     288  0x7fd30  GetDrawListSharedData
+     289  0x7fd40  GetFocusID_internal
+     290  0x7fd60  GetFont
+     291  0x7fd70  GetFontBaked
+     292  0x7fd80  GetFontRasterizerDensity_internal
+     293  0x7fda0  GetFontSize
+     294  0x7fdb0  GetFontTexUvWhitePixel
+     295  0x7fdc0  GetForegroundDrawList
+     296  0x7fdd0  GetForegroundDrawList_internal
+     297  0x7fde0  GetFrameCount
+     298  0x7fdf0  GetFrameHeight
+     299  0x7fe00  GetFrameHeightWithSpacing
+     300  0x7fe10  GetHoveredID_internal
+     301  0x7fe20  GetIDWithSeed_internal_0
+     302  0x7fe30  GetIDWithSeed_internal_1
+     303  0x7fe40  GetID_0
+     304  0x7fe50  GetID_1
+     305  0x7fe60  GetID_2
+     306  0x7fe70  GetID_3
+     307  0x7fe80  GetIO
+     308  0x7fe90  GetIO_internal
+     309  0x7fea0  GetInputTextState_internal
+     310  0x7fed0  GetItemFlags_internal
+     311  0x7fef0  GetItemID
+     312  0x7ff00  GetItemRectMax
+     313  0x7ff10  GetItemRectMin
+     314  0x7ff20  GetItemRectSize
+     315  0x7ff30  GetItemStatusFlags_internal
+     316  0x7ff50  GetKeyChordName_internal
+     317  0x7ff60  GetKeyData_internal_0
+     318  0x7ff70  GetKeyData_internal_1
+     319  0x7ff90  GetKeyMagnitude2d_internal
+     320  0x7ffa0  GetKeyName
+     321  0x7ffb0  GetKeyOwnerData_internal
+     322  0x80000  GetKeyOwner_internal
+     323  0x80010  GetKeyPressedAmount
+     324  0x80020  GetMainViewport
+     325  0x80030  GetMouseClickedCount
+     326  0x80040  GetMouseCursor
+     327  0x80050  GetMouseDragDelta
+     328  0x80060  GetMousePos
+     329  0x80070  GetMousePosOnOpeningCurrentPopup
+     330  0x80080  GetMultiSelectState_internal
+     331  0x800d0  GetNavTweakPressedAmount_internal
+     332  0x800e0  GetPlatformIO
+     333  0x800f0  GetPlatformIO_internal
+     334  0x80100  GetPopupAllowedExtentRect_internal
+     335  0x80130  GetRoundedFontSize_internal
+     336  0x80150  GetScrollMaxX
+     337  0x80160  GetScrollMaxY
+     338  0x80170  GetScrollX
+     339  0x80180  GetScrollY
+     340  0x80190  GetShortcutRoutingData_internal
+     341  0x801a0  GetStateStorage
+     342  0x801b0  GetStyle
+     343  0x801c0  GetStyleColorName
+     344  0x801d0  GetStyleColorVec4
+     345  0x801e0  GetStyleVarInfo_internal
+     346  0x801f0  GetTextLineHeight
+     347  0x80200  GetTextLineHeightWithSpacing
+     348  0x80210  GetTime
+     349  0x80220  GetTopMostAndVisiblePopupModal_internal
+     350  0x80230  GetTopMostPopupModal_internal
+     351  0x80240  GetTreeNodeToLabelSpacing
+     352  0x80250  GetTypematicRepeatRate_internal
+     353  0x80260  GetTypingSelectRequest_internal
+     354  0x80270  GetVersion
+     355  0x80280  GetViewportPlatformMonitor_internal
+     356  0x80290  GetWindowAlwaysWantOwnTabBar_internal
+     357  0x802b0  GetWindowDockID
+     358  0x802c0  GetWindowDockNode_internal
+     359  0x802e0  GetWindowDpiScale
+     360  0x802f0  GetWindowDrawList
+     361  0x80300  GetWindowHeight
+     362  0x80310  GetWindowPos
+     363  0x80320  GetWindowResizeBorderID_internal
+     364  0x80330  GetWindowResizeCornerID_internal
+     365  0x80340  GetWindowScrollbarID_internal
+     366  0x80350  GetWindowScrollbarRect_internal
+     367  0x80380  GetWindowSize
+     368  0x80390  GetWindowViewport
+     369  0x803a0  GetWindowWidth
+     370  0x85390  Get_GetWindowFramebufferScale_InteropPointer
+     371  0x853b0  Get_GetWindowPos_InteropPointer
+     372  0x853d0  Get_GetWindowSize_InteropPointer
+     373  0x803b0  ImBitVector_ClearBit_internal
+     374  0x803d0  ImBitVector_Clear_internal
+     375  0x80410  ImBitVector_Create_internal
+     376  0x804b0  ImBitVector_SetBit_internal
+     377  0x804d0  ImBitVector_TestBit_internal
+     378  0x804f0  ImDrawCmd_GetTexID
+     379  0x80510  ImDrawData_AddDrawList
+     380  0x80520  ImDrawData_Clear
+     381  0x80530  ImDrawData_DeIndexAllBuffers
+     382  0x80540  ImDrawData_ScaleClipRects
+     383  0x80550  ImDrawListSharedData_SetCircleTessellationMaxError_internal
+     384  0x80560  ImDrawListSplitter_Clear
+     385  0x80580  ImDrawListSplitter_ClearFreeMemory
+     386  0x80590  ImDrawListSplitter_Merge
+     387  0x805a0  ImDrawListSplitter_SetCurrentChannel
+     388  0x805b0  ImDrawListSplitter_Split
+     389  0x805c0  ImDrawList_AddBezierCubic
+     390  0x805d0  ImDrawList_AddBezierQuadratic
+     391  0x805e0  ImDrawList_AddCallback
+     392  0x805f0  ImDrawList_AddCircle
+     393  0x80600  ImDrawList_AddCircleFilled
+     394  0x80610  ImDrawList_AddConcavePolyFilled
+     395  0x80620  ImDrawList_AddConvexPolyFilled
+     396  0x80630  ImDrawList_AddDrawCmd
+     397  0x80640  ImDrawList_AddEllipse
+     398  0x80650  ImDrawList_AddEllipseFilled
+     399  0x80660  ImDrawList_AddImage
+     400  0x806a0  ImDrawList_AddImageQuad
+     401  0x806f0  ImDrawList_AddImageRounded
+     402  0x80740  ImDrawList_AddLine
+     403  0x80750  ImDrawList_AddNgon
+     404  0x80760  ImDrawList_AddNgonFilled
+     405  0x80770  ImDrawList_AddPolyline
+     406  0x80780  ImDrawList_AddQuad
+     407  0x80790  ImDrawList_AddQuadFilled
+     408  0x807a0  ImDrawList_AddRect
+     409  0x807b0  ImDrawList_AddRectFilled
+     410  0x807c0  ImDrawList_AddRectFilledMultiColor
+     411  0x807d0  ImDrawList_AddText_0
+     412  0x807e0  ImDrawList_AddText_1
+     413  0x807f0  ImDrawList_AddTriangle
+     414  0x80800  ImDrawList_AddTriangleFilled
+     415  0x80810  ImDrawList_CalcCircleAutoSegmentCount
+     416  0x80820  ImDrawList_ChannelsMerge
+     417  0x80840  ImDrawList_ChannelsSetCurrent
+     418  0x80860  ImDrawList_ChannelsSplit
+     419  0x80880  ImDrawList_ClearFreeMemory
+     420  0x80890  ImDrawList_CloneOutput
+     421  0x808a0  ImDrawList_GetClipRectMax
+     422  0x808c0  ImDrawList_GetClipRectMin
+     423  0x808e0  ImDrawList_OnChangedClipRect
+     424  0x808f0  ImDrawList_OnChangedTexture
+     425  0x80900  ImDrawList_OnChangedVtxOffset
+     426  0x80910  ImDrawList_PathArcTo
+     427  0x80920  ImDrawList_PathArcToFast
+     428  0x80930  ImDrawList_PathArcToFastEx
+     429  0x80940  ImDrawList_PathArcToN
+     430  0x80950  ImDrawList_PathBezierCubicCurveTo
+     431  0x80960  ImDrawList_PathBezierQuadraticCurveTo
+     432  0x80970  ImDrawList_PathClear
+     433  0x80980  ImDrawList_PathEllipticalArcTo
+     434  0x80990  ImDrawList_PathFillConcave
+     435  0x809c0  ImDrawList_PathFillConvex
+     436  0x809f0  ImDrawList_PathLineTo
+     437  0x80a90  ImDrawList_PathLineToMergeDuplicate
+     438  0x80b50  ImDrawList_PathRect
+     439  0x80b60  ImDrawList_PathStroke
+     440  0x80ba0  ImDrawList_PopClipRect
+     441  0x80bb0  ImDrawList_PopTexture
+     442  0x80bc0  ImDrawList_PopUnusedDrawCmd
+     443  0x80bd0  ImDrawList_PrimQuadUV
+     444  0x80be0  ImDrawList_PrimRect
+     445  0x80bf0  ImDrawList_PrimRectUV
+     446  0x80c00  ImDrawList_PrimReserve
+     447  0x80c10  ImDrawList_PrimUnreserve
+     448  0x80c20  ImDrawList_PrimVtx
+     449  0x80c60  ImDrawList_PrimWriteIdx
+     450  0x80c80  ImDrawList_PrimWriteVtx
+     451  0x80cb0  ImDrawList_PushClipRect
+     452  0x80cd0  ImDrawList_PushClipRectFullScreen
+     453  0x80ce0  ImDrawList_PushTexture
+     454  0x80d10  ImDrawList_ResetForNewFrame
+     455  0x80d20  ImDrawList_SetDrawListSharedData
+     456  0x80d30  ImDrawList_SetTexture
+     457  0x80d60  ImDrawList_TryMergeDrawCmds
+     458  0x80d70  ImFontAtlas_AddCustomRect
+     459  0x80d80  ImFontAtlas_AddFont
+     460  0x80d90  ImFontAtlas_AddFontDefault
+     461  0x80da0  ImFontAtlas_AddFontFromFileTTF
+     462  0x80db0  ImFontAtlas_AddFontFromMemoryCompressedBase85TTF
+     463  0x80dc0  ImFontAtlas_AddFontFromMemoryCompressedTTF
+     464  0x80dd0  ImFontAtlas_AddFontFromMemoryTTF
+     465  0x80de0  ImFontAtlas_Clear
+     466  0x80df0  ImFontAtlas_ClearFonts
+     467  0x80e00  ImFontAtlas_ClearInputData
+     468  0x80e10  ImFontAtlas_ClearTexData
+     469  0x80e20  ImFontAtlas_CompactCache
+     470  0x80e30  ImFontAtlas_GetCustomRect
+     471  0x80e50  ImFontAtlas_GetGlyphRangesDefault
+     472  0x80e60  ImFontAtlas_RemoveCustomRect
+     473  0x80e70  ImFontAtlas_RemoveFont
+     474  0x80e80  ImFontAtlas_SetFontLoader
+     475  0x80e90  ImFontBaked_ClearOutputData
+     476  0x80ea0  ImFontBaked_FindGlyph
+     477  0x80eb0  ImFontBaked_FindGlyphNoFallback
+     478  0x80ec0  ImFontBaked_GetCharAdvance
+     479  0x80ed0  ImFontBaked_IsGlyphLoaded
+     480  0x80ef0  ImFontGlyphRangesBuilder_AddChar
+     481  0x80f10  ImFontGlyphRangesBuilder_AddRanges
+     482  0x80f20  ImFontGlyphRangesBuilder_AddText
+     483  0x80f30  ImFontGlyphRangesBuilder_BuildRanges
+     484  0x80f40  ImFontGlyphRangesBuilder_Clear
+     485  0x80fe0  ImFontGlyphRangesBuilder_GetBit
+     486  0x81000  ImFontGlyphRangesBuilder_SetBit
+     487  0x81030  ImFont_AddRemapChar
+     488  0x81040  ImFont_CalcTextSizeA
+     489  0x81050  ImFont_CalcWordWrapPosition
+     490  0x81060  ImFont_ClearOutputData
+     491  0x81070  ImFont_GetDebugName
+     492  0x81090  ImFont_GetFontBaked
+     493  0x810a0  ImFont_IsGlyphInFont
+     494  0x810c0  ImFont_IsGlyphRangeUnused
+     495  0x810e0  ImFont_IsLoaded
+     496  0x810f0  ImFont_RenderChar
+     497  0x81100  ImFont_RenderText
+     498  0x81150  ImGuiDockNode_IsCentralNode_internal
+     499  0x81160  ImGuiDockNode_IsDockSpace_internal
+     500  0x81170  ImGuiDockNode_IsEmpty_internal
+     501  0x81190  ImGuiDockNode_IsFloatingNode_internal
+     502  0x811b0  ImGuiDockNode_IsHiddenTabBar_internal
+     503  0x811c0  ImGuiDockNode_IsLeafNode_internal
+     504  0x811d0  ImGuiDockNode_IsNoTabBar_internal
+     505  0x811e0  ImGuiDockNode_IsRootNode_internal
+     506  0x811f0  ImGuiDockNode_IsSplitNode_internal
+     507  0x81200  ImGuiDockNode_Rect_internal
+     508  0x81220  ImGuiDockNode_SetLocalFlags_internal
+     509  0x81240  ImGuiDockNode_UpdateMergedFlags_internal
+     510  0x81260  ImGuiIO_AddFocusEvent
+     511  0x81270  ImGuiIO_AddInputCharacter
+     512  0x81280  ImGuiIO_AddInputCharacterUTF16
+     513  0x81290  ImGuiIO_AddInputCharactersUTF8
+     514  0x812a0  ImGuiIO_AddKeyAnalogEvent
+     515  0x812c0  ImGuiIO_AddKeyEvent
+     516  0x812e0  ImGuiIO_AddMouseButtonEvent
+     517  0x81300  ImGuiIO_AddMousePosEvent
+     518  0x81310  ImGuiIO_AddMouseSourceEvent
+     519  0x81320  ImGuiIO_AddMouseViewportEvent
+     520  0x81330  ImGuiIO_AddMouseWheelEvent
+     521  0x81340  ImGuiIO_ClearEventsQueue
+     522  0x81350  ImGuiIO_ClearInputKeys
+     523  0x81360  ImGuiIO_ClearInputMouse
+     524  0x81370  ImGuiIO_SetAppAcceptingEvents
+     525  0x81380  ImGuiIO_SetKeyEventNativeData
+     526  0x81390  ImGuiInputTextCallbackData_ClearSelection
+     527  0x813a0  ImGuiInputTextCallbackData_DeleteChars
+     528  0x813b0  ImGuiInputTextCallbackData_HasSelection
+     529  0x813c0  ImGuiInputTextCallbackData_InsertChars
+     530  0x813d0  ImGuiInputTextCallbackData_SelectAll
+     531  0x813f0  ImGuiInputTextDeactivatedState_ClearFreeMemory_internal
+     532  0x81430  ImGuiInputTextState_ClearFreeMemory_internal
+     533  0x81490  ImGuiInputTextState_ClearSelection_internal
+     534  0x814a0  ImGuiInputTextState_ClearText_internal
+     535  0x814c0  ImGuiInputTextState_CursorAnimReset_internal
+     536  0x814d0  ImGuiInputTextState_CursorClamp_internal
+     537  0x814e0  ImGuiInputTextState_GetCursorPos_internal
+     538  0x814f0  ImGuiInputTextState_GetSelectionEnd_internal
+     539  0x81500  ImGuiInputTextState_GetSelectionStart_internal
+     540  0x81510  ImGuiInputTextState_HasSelection_internal
+     541  0x81530  ImGuiInputTextState_OnCharPressed_internal
+     542  0x81540  ImGuiInputTextState_OnKeyPressed_internal
+     543  0x81550  ImGuiInputTextState_ReloadUserBufAndKeepSelection_internal
+     544  0x81560  ImGuiInputTextState_ReloadUserBufAndMoveToEnd_internal
+     545  0x81570  ImGuiInputTextState_ReloadUserBufAndSelectAll_internal
+     546  0x81580  ImGuiInputTextState_SelectAll_internal
+     547  0x81590  ImGuiKeyRoutingTable_Clear_internal
+     548  0x81600  ImGuiListClipperData_Reset_internal
+     549  0x81670  ImGuiListClipperRange_FromIndices_internal
+     550  0x81690  ImGuiListClipperRange_FromPositions_internal
+     551  0x816c0  ImGuiListClipper_Begin
+     552  0x816d0  ImGuiListClipper_End
+     553  0x816e0  ImGuiListClipper_IncludeItemByIndex
+     554  0x816f0  ImGuiListClipper_IncludeItemsByIndex
+     555  0x81700  ImGuiListClipper_SeekCursorForItem
+     556  0x81710  ImGuiListClipper_Step
+     557  0x81730  ImGuiMenuColumns_CalcNextTotalWidth_internal
+     558  0x81740  ImGuiMenuColumns_DeclColumns_internal
+     559  0x81750  ImGuiMenuColumns_Update_internal
+     560  0x81770  ImGuiMultiSelectTempData_ClearIO_internal
+     561  0x817e0  ImGuiMultiSelectTempData_Clear_internal
+     562  0x81870  ImGuiNavItemData_Clear_internal
+     563  0x818a0  ImGuiNextItemData_ClearFlags_internal
+     564  0x818b0  ImGuiNextWindowData_ClearFlags_internal
+     565  0x818c0  ImGuiPayload_Clear
+     566  0x818f0  ImGuiPayload_IsDataType
+     567  0x81930  ImGuiPayload_IsDelivery
+     568  0x81940  ImGuiPayload_IsPreview
+     569  0x81950  ImGuiSelectionBasicStorage_ApplyRequests
+     570  0x81960  ImGuiSelectionBasicStorage_Clear
+     571  0x81970  ImGuiSelectionBasicStorage_Contains
+     572  0x81990  ImGuiSelectionBasicStorage_GetNextSelectedItem
+     573  0x819b0  ImGuiSelectionBasicStorage_GetStorageIdFromIndex
+     574  0x819c0  ImGuiSelectionBasicStorage_SetItemSelected
+     575  0x819e0  ImGuiSelectionBasicStorage_Swap
+     576  0x819f0  ImGuiSelectionExternalStorage_ApplyRequests
+     577  0x81a00  ImGuiStorage_BuildSortByKey
+     578  0x81a10  ImGuiStorage_Clear
+     579  0x81a50  ImGuiStorage_GetBool
+     580  0x81a70  ImGuiStorage_GetBoolRef
+     581  0x81a90  ImGuiStorage_GetFloat
+     582  0x81aa0  ImGuiStorage_GetFloatRef
+     583  0x81ab0  ImGuiStorage_GetInt
+     584  0x81ac0  ImGuiStorage_GetIntRef
+     585  0x81ad0  ImGuiStorage_GetVoidPtr
+     586  0x81ae0  ImGuiStorage_GetVoidPtrRef
+     587  0x81af0  ImGuiStorage_SetAllInt
+     588  0x81b00  ImGuiStorage_SetBool
+     589  0x81b20  ImGuiStorage_SetFloat
+     590  0x81b30  ImGuiStorage_SetInt
+     591  0x81b40  ImGuiStorage_SetVoidPtr
+     592  0x81b50  ImGuiStyleVarInfo_GetVarPtr_internal
+     593  0x81b60  ImGuiStyle_ScaleAllSizes
+     594  0x81b70  ImGuiTableSettings_GetColumnSettings_internal
+     595  0x81b80  ImGuiTextFilter_Build
+     596  0x81b90  ImGuiTextFilter_Clear
+     597  0x81ba0  ImGuiTextFilter_Draw
+     598  0x81bc0  ImGuiTextFilter_IsActive
+     599  0x81bd0  ImGuiTextFilter_PassFilter
+     600  0x81bf0  ImGuiTextIndex_append_internal
+     601  0x81c00  ImGuiTextIndex_clear_internal
+     602  0x81c40  ImGuiTextIndex_get_line_begin_internal
+     603  0x81c60  ImGuiTextIndex_get_line_end_internal
+     604  0x81c90  ImGuiTextIndex_size_internal
+     605  0x81ca0  ImGuiTypingSelectState_Clear_internal
+     606  0x81cb0  ImGuiViewportP_CalcWorkRectPos_internal
+     607  0x81ce0  ImGuiViewportP_CalcWorkRectSize_internal
+     608  0x81d30  ImGuiViewportP_ClearRequestFlags_internal
+     609  0x81d40  ImGuiViewportP_GetBuildWorkRect_internal
+     610  0x81d90  ImGuiViewportP_GetMainRect_internal
+     611  0x81db0  ImGuiViewportP_GetWorkRect_internal
+     612  0x81dd0  ImGuiViewportP_UpdateWorkRect_internal
+     613  0x81e40  ImGuiViewport_GetCenter
+     614  0x81e80  ImGuiViewport_GetWorkCenter
+     615  0x81ec0  ImGuiWindowSettings_GetName_internal
+     616  0x81ed0  ImGuiWindow_GetIDFromPos_internal
+     617  0x81ee0  ImGuiWindow_GetIDFromRectangle_internal
+     618  0x81ef0  ImGuiWindow_GetID_internal_0
+     619  0x81f00  ImGuiWindow_GetID_internal_1
+     620  0x81f10  ImGuiWindow_GetID_internal_2
+     621  0x81f20  ImGuiWindow_MenuBarRect_internal
+     622  0x81f70  ImGuiWindow_Rect_internal
+     623  0x81f90  ImGuiWindow_TitleBarRect_internal
+     624  0x81fc0  ImRect_Add_internal_0
+     625  0x82010  ImRect_Add_internal_1
+     626  0x82060  ImRect_ClipWithFull_internal
+     627  0x820f0  ImRect_ClipWith_internal
+     628  0x82170  ImRect_ContainsWithPad_internal
+     629  0x821c0  ImRect_Contains_internal_0
+     630  0x82200  ImRect_Contains_internal_1
+     631  0x82240  ImRect_Expand_internal_0
+     632  0x82260  ImRect_Expand_internal_1
+     633  0x822a0  ImRect_Floor_internal
+     634  0x822c0  ImRect_GetArea_internal
+     635  0x822e0  ImRect_GetBL_internal
+     636  0x82300  ImRect_GetBR_internal
+     637  0x82310  ImRect_GetCenter_internal
+     638  0x82350  ImRect_GetHeight_internal
+     639  0x82360  ImRect_GetSize_internal
+     640  0x82390  ImRect_GetTL_internal
+     641  0x823a0  ImRect_GetTR_internal
+     642  0x823c0  ImRect_GetWidth_internal
+     643  0x823d0  ImRect_IsInverted_internal
+     644  0x82400  ImRect_Overlaps_internal
+     645  0x82440  ImRect_ToVec4_internal
+     646  0x82450  ImRect_TranslateX_internal
+     647  0x82470  ImRect_TranslateY_internal
+     648  0x82490  ImRect_Translate_internal
+     649  0x824d0  ImTextureData_Create
+     650  0x824e0  ImTextureData_DestroyPixels
+     651  0x824f0  ImTextureData_GetPitch
+     652  0x82500  ImTextureData_GetPixels
+     653  0x82510  ImTextureData_GetPixelsAt
+     654  0x82530  ImTextureData_GetSizeInBytes
+     655  0x82550  ImTextureData_GetTexID
+     656  0x82560  ImTextureData_GetTexRef
+     657  0x82580  ImTextureData_SetStatus
+     658  0x82590  ImTextureData_SetTexID
+     659  0x825a0  ImTextureRef_GetTexID
+     660  0x825c0  Image
+     661  0x825f0  ImageButton
+     662  0x82630  ImageButtonEx_internal
+     663  0x82670  ImageWithBg
+     664  0x826a0  Indent
+     665  0x826b0  Initialize_internal
+     666  0x826c0  InputDouble
+     667  0x826f0  InputFloat
+     668  0x82720  InputFloat2
+     669  0x82740  InputFloat3
+     670  0x82760  InputFloat4
+     671  0x82780  InputInt
+     672  0x827a0  InputInt2
+     673  0x827c0  InputInt3
+     674  0x827e0  InputInt4
+     675  0x82800  InputScalar
+     676  0x82830  InputScalarN
+     677  0x82870  InputText
+     678  0x82890  InputTextDeactivateHook_internal
+     679  0x828a0  InputTextEx_internal
+     680  0x828e0  InputTextMultiline
+     681  0x82910  InputTextWithHint
+     682  0x82940  InvisibleButton
+     683  0x82960  IsActiveIdUsingNavDir_internal
+     684  0x82980  IsAliasKey_internal
+     685  0x829a0  IsAnyItemActive
+     686  0x829c0  IsAnyItemFocused
+     687  0x829e0  IsAnyItemHovered
+     688  0x82a00  IsAnyMouseDown
+     689  0x82a20  IsClippedEx_internal
+     690  0x82a40  IsDragDropActive_internal
+     691  0x82a60  IsDragDropPayloadBeingAccepted_internal
+     692  0x82a80  IsGamepadKey_internal
+     693  0x82aa0  IsItemActivated
+     694  0x82ac0  IsItemActive
+     695  0x82ae0  IsItemActiveAsInputText_internal
+     696  0x82b10  IsItemClicked
+     697  0x82b30  IsItemDeactivated
+     698  0x82b50  IsItemDeactivatedAfterEdit
+     699  0x82b70  IsItemEdited
+     700  0x82b90  IsItemFocused
+     701  0x82bb0  IsItemHovered
+     702  0x82bd0  IsItemToggledOpen
+     703  0x82bf0  IsItemToggledSelection
+     704  0x82c10  IsItemVisible
+     705  0x82c30  IsKeyChordPressed
+     706  0x82c50  IsKeyChordPressed_internal
+     707  0x82c70  IsKeyDown
+     708  0x82c90  IsKeyDown_internal
+     709  0x82cb0  IsKeyPressed
+     710  0x82cd0  IsKeyPressed_internal
+     711  0x82cf0  IsKeyReleased
+     712  0x82d10  IsKeyReleased_internal
+     713  0x82d30  IsKeyboardKey_internal
+     714  0x82d50  IsLRModKey_internal
+     715  0x82d70  IsLegacyKey_internal
+     716  0x82d80  IsMouseClicked
+     717  0x82da0  IsMouseClicked_internal
+     718  0x82dc0  IsMouseDoubleClicked
+     719  0x82de0  IsMouseDoubleClicked_internal
+     720  0x82e00  IsMouseDown
+     721  0x82e20  IsMouseDown_internal
+     722  0x82e40  IsMouseDragPastThreshold_internal
+     723  0x82e60  IsMouseDragging
+     724  0x82e80  IsMouseHoveringRect
+     725  0x82ea0  IsMouseKey_internal
+     726  0x82ec0  IsMousePosValid
+     727  0x82ee0  IsMouseReleased
+     728  0x82f00  IsMouseReleasedWithDelay
+     729  0x82f20  IsMouseReleased_internal
+     730  0x82f40  IsNamedKeyOrMod_internal
+     731  0x82f80  IsNamedKey_internal
+     732  0x82fa0  IsPopupOpen
+     733  0x82fc0  IsPopupOpen_internal
+     734  0x82fe0  IsRectVisible_0
+     735  0x83000  IsRectVisible_1
+     736  0x83020  IsWindowAbove_internal
+     737  0x83040  IsWindowAppearing
+     738  0x83060  IsWindowChildOf_internal
+     739  0x83090  IsWindowCollapsed
+     740  0x830b0  IsWindowContentHoverable_internal
+     741  0x830d0  IsWindowDocked
+     742  0x830f0  IsWindowFocused
+     743  0x83110  IsWindowHovered
+     744  0x83130  IsWindowNavFocusable_internal
+     745  0x83150  IsWindowWithinBeginStackOf_internal
+     746  0x83170  ItemAdd_internal
+     747  0x83190  ItemHoverable_internal
+     748  0x831b0  ItemSize_internal_0
+     749  0x831c0  ItemSize_internal_1
+     750  0x83200  KeepAliveID_internal
+     751  0x851d0  LabelText
+     752  0x83210  ListBox_0
+     753  0x83230  ListBox_1
+     754  0x83260  LoadIniSettingsFromDisk
+     755  0x83270  LoadIniSettingsFromMemory
+     756  0x83280  LocalizeGetMsg_internal
+     757  0x832b0  LocalizeRegisterEntries_internal
+     758  0x832c0  LogBegin_internal
+     759  0x832d0  LogButtons
+     760  0x832e0  LogFinish
+     761  0x832f0  LogRenderedText_internal
+     762  0x83300  LogSetNextTextDecoration_internal
+     763  0x851f0  LogText
+     764  0x83310  LogToBuffer_internal
+     765  0x83320  LogToClipboard
+     766  0x83330  LogToFile
+     767  0x83340  LogToTTY
+     768  0x83350  MarkIniSettingsDirty_internal_0
+     769  0x83360  MarkIniSettingsDirty_internal_1
+     770  0x83370  MarkItemEdited_internal
+     771  0x83380  MemAlloc
+     772  0x83390  MemFree
+     773  0x833a0  MenuItemEx_internal
+     774  0x833d0  MenuItem_0
+     775  0x83400  MenuItem_1
+     776  0x83430  MouseButtonToKey_internal
+     777  0x83440  MultiSelectAddSetAll_internal
+     778  0x83450  MultiSelectAddSetRange_internal
+     779  0x83460  MultiSelectItemFooter_internal
+     780  0x83490  MultiSelectItemHeader_internal
+     781  0x834b0  NavClearPreferredPosForAxis_internal
+     782  0x834c0  NavHighlightActivated_internal
+     783  0x834d0  NavInitRequestApplyResult_internal
+     784  0x834e0  NavInitWindow_internal
+     785  0x834f0  NavMoveRequestApplyResult_internal
+     786  0x83500  NavMoveRequestButNoResultYet_internal
+     787  0x83520  NavMoveRequestCancel_internal
+     788  0x83530  NavMoveRequestForward_internal
+     789  0x83540  NavMoveRequestResolveWithLastItem_internal
+     790  0x83550  NavMoveRequestResolveWithPastTreeNode_internal
+     791  0x83560  NavMoveRequestSubmit_internal
+     792  0x83570  NavMoveRequestTryWrapping_internal
+     793  0x83580  NavUpdateCurrentWindowIsScrollPushableX_internal
+     794  0x83590  NewFrame
+     795  0x835a0  NewLine
+     796  0x835b0  NextColumn
+     797  0x835c0  OpenPopupEx_internal
+     798  0x835d0  OpenPopupOnItemClick
+     799  0x835e0  OpenPopup_0
+     800  0x835f0  OpenPopup_1
+     801 0x14f2a0  Platform_GetWindowFramebufferScale_ManagedFunctionPointer
+     802 0x14f2a8  Platform_GetWindowPos_ManagedFunctionPointer
+     803 0x14f2b0  Platform_GetWindowSize_ManagedFunctionPointer
+     804  0x83600  PlotEx_internal
+     805  0x83610  PlotHistogram_0
+     806  0x83620  PlotHistogram_1
+     807  0x83630  PlotLines_0
+     808  0x83640  PlotLines_1
+     809  0x83650  PopClipRect
+     810  0x83660  PopColumnsBackground_internal
+     811  0x83670  PopFocusScope_internal
+     812  0x83680  PopFont
+     813  0x83690  PopID
+     814  0x836a0  PopItemFlag
+     815  0x836b0  PopItemWidth
+     816  0x836c0  PopPasswordFont_internal
+     817  0x836d0  PopStyleColor
+     818  0x836e0  PopStyleVar
+     819  0x836f0  PopTextWrapPos
+     820  0x83700  ProgressBar
+     821  0x83710  PushClipRect
+     822  0x83730  PushColumnClipRect_internal
+     823  0x83740  PushColumnsBackground_internal
+     824  0x83750  PushFocusScope_internal
+     825  0x83760  PushFont
+     826  0x83770  PushID_0
+     827  0x83780  PushID_1
+     828  0x83790  PushID_2
+     829  0x837a0  PushID_3
+     830  0x837b0  PushItemFlag
+     831  0x837c0  PushItemWidth
+     832  0x837d0  PushMultiItemsWidths_internal
+     833  0x837e0  PushOverrideID_internal
+     834  0x837f0  PushPasswordFont_internal
+     835  0x83800  PushStyleColor_0
+     836  0x83810  PushStyleColor_1
+     837  0x83820  PushStyleVarX
+     838  0x83830  PushStyleVarY
+     839  0x83840  PushStyleVar_0
+     840  0x83850  PushStyleVar_1
+     841  0x83860  PushTextWrapPos
+     842  0x83870  RadioButton_0
+     843  0x83890  RadioButton_1
+     844  0x838b0  RegisterFontAtlas_internal
+     845  0x838c0  RegisterUserTexture_internal
+     846  0x838d0  RemoveContextHook_internal
+     847  0x838e0  RemoveSettingsHandler_internal
+     848  0x838f0  Render
+     849  0x83900  RenderArrowDockMenu_internal
+     850  0x83910  RenderArrowPointingAt_internal
+     851  0x83920  RenderArrow_internal
+     852  0x83930  RenderBullet_internal
+     853  0x83940  RenderCheckMark_internal
+     854  0x83950  RenderColorRectWithAlphaCheckerboard_internal
+     855  0x83960  RenderDragDropTargetRect_internal
+     856  0x83970  RenderFrameBorder_internal
+     857  0x83980  RenderFrame_internal
+     858  0x839a0  RenderMouseCursor_internal
+     859  0x839b0  RenderNavCursor_internal
+     860  0x839c0  RenderPlatformWindowsDefault
+     861  0x839d0  RenderRectFilledRangeH_internal
+     862  0x839e0  RenderRectFilledWithHole_internal
+     863  0x839f0  RenderTextClippedEx_internal
+     864  0x83a00  RenderTextClipped_internal
+     865  0x83a10  RenderTextEllipsis_internal
+     866  0x83a20  RenderTextWrapped_internal
+     867  0x83a30  RenderText_internal
+     868  0x83a50  ResetMouseDragDelta
+     869  0x83a60  SameLine
+     870  0x83a70  SaveIniSettingsToDisk
+     871  0x83a80  SaveIniSettingsToMemory
+     872  0x83a90  ScaleWindowsInViewport_internal
+     873  0x83aa0  ScrollToBringRectIntoView_internal
+     874  0x83ab0  ScrollToItem_internal
+     875  0x83ac0  ScrollToRectEx_internal
+     876  0x83ad0  ScrollToRect_internal
+     877  0x83ae0  ScrollbarEx_internal
+     878  0x83b10  Scrollbar_internal
+     879  0x83b20  Selectable_0
+     880  0x83b40  Selectable_1
+     881  0x83b70  Separator
+     882  0x83b80  SeparatorEx_internal
+     883  0x83b90  SeparatorText
+     884  0x83ba0  SeparatorTextEx_internal
+     885  0x83bb0  SetActiveID_internal
+     886  0x83bc0  SetActiveIdUsingAllKeyboardKeys_internal
+     887  0x83bd0  SetAllocatorFunctions
+     888  0x83be0  SetClipboardText
+     889  0x83bf0  SetColorEditOptions
+     890  0x83c00  SetColumnOffset
+     891  0x83c10  SetColumnWidth
+     892  0x83c20  SetCurrentContext
+     893  0x83c30  SetCurrentFont_internal
+     894  0x83c40  SetCurrentViewport_internal
+     895  0x83c50  SetCursorPos
+     896  0x83c60  SetCursorPosX
+     897  0x83c70  SetCursorPosY
+     898  0x83c80  SetCursorScreenPos
+     899  0x83c90  SetDragDropPayload
+     900  0x83cb0  SetFocusID_internal
+     901  0x83cc0  SetFontRasterizerDensity_internal
+     902  0x83cd0  SetHoveredID_internal
+     903  0x83ce0  SetItemDefaultFocus
+     904  0x83cf0  SetItemKeyOwner
+     905  0x83d00  SetItemKeyOwner_internal
+     906  0x85210  SetItemTooltip
+     907  0x83d10  SetKeyOwner_internal
+     908  0x83d20  SetKeyOwnersForKeyChord_internal
+     909  0x83d30  SetKeyboardFocusHere
+     910  0x83d40  SetLastItemData_internal
+     911  0x83d50  SetMouseCursor
+     912  0x83d60  SetNavCursorVisible
+     913  0x83d70  SetNavCursorVisibleAfterMove_internal
+     914  0x83d80  SetNavFocusScope_internal
+     915  0x83d90  SetNavID_internal
+     916  0x83da0  SetNavWindow_internal
+     917  0x83db0  SetNextFrameWantCaptureKeyboard
+     918  0x83dc0  SetNextFrameWantCaptureMouse
+     919  0x83dd0  SetNextItemAllowOverlap
+     920  0x83de0  SetNextItemOpen
+     921  0x83df0  SetNextItemRefVal_internal
+     922  0x83e00  SetNextItemSelectionUserData
+     923  0x83e10  SetNextItemShortcut
+     924  0x83e20  SetNextItemStorageID
+     925  0x83e30  SetNextItemWidth
+     926  0x83e40  SetNextWindowBgAlpha
+     927  0x83e50  SetNextWindowClass
+     928  0x83e60  SetNextWindowCollapsed
+     929  0x83e70  SetNextWindowContentSize
+     930  0x83e80  SetNextWindowDockID
+     931  0x83e90  SetNextWindowFocus
+     932  0x83ea0  SetNextWindowPos
+     933  0x83eb0  SetNextWindowRefreshPolicy_internal
+     934  0x83ec0  SetNextWindowScroll
+     935  0x83ed0  SetNextWindowSize
+     936  0x83ee0  SetNextWindowSizeConstraints
+     937  0x83ef0  SetNextWindowViewport
+     938  0x83f00  SetScrollFromPosX
+     939  0x83f10  SetScrollFromPosX_internal
+     940  0x83f20  SetScrollFromPosY
+     941  0x83f30  SetScrollFromPosY_internal
+     942  0x83f40  SetScrollHereX
+     943  0x83f50  SetScrollHereY
+     944  0x83f60  SetScrollX
+     945  0x83f70  SetScrollX_internal
+     946  0x83f80  SetScrollY
+     947  0x83f90  SetScrollY_internal
+     948  0x83fa0  SetShortcutRouting_internal
+     949  0x83fc0  SetStateStorage
+     950  0x83fd0  SetTabItemClosed
+     951  0x85230  SetTooltip
+     952  0x83fe0  SetWindowClipRectBeforeSetChannel_internal
+     953  0x83ff0  SetWindowCollapsed_0
+     954  0x84000  SetWindowCollapsed_1
+     955  0x84010  SetWindowCollapsed_internal
+     956  0x84020  SetWindowDock_internal
+     957  0x84030  SetWindowFocus_0
+     958  0x84040  SetWindowFocus_1
+     959  0x84050  SetWindowHiddenAndSkipItemsForCurrentFrame_internal
+     960  0x84060  SetWindowHitTestHole_internal
+     961  0x84070  SetWindowParentWindowForFocusRoute_internal
+     962  0x84080  SetWindowPos_0
+     963  0x84090  SetWindowPos_1
+     964  0x840a0  SetWindowPos_internal
+     965  0x840b0  SetWindowSize_0
+     966  0x840c0  SetWindowSize_1
+     967  0x840d0  SetWindowSize_internal
+     968  0x840e0  SetWindowViewport_internal
+     969  0x840f0  ShadeVertsLinearColorGradientKeepAlpha_internal
+     970  0x84100  ShadeVertsLinearUV_internal
+     971  0x84140  ShadeVertsTransformPos_internal
+     972  0x84150  Shortcut
+     973  0x84170  Shortcut_internal
+     974  0x84190  ShowAboutWindow
+     975  0x841b0  ShowDebugLogWindow
+     976  0x841d0  ShowDemoWindow
+     977  0x841f0  ShowFontAtlas_internal
+     978  0x84200  ShowFontSelector
+     979  0x84210  ShowIDStackToolWindow
+     980  0x84230  ShowMetricsWindow
+     981  0x84250  ShowStyleEditor
+     982  0x84260  ShowStyleSelector
+     983  0x84280  ShowUserGuide
+     984  0x84290  ShrinkWidths_internal
+     985  0x842a0  Shutdown_internal
+     986  0x842b0  SliderAngle
+     987  0x842e0  SliderBehavior_internal
+     988  0x84320  SliderFloat
+     989  0x84350  SliderFloat2
+     990  0x84380  SliderFloat3
+     991  0x843b0  SliderFloat4
+     992  0x843e0  SliderInt
+     993  0x84410  SliderInt2
+     994  0x84440  SliderInt3
+     995  0x84470  SliderInt4
+     996  0x844a0  SliderScalar
+     997  0x844d0  SliderScalarN
+     998  0x84510  SmallButton
+     999  0x84530  Spacing
+    1000  0x84540  SplitterBehavior_internal
+    1001  0x845a0  StartMouseMovingWindowOrNode_internal
+    1002  0x845c0  StartMouseMovingWindow_internal
+    1003  0x845d0  StopMouseMovingWindow_internal
+    1004  0x845e0  StyleColorsClassic
+    1005  0x845f0  StyleColorsDark
+    1006  0x84600  StyleColorsLight
+    1007  0x84610  TabBarAddTab_internal
+    1008  0x84620  TabBarCloseTab_internal
+    1009  0x84630  TabBarFindMostRecentlySelectedTabForActiveWindow_internal
+    1010  0x84640  TabBarFindTabByID_internal
+    1011  0x84650  TabBarFindTabByOrder_internal
+    1012  0x84660  TabBarGetCurrentTab_internal
+    1013  0x84670  TabBarGetTabName_internal
+    1014  0x84680  TabBarGetTabOrder_internal
+    1015  0x846a0  TabBarProcessReorder_internal
+    1016  0x846c0  TabBarQueueFocus_internal_0
+    1017  0x846d0  TabBarQueueFocus_internal_1
+    1018  0x846e0  TabBarQueueReorderFromMousePos_internal
+    1019  0x846f0  TabBarQueueReorder_internal
+    1020  0x84700  TabBarRemoveTab_internal
+    1021  0x84710  TabItemBackground_internal
+    1022  0x84720  TabItemButton
+    1023  0x84740  TabItemCalcSize_internal_0
+    1024  0x84750  TabItemCalcSize_internal_1
+    1025  0x84760  TabItemEx_internal
+    1026  0x84790  TabItemLabelAndCloseButton_internal
+    1027  0x847e0  TabItemSpacing_internal
+    1028  0x847f0  TableAngledHeadersRow
+    1029  0x84800  TableAngledHeadersRowEx_internal
+    1030  0x84810  TableBeginApplyRequests_internal
+    1031  0x84820  TableBeginCell_internal
+    1032  0x84830  TableBeginContextMenuPopup_internal
+    1033  0x84850  TableBeginInitMemory_internal
+    1034  0x84860  TableBeginRow_internal
+    1035  0x84870  TableCalcMaxColumnWidth_internal
+    1036  0x84880  TableDrawBorders_internal
+    1037  0x84890  TableDrawDefaultContextMenu_internal
+    1038  0x848a0  TableEndCell_internal
+    1039  0x848b0  TableEndRow_internal
+    1040  0x848c0  TableFindByID_internal
+    1041  0x848d0  TableFixColumnSortDirection_internal
+    1042  0x848e0  TableGcCompactSettings_internal
+    1043  0x848f0  TableGcCompactTransientBuffers_internal_0
+    1044  0x84900  TableGcCompactTransientBuffers_internal_1
+    1045  0x84910  TableGetBoundSettings_internal
+    1046  0x84920  TableGetCellBgRect_internal
+    1047  0x84950  TableGetColumnCount
+    1048  0x84960  TableGetColumnFlags
+    1049  0x84970  TableGetColumnIndex
+    1050  0x84980  TableGetColumnName
+    1051  0x84990  TableGetColumnName_internal
+    1052  0x849a0  TableGetColumnNextSortDirection_internal
+    1053  0x849b0  TableGetColumnResizeID_internal
+    1054  0x849c0  TableGetColumnWidthAuto_internal
+    1055  0x849d0  TableGetHeaderAngledMaxLabelWidth_internal
+    1056  0x849e0  TableGetHeaderRowHeight_internal
+    1057  0x849f0  TableGetHoveredColumn
+    1058  0x84a00  TableGetHoveredRow_internal
+    1059  0x84a10  TableGetInstanceData_internal
+    1060  0x84a40  TableGetInstanceID_internal
+    1061  0x84a70  TableGetRowIndex
+    1062  0x84a80  TableGetSortSpecs
+    1063  0x84a90  TableHeader
+    1064  0x84aa0  TableHeadersRow
+    1065  0x84ab0  TableLoadSettings_internal
+    1066  0x84ac0  TableMergeDrawChannels_internal
+    1067  0x84ad0  TableNextColumn
+    1068  0x84af0  TableNextRow
+    1069  0x84b00  TableOpenContextMenu_internal
+    1070  0x84b10  TablePopBackgroundChannel_internal
+    1071  0x84b20  TablePopColumnChannel_internal
+    1072  0x84b30  TablePushBackgroundChannel_internal
+    1073  0x84b40  TablePushColumnChannel_internal
+    1074  0x84b50  TableRemove_internal
+    1075  0x84b60  TableResetSettings_internal
+    1076  0x84b70  TableSaveSettings_internal
+    1077  0x84b80  TableSetBgColor
+    1078  0x84b90  TableSetColumnEnabled
+    1079  0x84ba0  TableSetColumnIndex
+    1080  0x84bc0  TableSetColumnSortDirection_internal
+    1081  0x84be0  TableSetColumnWidthAutoAll_internal
+    1082  0x84bf0  TableSetColumnWidthAutoSingle_internal
+    1083  0x84c00  TableSetColumnWidth_internal
+    1084  0x84c10  TableSettingsAddSettingsHandler_internal
+    1085  0x84c20  TableSettingsCreate_internal
+    1086  0x84c30  TableSettingsFindByID_internal
+    1087  0x84c40  TableSetupColumn
+    1088  0x84c50  TableSetupDrawChannels_internal
+    1089  0x84c60  TableSetupScrollFreeze
+    1090  0x84c70  TableSortSpecsBuild_internal
+    1091  0x84c80  TableSortSpecsSanitize_internal
+    1092  0x84c90  TableUpdateBorders_internal
+    1093  0x84ca0  TableUpdateColumnsWeightFromWidth_internal
+    1094  0x84cb0  TableUpdateLayout_internal
+    1095  0x84cc0  TeleportMousePos_internal
+    1096  0x84cd0  TempInputIsActive_internal
+    1097  0x84d00  TempInputScalar_internal
+    1098  0x84d30  TempInputText_internal
+    1099  0x84d60  TestKeyOwner_internal
+    1100  0x84d80  TestShortcutRouting_internal
+    1101  0x85250  Text
+    1102  0x85360  TextAligned_internal
+    1103  0x85270  TextColored
+    1104  0x852a0  TextDisabled
+    1105  0x84da0  TextEx_internal
+    1106  0x84db0  TextLink
+    1107  0x84dd0  TextLinkOpenURL
+    1108  0x84df0  TextUnformatted
+    1109  0x85380  TextV
+    1110  0x852c0  TextWrapped
+    1111  0x84e00  TranslateWindowsInViewport_internal
+    1112  0x84e10  TreeNodeBehavior_internal
+    1113  0x84e30  TreeNodeDrawLineToChildNode_internal
+    1114  0x84e40  TreeNodeDrawLineToTreePop_internal
+    1115  0x84e50  TreeNodeEx_0
+    1116  0x85320  TreeNodeEx_1
+    1117  0x85340  TreeNodeEx_2
+    1118  0x84e70  TreeNodeGetOpen_internal
+    1119  0x84e90  TreeNodeSetOpen_internal
+    1120  0x84ea0  TreeNodeUpdateNextOpen_internal
+    1121  0x84ec0  TreeNode_0
+    1122  0x852e0  TreeNode_1
+    1123  0x85300  TreeNode_2
+    1124  0x84ee0  TreePop
+    1125  0x84ef0  TreePushOverrideID_internal
+    1126  0x84f00  TreePush_0
+    1127  0x84f10  TreePush_1
+    1128  0x84f20  TypingSelectFindBestLeadingMatch_internal
+    1129  0x84f30  TypingSelectFindMatch_internal
+    1130  0x84f40  TypingSelectFindNextSingleCharMatch_internal
+    1131  0x84f50  Unindent
+    1132  0x84f60  UnregisterFontAtlas_internal
+    1133  0x84f70  UnregisterUserTexture_internal
+    1134  0x84f80  UpdateCurrentFontSize_internal
+    1135  0x84f90  UpdateHoveredWindowAndCaptureFlags_internal
+    1136  0x84fa0  UpdateInputEvents_internal
+    1137  0x84fb0  UpdateMouseMovingWindowEndFrame_internal
+    1138  0x84fc0  UpdateMouseMovingWindowNewFrame_internal
+    1139  0x84fd0  UpdatePlatformWindows
+    1140  0x84fe0  UpdateWindowParentAndRootLinks_internal
+    1141  0x84ff0  UpdateWindowSkipRefresh_internal
+    1142  0x85000  VSliderFloat
+    1143  0x85040  VSliderInt
+    1144  0x85070  VSliderScalar
+    1145  0x850b0  Value_0
+    1146  0x850c0  Value_1
+    1147  0x850d0  Value_2
+    1148  0x850e0  Value_3
+    1149  0x850f0  WindowPosAbsToRel_internal
+    1150  0x85120  WindowPosRelToAbs_internal
+    1151  0x85150  WindowRectAbsToRel_internal
+    1152  0x85170  WindowRectRelToAbs_internal
+    1153  0x86490  purr_accessor_at
+    1154  0x868f0  purr_accessor_cell
+    1155  0x86370  purr_accessor_count
+    1156  0x86140  purr_accessor_empty_string
+    1157  0x85400  purr_accessor_field_info
+    1158  0x869c0  purr_accessor_file_size
+    1159  0x85480  purr_accessor_get
+    1160  0x867a0  purr_accessor_lookup
+    1161  0x862c0  purr_accessor_named_key
+    1162  0x86860  purr_accessor_pool_alive
+    1163  0x86090  purr_accessor_rect
+    1164  0x86060  purr_accessor_rect_count
+    1165  0x860f0  purr_accessor_rect_set
+    1166  0x858a0  purr_accessor_set
+    1167  0x86950  purr_accessor_shared
+    1168  0x868a0  purr_accessor_short
+    1169  0x86010  purr_accessor_style
+    1170  0x86000  purr_accessor_style_count
+    1171  0x86200  purr_accessor_text_append
+    1172  0x86270  purr_accessor_text_clear
+    1173  0x86160  purr_accessor_text_copy
+    1174  0x86980  purr_accessor_textedit
+    1175  0x853f0  purr_accessors_identity

@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+artifacts/
+.tmp/
+.pi/
+.ruff_cache/
+**/__pycache__/
+.DS_Store

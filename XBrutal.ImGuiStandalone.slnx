@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/XBrutal.ImGuiStandalone/XBrutal.ImGuiStandalone.csproj" />
+  <Project Path="checks/XBrutal.ImGuiStandalone.Checks/XBrutal.ImGuiStandalone.Checks.csproj" />
+</Solution>
