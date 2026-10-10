@@ -1,0 +1,6 @@
+{
+  "act": true,
+  "action": "my-event-type",
+  "client_payload": { "version": "1.2.3" },
+  "repository": { "default_branch": "main", "full_name": "owner/repo" }
+}

@@ -1,0 +1,5 @@
+{
+  "act": true,
+  "schedule": "0 0 * * *",
+  "repository": { "default_branch": "main", "full_name": "owner/repo" }
+}

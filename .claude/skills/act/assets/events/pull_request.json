@@ -1,0 +1,43 @@
+{
+  "act": true,
+  "action": "opened",
+  "number": 42,
+  "pull_request": {
+    "number": 42,
+    "title": "Local test PR",
+    "draft": false,
+    "merged": false,
+    "head": {
+      "ref": "feature-branch",
+      "repo": {
+        "full_name": "owner/repo",
+        "fork": false
+      }
+    },
+    "base": {
+      "ref": "main",
+      "repo": {
+        "full_name": "owner/repo"
+      }
+    },
+    "labels": [
+      {
+        "name": "example-label"
+      }
+    ],
+    "user": {
+      "login": "octocat"
+    }
+  },
+  "repository": {
+    "default_branch": "main",
+    "full_name": "owner/repo",
+    "name": "repo",
+    "owner": {
+      "login": "owner"
+    }
+  },
+  "sender": {
+    "login": "octocat"
+  }
+}

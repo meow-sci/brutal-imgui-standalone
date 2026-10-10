@@ -1,0 +1,6 @@
+{
+  "act": true,
+  "action": "published",
+  "release": { "tag_name": "v2.0.0", "name": "v2.0.0", "draft": false, "prerelease": false, "body": "Release notes" },
+  "repository": { "default_branch": "main", "full_name": "owner/repo" }
+}

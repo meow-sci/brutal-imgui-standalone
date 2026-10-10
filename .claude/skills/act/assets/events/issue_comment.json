@@ -1,0 +1,7 @@
+{
+  "act": true,
+  "action": "created",
+  "issue": { "number": 7, "title": "Example", "pull_request": { "url": "https://api.github.com/repos/owner/repo/pulls/7" } },
+  "comment": { "id": 1, "body": "/deploy staging", "user": { "login": "octocat" }, "author_association": "OWNER" },
+  "repository": { "default_branch": "main", "full_name": "owner/repo" }
+}

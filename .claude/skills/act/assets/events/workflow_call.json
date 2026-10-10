@@ -1,0 +1,7 @@
+{
+  "act": true,
+  "inputs": {
+    "config-path": "configs/default.yml",
+    "debug": "false"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "act": true,
+  "ref": "refs/heads/main",
+  "inputs": {
+    "environment": "staging",
+    "dry_run": "true"
+  }
+}

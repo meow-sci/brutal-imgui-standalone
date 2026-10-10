@@ -1,0 +1,7 @@
+{
+  "act": true,
+  "ref": "refs/heads/main",
+  "repository": { "default_branch": "main", "full_name": "owner/repo", "name": "repo", "owner": { "login": "owner" } },
+  "head_commit": { "message": "local test commit" },
+  "pusher": { "name": "octocat" }
+}
