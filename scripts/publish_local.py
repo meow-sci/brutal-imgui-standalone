@@ -32,6 +32,8 @@ def main():
     command = ['dotnet', 'pack', str(ROOT / 'src/XBrutal.ImGuiStandalone/XBrutal.ImGuiStandalone.csproj'), '-c', 'Release', '-p:Version=' + args.version, '-p:KSAFolder=' + str(args.managed_dir.resolve()), '-o', str(out), '--nologo', '-v', 'quiet']
     result = subprocess.run(command, env=environment, capture_output=True, text=True, check=False)
     (out / 'pack.log').write_text(result.stdout + result.stderr)
+    if result.returncode:
+        print(result.stdout + result.stderr)
     result.check_returncode()
     package = out / f'XBrutal.ImGuiStandalone.{args.version}.nupkg'
     manifest = json.loads((ROOT / 'native/manifest.json').read_text())
@@ -40,6 +42,8 @@ def main():
     feed.mkdir(parents=True, exist_ok=True)
     push = subprocess.run(['dotnet', 'nuget', 'push', str(package), '--source', str(feed)], env=environment, capture_output=True, text=True, check=False)
     (out / 'push.log').write_text(push.stdout + push.stderr)
+    if push.returncode:
+        print(push.stdout + push.stderr)
     push.check_returncode()
     pushed = next(p for p in feed.rglob('*.nupkg') if p.name.lower() == expected_name)
     if sha(pushed.read_bytes()) != sha(package.read_bytes()):

@@ -85,6 +85,7 @@ internal static class NativeAssets
             // Once loaded, retain handles even on initialization failure: external cached
             // P/Invoke/explicit-load addresses must never point at an unloaded image.
             RequireImage(imgui, "GetVersion", imguiPath);
+            ManagedCompatibility.ValidateImports(imgui); // Still precedes the resolver and every BRUTAL P/Invoke.
             try
             {
                 NativeLibrary.SetDllImportResolver(typeof(ImGui).Assembly, (name, _, _) => name == "imgui" ? imgui : 0);

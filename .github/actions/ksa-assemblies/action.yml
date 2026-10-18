@@ -1,0 +1,43 @@
+name: KSA game assemblies
+description: >
+  Provide the latest licensed BRUTAL managed assemblies (default branch) from the private
+  meow-sci/ksa-game-assemblies repo, verify them against docs/COMPATIBILITY.md
+  and export KSA_DLL_DIR. They are compile/check inputs only and never packed.
+
+inputs:
+  token:
+    description: Fine-grained read-only PAT for meow-sci/ksa-game-assemblies (secrets.KSA_GAME_ASSEMBLIES_PAT)
+    required: false
+    default: ''
+
+runs:
+  using: composite
+  steps:
+    # Local act runs mount a clone instead (KSA_ASSEMBLIES_LOCAL=<repo root>); see NEXT_STEPS.md.
+    - name: Require assembly access
+      if: env.KSA_ASSEMBLIES_LOCAL == '' && inputs.token == ''
+      shell: bash
+      run: |
+        echo "::error::KSA_GAME_ASSEMBLIES_PAT is not configured; the licensed BRUTAL assemblies are required to compile. See NEXT_STEPS.md."
+        exit 1
+
+    - name: Checkout private KSA assemblies
+      if: env.KSA_ASSEMBLIES_LOCAL == ''
+      uses: actions/checkout@v7
+      with:
+        repository: meow-sci/ksa-game-assemblies
+        token: ${{ inputs.token }}
+        path: .tmp/ksa-game-assemblies
+        persist-credentials: false
+        sparse-checkout: current/dll
+
+    - name: Select and verify KSA_DLL_DIR
+      shell: bash
+      run: |
+        root="${KSA_ASSEMBLIES_LOCAL:-$GITHUB_WORKSPACE/.tmp/ksa-game-assemblies}"
+        echo "KSA_DLL_DIR=$root/current/dll" >> "$GITHUB_ENV"
+        if git -C "$root" rev-parse --git-dir >/dev/null 2>&1; then
+          echo "ksa-game-assemblies: $(git -C "$root" log -1 --format='%H %s')" | tee -a "$GITHUB_STEP_SUMMARY"
+        fi
+        # The game moves fast: a mismatch means this library must be requalified for the new build.
+        python3 -m scripts.check_managed_inputs --managed-dir "$root/current/dll"

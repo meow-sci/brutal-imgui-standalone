@@ -1,0 +1,153 @@
+name: Build
+
+# Reusable pipeline shared by ci.yml (every push/PR) and release.yml (tags):
+#   verify         frozen source/native evidence + Python verifier tests (no proprietary inputs)
+#   pack           compile against the licensed BRUTAL assemblies, pack, inspect the archive
+#   package-check  fresh-cache direct + transitive consumer, all-RID publish inspection, linux-x64 runtime checks
+#
+# The BRUTAL managed assemblies are licensed game files in the private repo
+# meow-sci/ksa-game-assemblies (current/dll on its default branch, always the latest game
+# build). They are compile/check inputs only and are never packed (scripts/verify.py rejects
+# them). A game update that changes the qualified assemblies fails CI on purpose: the library
+# must then be updated for the new build. Access uses the KSA_GAME_ASSEMBLIES_PAT
+# secret, so fork PRs (no secrets) run only `verify`.
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        description: Package version to stamp (SemVer 2.0)
+        required: true
+        type: string
+    secrets:
+      KSA_GAME_ASSEMBLIES_PAT:
+        required: false
+    outputs:
+      package:
+        description: File name of the packed .nupkg (artifact "nupkg")
+        value: ${{ jobs.pack.outputs.package }}
+
+permissions:
+  contents: read
+
+env:
+  DOTNET_NOLOGO: 'true'
+  DOTNET_CLI_TELEMETRY_OPTOUT: 'true'
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 'true'
+
+# upload/download-artifact stay on v5: newer majors use an artifact API that act (0.2.89)
+# cannot serve, which would break local runs. v5 runs on node24 and is fully supported on GitHub.
+
+jobs:
+  verify:
+    name: Verify sources and native images
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Verify frozen sources, licenses and owned native images
+        run: python3 -m scripts.verify
+
+      - name: Verifier regression tests
+        run: python3 -m unittest -v checks.test_producer
+
+  pack:
+    name: Build and pack
+    needs: verify
+    # Secrets are unavailable to fork PRs; they still get `verify`.
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    outputs:
+      package: ${{ steps.pack.outputs.package }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+
+      - uses: ./.github/actions/ksa-assemblies
+        with:
+          token: ${{ secrets.KSA_GAME_ASSEMBLIES_PAT }}
+
+      - name: Build library
+        run: dotnet build src/XBrutal.ImGuiStandalone -c Release "-p:Version=${{ inputs.version }}"
+
+      # Same tooling as local publication: pack, inspect the actual archive, then "publish"
+      # into a folder feed that the package-check jobs consume.
+      - name: Pack and inspect archive
+        id: pack
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          python3 -m scripts.publish_local --version "$VERSION" --feed artifacts/feed --managed-dir "$KSA_DLL_DIR"
+          echo "package=XBrutal.ImGuiStandalone.$VERSION.nupkg" >> "$GITHUB_OUTPUT"
+
+      - name: Archive regression tests against the packed nupkg
+        run: XBRUTAL_TEST_PACKAGE="artifacts/feed/${{ steps.pack.outputs.package }}" python3 -m unittest -v checks.test_producer
+
+      - name: Upload package
+        uses: actions/upload-artifact@v5
+        with:
+          name: nupkg
+          path: |
+            artifacts/feed/*.nupkg
+            artifacts/publish-*/publication.json
+          if-no-files-found: error
+
+      - name: Upload pack logs
+        if: failure()
+        uses: actions/upload-artifact@v5
+        with:
+          name: pack-logs
+          path: artifacts/publish-*/*.log
+
+  # Linux only: native images are prebuilt (zig cross-compiled, hash-pinned) and the managed
+  # library is portable, so nothing needs a Windows/macOS runner. check_package publishes and
+  # inspects win-x64/linux-x64/osx-arm64 layouts here and executes the runtime checks on linux-x64.
+  package-check:
+    name: Package check
+    needs: pack
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+
+      - uses: ./.github/actions/ksa-assemblies
+        with:
+          token: ${{ secrets.KSA_GAME_ASSEMBLIES_PAT }}
+
+      - uses: actions/download-artifact@v5
+        with:
+          name: nupkg
+          path: artifacts/downloaded
+
+      - name: Install virtual display
+        run: |
+          sudo apt-get update -q
+          sudo env DEBIAN_FRONTEND=noninteractive apt-get install -y -q --no-install-recommends \
+            xvfb xauth libgl1 libglx-mesa0 libgl1-mesa-dri \
+            libx11-6 libxrandr2 libxinerama1 libxcursor1 libxi6 libxext6 libxrender1 libxkbcommon0
+
+      - name: Fresh-cache direct/transitive consumer, all-RID publish and runtime checks
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          mkdir -p artifacts/feed
+          cp artifacts/downloaded/feed/*.nupkg artifacts/feed/
+          xvfb-run -a -s '-screen 0 1280x1024x24' \
+            python3 -m scripts.check_package --version "$VERSION" --feed artifacts/feed \
+              --managed-dir "$KSA_DLL_DIR" --out artifacts/package-check
+
+      - name: Upload package-check evidence
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: package-check
+          path: |
+            artifacts/package-check/*.json
+            artifacts/package-check/*.log
+          if-no-files-found: ignore

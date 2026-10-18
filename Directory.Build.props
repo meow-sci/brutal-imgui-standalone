@@ -9,6 +9,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <Deterministic>true</Deterministic>
     <PathMap>$(MSBuildThisFileDirectory)=/_/</PathMap>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
     <ImportDirectoryBuildTargets>false</ImportDirectoryBuildTargets>
     <ImportDirectoryPackagesProps>false</ImportDirectoryPackagesProps>
     <RestoreConfigFile Condition="'$(RestoreConfigFile)' == ''">$(MSBuildThisFileDirectory)NuGet.Config</RestoreConfigFile>

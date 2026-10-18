@@ -2,6 +2,7 @@
 import contextlib
 import io
 import json
+import os
 import struct
 import tempfile
 import unittest
@@ -109,8 +110,11 @@ class PackageArchiveHygieneChecks(unittest.TestCase):
     def setUpClass(cls):
         cls.manifest = json.loads((ROOT / 'native/manifest.json').read_text())
         cls.exports = {e['name'] for e in json.loads((ROOT / 'native/provenance/exports.json').read_text()) if e['surface'] == 'production'}
-        version = '0.1.0-local.4'
-        cls.package = Path.home() / 'nuget-feed' / f'XBrutal.ImGuiStandalone.{version}.nupkg'
+        # Archive checks inspect an actual packed nupkg (CI sets this after `dotnet pack`).
+        package = os.environ.get('XBRUTAL_TEST_PACKAGE')
+        if not package:
+            raise unittest.SkipTest('set XBRUTAL_TEST_PACKAGE to a packed XBrutal.ImGuiStandalone .nupkg')
+        cls.package = Path(package)
 
     def reject_archive(self, added=None, removed=None, changed=None, diagnostic='archive hygiene'):
         with tempfile.TemporaryDirectory(prefix='xbrutal-archive-check-') as temporary:

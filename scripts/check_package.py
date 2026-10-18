@@ -154,10 +154,17 @@ def main():
                 path = negative / relative
                 if kind in ('missing', 'font-missing'):
                     path.unlink()
+                elif kind == 'managed':
+                    # Same-length rename of one imported entry point in the metadata strings heap: the assembly
+                    # still loads, but that P/Invoke no longer resolves in the packaged native image.
+                    data = path.read_bytes()
+                    if data.count(b'\0ActivateItemByID_internal\0') != 1:
+                        raise ValueError('cannot locate the Brutal.ImGui import name to tamper')
+                    path.write_bytes(data.replace(b'\0ActivateItemByID_internal\0', b'\0ZctivateItemByID_internal\0'))
                 else:
                     path.write_bytes(path.read_bytes() + b'\0')
                 diagnostic = {'missing': 'Missing packaged native asset', 'tampered': 'SHA-256 mismatch', 'managed': 'Incompatible loaded managed ABI', 'font-missing': 'bundled JetBrains Mono font is missing', 'font-tampered': 'SHA-256 mismatch'}[kind]
-                execute(['dotnet', str(negative / 'XBrutal.ImGuiStandalone.Checks.dll'), '--expect-startup-rejection' if kind.startswith('font') else '--expect-pre-native-rejection', diagnostic], cache)
+                execute(['dotnet', str(negative / 'XBrutal.ImGuiStandalone.Checks.dll'), '--expect-startup-rejection' if kind.startswith('font') or kind == 'managed' else '--expect-pre-native-rejection', diagnostic], cache)
             ambiguous = out / 'ambiguous-native'
             shutil.copytree(build_output, ambiguous)
             shutil.copyfile(ambiguous / native['path'], ambiguous / Path(native['path']).name)

@@ -1,14 +1,14 @@
 # Compatibility and safety boundary
 
-Qualified loaded ABI contributors (SHA-256 and loaded module MVID are checked **before** assertion-capable native calls):
+The game re-signs code-identical Brutal assemblies every few days, so managed assemblies are **not** pinned by SHA-256 or MVID. Instead the loaded `Brutal.ImGui`, `Brutal.Core.Common` and `Brutal.Core.Numerics` are structurally checked **before** the first assertion-capable BRUTAL call (`ManagedCompatibility.cs`):
 
-| Assembly | SHA-256 | MVID |
-| --- | --- | --- |
-| Brutal.ImGui | b76777a4ef3399d6353b9dba1982e3afb84b5da2aa2500da1c062db0bfad827c | be72af36-f552-460e-ab1c-cc0018ebd574 |
-| Brutal.Core.Common | 4cbae1473d6a3759345f1eec8e62e6c7da1e19f8d10db8d13c005203ec590de4 | d0a4e4ad-480c-4cc8-a9bf-687b26cb8963 |
-| Brutal.Core.Numerics | a217a6098116a1895e965b3a1d4fdee931e59a7a55f326c7d710b0d7eeccd17a | e4190ee6-8291-49aa-9721-88111e32f2ba |
+- every `[DllImport("imgui")]` in `Brutal.ImGui` must resolve in the packaged native ImGui image (checked right after that image is loaded and before the P/Invoke resolver is installed);
+- the size of every Brutal value type this library touches (`Bool8`, `float2`, `float4`, `ImGuiIO`, `ImGuiStyle`, `ImGuiPlatformIO`, `ImGuiViewport`, `ImFontAtlas`, `ImFont`, `ImDrawVert`, `ImDrawCmd`, `ImDrawData`, `ImDrawList`, `ImTextureData`) and the offsets of the fields it reads or writes must equal the pinned table in that file;
+- dynamic, in-memory and single-file assemblies are rejected.
 
-Files must remain available at the actual loaded assembly locations. In-memory/dynamic/single-file inputs and unqualified BRUTAL builds are rejected. Exact identities are intentional, not a promise that arbitrary future assemblies with the same version/import names work. To add a compatible input: explicitly requalify its native/CLR layouts, callbacks, imports and helper domains against source-owned production/native evidence, review the resulting contract, and publish a new immutable version. Do not simply regenerate expected hashes.
+Any mismatch throws `Incompatible loaded managed ABI input '<import or type>'`. Files must remain available at the actual loaded assembly locations. A new game build with only a changed signature or PE checksum is accepted; a real ABI change (new/removed native imports, changed layouts) is rejected and requires requalifying the native/CLR layouts, callbacks and imports against source-owned evidence, updating the pinned table and publishing a new immutable version. Layout checks cover only the listed types and fields, not every type in the assemblies.
+
+Last verified game build (informational, not enforced): `2026.10.10.5554` (`ksa-game-assemblies` `current/dll`, commit `935a32b`). `2026.9.22.5482` was also accepted (code-identical, differently signed).
 
 Native: Dear ImGui 1.92.2 docking, `IMGUI_USE_WCHAR32`, 16-bit draw indices, little-endian eight-byte pointers; OpenGL 3.2 core/GLSL150. Process architecture (not machine architecture) selects win-x64, linux-x64 or osx-arm64. Intel macOS, ARM Windows/Linux, musl Linux and 32-bit are unsupported. Native target baselines (macOS 11/glibc 2.17/Windows GNU target) are build contracts, **not** oldest-OS runtime certification.
 

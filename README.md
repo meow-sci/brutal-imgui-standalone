@@ -4,7 +4,7 @@ A portable `net10.0`/AnyCPU library hosting the original BRUTAL ImGui UI API wit
 
 ## Consumer
 
-Reference an exact local package version. Supply your own licensed BRUTAL managed assembly closure (`Brutal.ImGui`, `Brutal.Glfw`, Common, Numerics, Strings and their normal supporting assemblies) as copy-local file references. These proprietary files are never distributed by this package or injected by its build targets. See [compatibility](docs/COMPATIBILITY.md) for the qualified hashes; matching version numbers alone are insufficient.
+Reference an exact package version from nuget.org (`dotnet add package XBrutal.ImGuiStandalone --version <version>`). Supply your own licensed BRUTAL managed assembly closure (`Brutal.ImGui`, `Brutal.Glfw`, Common, Numerics, Strings and their normal supporting assemblies) as copy-local file references. These proprietary files are never distributed by this package or injected by its build targets. See [compatibility](docs/COMPATIBILITY.md) for the structural ABI check applied to them (re-signed but code-identical builds are accepted; version numbers alone are not checked).
 
 ```csharp
 using Brutal.ImGuiApi;
@@ -39,8 +39,8 @@ export KSA_DLL_DIR=/path/to/your/licensed/managed/dll
 # Alternatively: -p:KSAFolder=/path/to/dll (takes precedence).
 python3 -m scripts.verify
 dotnet build src/XBrutal.ImGuiStandalone -c Release
-python3 -m scripts.publish_local --version 0.1.0-local.4 --feed /path/to/local-feed --managed-dir "$KSA_DLL_DIR"
-python3 -m scripts.check_package --version 0.1.0-local.4 --feed /path/to/local-feed --managed-dir "$KSA_DLL_DIR" --out artifacts/package-check-new
+python3 -m scripts.publish_local --version 0.1.0-local.5 --feed /path/to/local-feed --managed-dir "$KSA_DLL_DIR"
+python3 -m scripts.check_package --version 0.1.0-local.5 --feed /path/to/local-feed --managed-dir "$KSA_DLL_DIR" --out artifacts/package-check-new
 ```
 
-Publication rejects reused ID/version, inspects the archive before push and only supports a local directory feed. Use a new version for changed published bytes. Package checks restore into a fresh isolated cache; no global cache clearing or user-wide NuGet configuration is needed. Automated checks are not shipped; there is no shipped demo. Native compilation is explicit, never part of ordinary restore/build/pack. See the source repository’s `native/README.md` for frozen-source rebuilds and historical evidence boundaries.
+Local publication rejects reused ID/version, inspects the archive before push and only supports a local directory feed. Public nuget.org releases are built, checked and published by GitHub Actions from `vX.Y.Z[-prerelease]` tags (`.github/workflows/release.yml`). Use a new version for changed published bytes. Package checks restore into a fresh isolated cache; no global cache clearing or user-wide NuGet configuration is needed. Automated checks are not shipped; there is no shipped demo. Native compilation is explicit, never part of ordinary restore/build/pack. See the source repository’s `native/README.md` for frozen-source rebuilds and historical evidence boundaries.

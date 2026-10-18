@@ -1,9 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>XBrutal.ImGuiStandalone</PackageId>
-    <Version>0.1.0-local.4</Version>
+    <!-- Development default only. CI/release pass -p:Version (release: from the vX.Y.Z git tag). -->
+    <Version>0.0.0-dev</Version>
     <Description>Standalone main-thread BRUTAL ImGui host with owned native implementations. BRUTAL managed bindings are supplied externally by the consumer.</Description>
     <Authors>meow sci; Alex Sherwin</Authors>
+    <Copyright>Copyright (c) 2026 meow sci</Copyright>
+    <PackageProjectUrl>https://github.com/meow-sci/brutal-imgui-standalone</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/meow-sci/brutal-imgui-standalone</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageTags>imgui;dear-imgui;brutal;glfw;opengl;standalone;ksa</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <IncludeSymbols>false</IncludeSymbols>

@@ -1,0 +1,28 @@
+name: CI
+
+# Full verify/pack/package-check gate on every push to main, every PR, on demand, and daily
+# (the daily run catches game updates in ksa-game-assemblies main that break the library).
+# CI packages get a throwaway 0.0.0-ci.<run> version and are only uploaded as artifacts.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+    with:
+      version: 0.0.0-ci.${{ github.run_number }}
+    secrets:
+      KSA_GAME_ASSEMBLIES_PAT: ${{ secrets.KSA_GAME_ASSEMBLIES_PAT }}
